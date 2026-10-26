@@ -1,0 +1,21 @@
+# 个人学习数据，绝不入库
+背词助手数据*.json
+*.backup-*.json
+聊天记录*.json
+我的词库.md
+
+# 构建用的第三方大文件（体积大，按需自行下载）
+cmudict.dict
+_cmudict.dict
+ecdict.csv
+phonetic_us_old.json
+*.tar.gz
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.vscode/
+.idea/
