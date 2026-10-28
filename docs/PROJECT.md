@@ -8,7 +8,7 @@
 |---|---|
 | 工作副本（每天用） | `outputs/单词复习/背词助手.html`（1.9 MB 单文件） |
 | 发布仓库 | `背词助手/` → github.com/XVENQ/vocab-review-helper |
-| 学习数据（**个人，不入库**） | `C:\Users\xuenc\Desktop\英语学习方法\studyEnglish\背词助手数据.json` |
+| 学习数据（**个人，不入库**） | 本地 `studyEnglish/背词助手数据.json`，与程序分开存放 |
 | 内容源 | `_story_hint.json`（故事/提示）、`_builtin_dict.json`、`_phonetic_dj.json`、`_cmudict.dict` |
 
 ## 2. 三条铁律
