@@ -23,7 +23,7 @@
 |---|---|
 | `// ---------- 时长格式化` | `fmtShort` / `fmtDur` |
 | `// ---------- 发音` | `speak` / `ttsSpeak` / `curAccent` |
-| `// ---------- 故事复习` | `renderStories` / `storyHtml` / `morphHint` / `hintBody` / `startHint` |
+| `// ---------- 故事复习` | `renderStories`（按 level 分组）/ `renderLvBar` / `STORY_LV` / `storyHtml` / `morphHint` / `hintBody` / `startHint` |
 | `// ---------- 单卡计时` | `timerStart` / `timerPause` / `timerTake` |
 | `// ---------- 复习会话` | `nextCard` / `reveal` / `answer` / `studyDone` / `finishReview` |
 | `// ---------- 排期算法` | `rate` / `ensureDayPlan` / `buildQueue` |
@@ -43,11 +43,12 @@ word  { id, word, meaning, phonetic, batch, added, step, nextDate, lapse,
 
 排期阶梯 / 四档评分 / 每日上限 / 批次乱序 / 内置词库 / DJ 音标 /
 有道发音+本地 TTS 降级 / 单词计时 / 顽固词 / 生词预习（hard·all·off）/
-故事复习 / 渐进提示（12s 例句，22s 英释+构词+联想）/ 每日快照 / 导出备份
+故事复习（15 篇，L1/L2/L3 分级）/ 渐进提示（12s 例句，22s 英释+构词+联想）/ 每日快照 / 导出备份
 
 ## 6. 改内容从哪下手
 
-- **加故事 / 提示**：改 `_story_hint.json` → 用 Python 重写 `const STORIES / HINT_EN / HINT_SOUND` 三行。
+- **加故事**：改 `_story_hint.json`，每篇必须有 `level`（1/2/3，对应 A2/B1/B1+），再重写 `const STORIES` 一行。
+- **加提示**：同上，重写 `HINT_EN` / `HINT_SOUND`。
 - **加词 / 改释义**：改 `_builtin_dict.json` → 重写 `const BUILTIN` 行（顺带同步 `PHONETIC`）。
 - **重算音标**：`tools/build_dj_phonetic.py`（需要 `cmudict.dict`），输出 `phonetic_dj.json`。
 
