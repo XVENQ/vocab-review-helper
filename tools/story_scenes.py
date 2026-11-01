@@ -9,6 +9,13 @@ z = 中文说明，显示在占位卡上，帮人判断该画什么
 
 # 每篇 4 段的句子数分配（必须与 split_sents 结果吻合）
 SPLIT = {
+    # L0 入门（新增）：60-90 词，3-4 个目标词，只用一般现在时
+    "The Lost Ball":                 [4, 3, 4, 3],
+    "The Camel and the Tent":        [4, 4, 4, 3],
+    "Too Much Salt":                 [4, 3, 2, 3],
+    "Night at the Camp":             [2, 5, 3, 3],
+    "The Dog on the Road":           [3, 3, 2, 3],
+    "A Merry Evening":               [3, 4, 3, 3],
     "A Small Accident":              [3, 3, 2, 3],
     "Up the Mountain":               [2, 2, 3, 2],
     "The Old Man Next Door":         [3, 2, 3, 3],
@@ -27,6 +34,67 @@ SPLIT = {
 }
 
 SCENES = {
+# L0 入门：场景全部是「具体的人 + 具体动作」，避开抽象物件与桌面静物
+"The Lost Ball": [
+ ("a boy bouncing a red ball on a green lawn in a park, morning light",
+  "男孩在公园草地上拍红球"),
+ ("a boy running fast across a wide green lawn",
+  "男孩飞快跑过宽宽的草地"),
+ ("a boy standing still and looking around, a red ball lying under a big tree far away",
+  "男孩停下四处张望，远处大树下有个红球"),
+ ("a boy sitting under a big tree, resting, a red ball in his hand",
+  "男孩坐在树下休息，红球在手里"),
+],
+"The Camel and the Tent": [
+ ("a small tent in a desert, an old man sitting beside it, a camel standing near",
+  "沙漠里一顶小帐篷，老人和骆驼"),
+ ("a camel putting its head into a small tent at night",
+  "骆驼把头探进帐篷"),
+ ("a camel pushing its whole body into a small tent, the tent bulging out",
+  "骆驼整个身子挤进帐篷，帐篷鼓起来"),
+ ("an old man standing outside a tent at night, hugging himself, a loose rope on the ground",
+  "老人在帐篷外冻得发抖，绳子松了"),
+],
+"Too Much Salt": [
+ ("a girl putting eggs into a pot in a kitchen, morning light",
+  "女孩在厨房往锅里放鸡蛋"),
+ ("a salt box fallen over, white salt pouring into a pot",
+  "盐罐倒了，盐倒进锅里"),
+ ("a girl looking sad at a pot, her mother putting a hand on her shoulder",
+  "女孩难过地看着锅，妈妈拍拍她的肩"),
+ ("a girl putting sugar into the pot, her mother smiling beside her",
+  "女孩往锅里加糖，妈妈在旁边微笑"),
+],
+"Night at the Camp": [
+ ("a father and a boy putting up a tent beside a small river, evening",
+  "父子俩在小河边搭帐篷"),
+ ("a quiet camp at night, a tent, a river, stars in the sky",
+  "夜里安静的营地，帐篷和河，满天星"),
+ ("a boy looking up at the night sky, a bright streak of light across it",
+  "男孩抬头，一道亮光滑过夜空"),
+ ("a father and a boy sitting by a campfire at night",
+  "父子俩坐在火堆旁"),
+],
+"The Dog on the Road": [
+ ("a boy walking along a wide empty road in the morning, trees on both sides",
+  "男孩走在宽阔的马路上"),
+ ("a small brown dog sitting alone on the road, a boy kneeling down to look at it",
+  "男孩蹲下来看路边的小狗"),
+ ("a boy and a small dog walking together on a road, a school gate in the distance",
+  "男孩和小狗一起走在路上，远处是校门"),
+ ("a woman waving at a school gate, a small dog running to her, a boy smiling",
+  "校门口女人招手，小狗跑过去"),
+],
+"A Merry Evening": [
+ ("a family sitting in a living room, a birthday cake on the table, evening",
+  "一家人围坐在客厅，桌上有生日蛋糕"),
+ ("a boy acting like a cat and a girl acting like a bird, in front of a family",
+  "男孩扮猫、女孩扮鸟，在家人面前表演"),
+ ("an old woman laughing and clapping, family around her clapping too",
+  "奶奶笑着拍手，家人也跟着拍"),
+ ("a family eating cake and drinking tea in a living room, an old woman smiling",
+  "一家人吃蛋糕喝茶，奶奶笑着说"),
+],
 "A Small Accident": [
  ("a boy on a bicycle bumping an old man's bag on a quiet street, a paper receipt falling out",
   "男孩骑车撞到老人的包，小票掉出来"),

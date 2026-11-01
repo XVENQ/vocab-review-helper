@@ -43,11 +43,12 @@ word  { id, word, meaning, phonetic, batch, added, step, nextDate, lapse,
 
 排期阶梯 / 四档评分 / 每日上限 / 批次乱序 / 内置词库 / DJ 音标 /
 有道发音+本地 TTS 降级 / 单词计时 / 顽固词 / 生词预习（hard·all·off）/
-故事复习（15 篇，L1/L2/L3 分级，每篇 4 段 4 图位）/ 渐进提示（12s 例句，22s 英释+构词+联想）/ 每日快照 / 导出备份
+故事复习（21 篇，L0/L1/L2/L3 四级，每篇 4 段 4 图位）/ 渐进提示（12s 例句，22s 英释+构词+联想）/ 每日快照 / 导出备份
 
 ## 6. 改内容从哪下手
 
-- **加故事**：改 `tools/story_scenes.py` 的 `SPLIT`/`SCENES` → 跑 `_build_stories.py` 切段 → 重写 `const STORIES` 一行。每篇必须有 `level`(1/2/3)、`slug`、`paras[4]`、`scenes[4]`。
+- **加故事**：① 往 `_story_hint.json` 的 stories 里加正文（title/level/words/text）② 改 `tools/story_scenes.py` 的 `SPLIT`/`SCENES`（SPLIT 各段句数之和必须等于实际句数）③ 跑 `_build_stories.py` 切段 ④ 重写 `const STORIES` 一行。每篇必须有 `level`(0/1/2/3)、`slug`、`paras[4]`、`scenes[4]`。
+- **分级渲染**：`storyLv` 用 **-1 表示"全部"**（0 让给 L0），`renderStories` 遍历 `[0,1,2,3]`；`storyCard` 输出 `data-lv`，L0 有专属版面（图 max-height 150、文字垂直居中）。
 - **配图**：`tools/make_story_images.py`（export/run/check/sheet），图片放 `assets/stories/{slug}-{n}.webp`，不入库。方案说明在 `docs/STORY_IMAGES.md`。
 - **加提示**：同上，重写 `HINT_EN` / `HINT_SOUND`。
 - **加词 / 改释义**：改 `_builtin_dict.json` → 重写 `const BUILTIN` 行（顺带同步 `PHONETIC`）。
