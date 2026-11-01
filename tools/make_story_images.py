@@ -26,6 +26,7 @@ import io
 import json
 import os
 import random
+import re
 import sys
 import time
 import urllib.error
@@ -41,6 +42,12 @@ W, H = 768, 512
 DEFAULT_OUT = os.path.join(ROOT, "assets", "stories")
 
 # 故事 -> slug，须与 _build_stories.py 生成的 slug 一致
+def slugify(title):
+    """标题 → 文件名。与 _build_stories.py 保持同一规则，新增故事不必再改表。"""
+    t = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+    return t
+
+
 SLUG = {
     "A Small Accident": "a-small-accident",
     "Up the Mountain": "up-the-mountain",
@@ -64,7 +71,7 @@ def jobs():
     """展开成 60 条任务，顺序固定，seed 可复现。"""
     out = []
     for title, scenes in S.SCENES.items():
-        slug = SLUG[title]
+        slug = SLUG.get(title) or slugify(title)
         for k, (p, z) in enumerate(scenes, 1):
             out.append({
                 "id": "%s-%d" % (slug, k),
