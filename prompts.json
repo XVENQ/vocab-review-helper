@@ -1,11 +1,187 @@
 {
- "generated_at": "2026-11-01 20:45:55",
- "count": 84,
+ "generated_at": "2026-11-01 21:27:03",
+ "count": 100,
  "width": 768,
  "height": 512,
  "output_dir": "assets/stories",
  "naming": "<id>.webp",
  "jobs": [
+  {
+   "id": "the-rich-man-and-the-poor-man-1",
+   "story": "The Rich Man and the Poor Man",
+   "idx": 1,
+   "prompt": "a rich man standing in front of a big house, three cars in the drive, morning, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1000,
+   "zh": "富人站在大房子前，车道上有三辆车"
+  },
+  {
+   "id": "the-rich-man-and-the-poor-man-2",
+   "story": "The Rich Man and the Poor Man",
+   "idx": 2,
+   "prompt": "a poor man working in a garden with a hoe, simple clothes, daylight, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1001,
+   "zh": "穷人在花园里干活，衣着朴素"
+  },
+  {
+   "id": "the-rich-man-and-the-poor-man-3",
+   "story": "The Rich Man and the Poor Man",
+   "idx": 3,
+   "prompt": "two men talking beside a garden fence, one in fine clothes, one in work clothes, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1002,
+   "zh": "两个男人在花园篱笆边说话，一个衣着讲究一个穿工装"
+  },
+  {
+   "id": "the-rich-man-and-the-poor-man-4",
+   "story": "The Rich Man and the Poor Man",
+   "idx": 4,
+   "prompt": "a man sitting alone in a big room, thinking, evening light, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1003,
+   "zh": "富人独自坐在大屋里思考"
+  },
+  {
+   "id": "run-with-ease-1",
+   "story": "Run with Ease",
+   "idx": 1,
+   "prompt": "children lined up at the start of a school race, morning light, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1004,
+   "zh": "孩子们在学校跑道起点排队"
+  },
+  {
+   "id": "run-with-ease-2",
+   "story": "Run with Ease",
+   "idx": 2,
+   "prompt": "a boy sitting on the track after falling, dust on his knees, upset face, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1005,
+   "zh": "男孩摔倒坐在跑道上，脸上很难过"
+  },
+  {
+   "id": "run-with-ease-3",
+   "story": "Run with Ease",
+   "idx": 3,
+   "prompt": "a boy standing up and starting to run again, a friend cheering beside him, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1006,
+   "zh": "男孩站起来重新开跑，朋友在旁边加油"
+  },
+  {
+   "id": "run-with-ease-4",
+   "story": "Run with Ease",
+   "idx": 4,
+   "prompt": "a boy running slowly with a smile, finishing the race, friends clapping, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1007,
+   "zh": "男孩笑着慢慢跑完，朋友们鼓掌"
+  },
+  {
+   "id": "the-beggar-and-the-castle-1",
+   "story": "The Beggar and the Castle",
+   "idx": 1,
+   "prompt": "an old beggar sitting by the gate of a stone castle, winter, bare trees, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1008,
+   "zh": "老乞丐坐在石头城堡门口，冬日枯树"
+  },
+  {
+   "id": "the-beggar-and-the-castle-2",
+   "story": "The Beggar and the Castle",
+   "idx": 2,
+   "prompt": "a young woman giving a warm coat to an old beggar, gentle expression, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1009,
+   "zh": "年轻女人把一件厚外套递给老乞丐"
+  },
+  {
+   "id": "the-beggar-and-the-castle-3",
+   "story": "The Beggar and the Castle",
+   "idx": 3,
+   "prompt": "an old man reading a book by a small fire at night, close up, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1010,
+   "zh": "夜里老人借着小火堆读书"
+  },
+  {
+   "id": "the-beggar-and-the-castle-4",
+   "story": "The Beggar and the Castle",
+   "idx": 4,
+   "prompt": "an old man standing up and throwing away a wooden bowl, morning light, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1011,
+   "zh": "清晨老人站起来，扔掉木碗"
+  },
+  {
+   "id": "the-barber-s-beard-1",
+   "story": "The Barber's Beard",
+   "idx": 1,
+   "prompt": "an old barber with a long white beard standing in his small shop, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1012,
+   "zh": "老理发师留着长白胡子，站在小店里"
+  },
+  {
+   "id": "the-barber-s-beard-2",
+   "story": "The Barber's Beard",
+   "idx": 2,
+   "prompt": "a small barber shop near a town square at sunrise, door opening, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1013,
+   "zh": "日出时广场旁的小理发店开门"
+  },
+  {
+   "id": "the-barber-s-beard-3",
+   "story": "The Barber's Beard",
+   "idx": 3,
+   "prompt": "an old barber cutting a young officer's hair, a mirror on the wall, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1014,
+   "zh": "老理发师给年轻军官剪头发，墙上挂着镜子"
+  },
+  {
+   "id": "the-barber-s-beard-4",
+   "story": "The Barber's Beard",
+   "idx": 4,
+   "prompt": "an old barber and a young man laughing together in the barber shop, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
+   "width": 768,
+   "height": 512,
+   "seed": 1015,
+   "zh": "老理发师和年轻人在店里一起笑"
+  },
   {
    "id": "the-lost-ball-1",
    "story": "The Lost Ball",
@@ -14,7 +190,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1000,
+   "seed": 1016,
    "zh": "男孩在公园草地上拍红球"
   },
   {
@@ -25,7 +201,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1001,
+   "seed": 1017,
    "zh": "男孩飞快跑过宽宽的草地"
   },
   {
@@ -36,7 +212,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1002,
+   "seed": 1018,
    "zh": "男孩停下四处张望，远处大树下有个红球"
   },
   {
@@ -47,7 +223,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1003,
+   "seed": 1019,
    "zh": "男孩坐在树下休息，红球在手里"
   },
   {
@@ -58,7 +234,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1004,
+   "seed": 1020,
    "zh": "沙漠里一顶小帐篷，老人和骆驼"
   },
   {
@@ -69,7 +245,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1005,
+   "seed": 1021,
    "zh": "骆驼把头探进帐篷"
   },
   {
@@ -80,7 +256,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1006,
+   "seed": 1022,
    "zh": "骆驼整个身子挤进帐篷，帐篷鼓起来"
   },
   {
@@ -91,7 +267,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1007,
+   "seed": 1023,
    "zh": "老人在帐篷外冻得发抖，绳子松了"
   },
   {
@@ -102,7 +278,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1008,
+   "seed": 1024,
    "zh": "女孩在厨房往锅里放鸡蛋"
   },
   {
@@ -113,7 +289,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1009,
+   "seed": 1025,
    "zh": "盐罐倒了，盐倒进锅里"
   },
   {
@@ -124,7 +300,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1010,
+   "seed": 1026,
    "zh": "女孩难过地看着锅，妈妈拍拍她的肩"
   },
   {
@@ -135,7 +311,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1011,
+   "seed": 1027,
    "zh": "女孩往锅里加糖，妈妈在旁边微笑"
   },
   {
@@ -146,7 +322,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1012,
+   "seed": 1028,
    "zh": "父子俩在小河边搭帐篷"
   },
   {
@@ -157,7 +333,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1013,
+   "seed": 1029,
    "zh": "夜里安静的营地，帐篷和河，满天星"
   },
   {
@@ -168,7 +344,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1014,
+   "seed": 1030,
    "zh": "男孩抬头，一道亮光滑过夜空"
   },
   {
@@ -179,7 +355,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1015,
+   "seed": 1031,
    "zh": "父子俩坐在火堆旁"
   },
   {
@@ -190,7 +366,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1016,
+   "seed": 1032,
    "zh": "男孩走在宽阔的马路上"
   },
   {
@@ -201,7 +377,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1017,
+   "seed": 1033,
    "zh": "男孩蹲下来看路边的小狗"
   },
   {
@@ -212,7 +388,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1018,
+   "seed": 1034,
    "zh": "男孩和小狗一起走在路上，远处是校门"
   },
   {
@@ -223,7 +399,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1019,
+   "seed": 1035,
    "zh": "校门口女人招手，小狗跑过去"
   },
   {
@@ -234,7 +410,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1020,
+   "seed": 1036,
    "zh": "一家人围坐在客厅，桌上有生日蛋糕"
   },
   {
@@ -245,7 +421,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1021,
+   "seed": 1037,
    "zh": "男孩扮猫、女孩扮鸟，在家人面前表演"
   },
   {
@@ -256,7 +432,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1022,
+   "seed": 1038,
    "zh": "奶奶笑着拍手，家人也跟着拍"
   },
   {
@@ -267,7 +443,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1023,
+   "seed": 1039,
    "zh": "一家人吃蛋糕喝茶，奶奶笑着说"
   },
   {
@@ -278,7 +454,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1024,
+   "seed": 1040,
    "zh": "男孩骑车撞到老人的包，小票掉出来"
   },
   {
@@ -289,7 +465,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1025,
+   "seed": 1041,
    "zh": "男孩停下道歉，老人耐心听着"
   },
   {
@@ -300,7 +476,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1026,
+   "seed": 1042,
    "zh": "老人只有卡没有现金，仍然笑着"
   },
   {
@@ -311,7 +487,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1027,
+   "seed": 1043,
    "zh": "邻居们点头称许，一周后梦里重现"
   },
   {
@@ -322,7 +498,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1028,
+   "seed": 1044,
    "zh": "兄弟二人背着包上山"
   },
   {
@@ -333,7 +509,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1029,
+   "seed": 1045,
    "zh": "山顶附近的小水潭，乌云压过来"
   },
   {
@@ -344,7 +520,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1030,
+   "seed": 1046,
    "zh": "雨里石头打滑，走得很小心"
   },
   {
@@ -355,7 +531,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1031,
+   "seed": 1047,
    "zh": "躲进古老的大岩石下避雨"
   },
   {
@@ -366,7 +542,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1032,
+   "seed": 1048,
    "zh": "李爷爷秃着头，走路缓慢"
   },
   {
@@ -377,7 +553,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1033,
+   "seed": 1049,
    "zh": "冬天生病，邻居送来食物"
   },
   {
@@ -388,7 +564,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1034,
+   "seed": 1050,
    "zh": "一张感谢卡，一把结实的新椅子"
   },
   {
@@ -399,7 +575,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1035,
+   "seed": 1051,
    "zh": "冰雪融化，我对他笑了"
   },
   {
@@ -410,7 +586,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1036,
+   "seed": 1052,
    "zh": "科技展大厅，摊位排开"
   },
   {
@@ -421,7 +597,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1037,
+   "seed": 1053,
    "zh": "男孩用三角形和直角托住小球"
   },
   {
@@ -432,7 +608,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1038,
+   "seed": 1054,
    "zh": "他在展板上画出图形并讲解"
   },
   {
@@ -443,7 +619,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1039,
+   "seed": 1055,
    "zh": "老师帮忙完成最后一步"
   },
   {
@@ -454,7 +630,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1040,
+   "seed": 1056,
    "zh": "叔叔在国外，每月通邮件"
   },
   {
@@ -465,7 +641,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1041,
+   "seed": 1057,
    "zh": "回信很短：每天学一点"
   },
   {
@@ -476,7 +652,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1042,
+   "seed": 1058,
    "zh": "父母不许熬夜，我改早睡"
   },
   {
@@ -487,7 +663,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1043,
+   "seed": 1059,
    "zh": "成绩上升，抽屉里翻出旧电缆"
   },
   {
@@ -498,7 +674,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1044,
+   "seed": 1060,
    "zh": "报名参赛，只想跑完"
   },
   {
@@ -509,7 +685,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1045,
+   "seed": 1061,
    "zh": "跑在最后，和人比很绝望"
   },
   {
@@ -520,7 +696,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1046,
+   "seed": 1062,
    "zh": "每天清晨跑十分钟"
   },
   {
@@ -531,7 +707,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1047,
+   "seed": 1063,
    "zh": "比赛日第五名，自己都吃惊"
   },
   {
@@ -542,7 +718,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1048,
+   "seed": 1064,
    "zh": "考前夜低声朗读，怕吵到妈妈"
   },
   {
@@ -553,7 +729,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1049,
+   "seed": 1065,
    "zh": "手搭在她肩上，说我们太担心了"
   },
   {
@@ -564,7 +740,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1050,
+   "seed": 1066,
    "zh": "房间很热，开始出汗"
   },
   {
@@ -575,7 +751,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1051,
+   "seed": 1067,
    "zh": "用凉水洗脸，第二天心很平"
   },
   {
@@ -586,7 +762,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1052,
+   "seed": 1068,
    "zh": "钱包不见了，翻床底"
   },
   {
@@ -597,7 +773,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1053,
+   "seed": 1069,
    "zh": "妹妹开玩笑说是外星人拿的"
   },
   {
@@ -608,7 +784,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1054,
+   "seed": 1070,
    "zh": "爸爸从沙发缝里掏出钱包"
   },
   {
@@ -619,7 +795,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1055,
+   "seed": 1071,
    "zh": "从此钱包固定放在一处"
   },
   {
@@ -630,7 +806,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1056,
+   "seed": 1072,
    "zh": "社区没有聚会的地方"
   },
   {
@@ -641,7 +817,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1057,
+   "seed": 1073,
    "zh": "打地基，公司承接屋顶"
   },
   {
@@ -652,7 +828,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1058,
+   "seed": 1074,
    "zh": "陈女士负责方案，讲好处与坏处"
   },
   {
@@ -663,7 +839,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1059,
+   "seed": 1075,
    "zh": "折中方案落地，中心建成"
   },
   {
@@ -674,7 +850,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1060,
+   "seed": 1076,
    "zh": "十五岁写下长信，没有寄出"
   },
   {
@@ -685,7 +861,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1061,
+   "seed": 1077,
    "zh": "多年后重逢，他笑了"
   },
   {
@@ -696,7 +872,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1062,
+   "seed": 1078,
    "zh": "需要的不是信，是当面说话"
   },
   {
@@ -707,7 +883,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1063,
+   "seed": 1079,
    "zh": "信从没离开过桌面"
   },
   {
@@ -718,7 +894,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1064,
+   "seed": 1080,
    "zh": "每年春天的长跑，表姐第一次参赛"
   },
   {
@@ -729,7 +905,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1065,
+   "seed": 1081,
    "zh": "密集训练三个月"
   },
   {
@@ -740,7 +916,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1066,
+   "seed": 1082,
    "zh": "半程想放弃，还是跑完"
   },
   {
@@ -751,7 +927,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1067,
+   "seed": 1083,
    "zh": "教练说：满足来自完成，不是赢"
   },
   {
@@ -762,7 +938,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1068,
+   "seed": 1084,
    "zh": "爷爷厨房里的木壳收音机"
   },
   {
@@ -773,7 +949,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1069,
+   "seed": 1085,
    "zh": "每晚听首都的新闻广播"
   },
   {
@@ -784,7 +960,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1070,
+   "seed": 1086,
    "zh": "电视出现，人们以为广播会消失"
   },
   {
@@ -795,7 +971,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1071,
+   "seed": 1087,
    "zh": "月下还能听到古典音乐会"
   },
   {
@@ -806,7 +982,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1072,
+   "seed": 1088,
    "zh": "记忆不是装满的盒子"
   },
   {
@@ -817,7 +993,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1073,
+   "seed": 1089,
    "zh": "遗忘分两类：流失与拥挤"
   },
   {
@@ -828,7 +1004,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1074,
+   "seed": 1090,
    "zh": "有用的是结构，给事实一个位置"
   },
   {
@@ -839,7 +1015,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1075,
+   "seed": 1091,
    "zh": "结构让信息更稳定地留存"
   },
   {
@@ -850,7 +1026,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1076,
+   "seed": 1092,
    "zh": "每个省时的设备都在索取回报"
   },
   {
@@ -861,7 +1037,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1077,
+   "seed": 1093,
    "zh": "网购的好处一眼可见"
   },
   {
@@ -872,7 +1048,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1078,
+   "seed": 1094,
    "zh": "小店关门，镇中心就业消失"
   },
   {
@@ -883,7 +1059,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1079,
+   "seed": 1095,
    "zh": "一边增财富，一边加深贫困"
   },
   {
@@ -894,7 +1070,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1080,
+   "seed": 1096,
    "zh": "正义易要求，难定义"
   },
   {
@@ -905,7 +1081,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1081,
+   "seed": 1097,
    "zh": "法律能写下来，判断活在人心"
   },
   {
@@ -916,7 +1092,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1082,
+   "seed": 1098,
    "zh": "逮捕不等于有罪"
   },
   {
@@ -927,7 +1103,7 @@
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
-   "seed": 1083,
+   "seed": 1099,
    "zh": "法官只承诺一个程序"
   }
  ]

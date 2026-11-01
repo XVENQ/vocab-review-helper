@@ -9,13 +9,18 @@ z = 中文说明，显示在占位卡上，帮人判断该画什么
 
 # 每篇 4 段的句子数分配（必须与 split_sents 结果吻合）
 SPLIT = {
+    # L0+ 过渡：6 个新词、约 90 词，开始出现简单从句
+    "The Rich Man and the Poor Man":  [4, 4, 4, 2],
+    "Run with Ease":                  [4, 4, 3, 2],
+    "The Beggar and the Castle":      [3, 3, 3, 2],
+    "The Barber's Beard":             [3, 3, 3, 3],
     # L0 入门（新增）：60-90 词，3-4 个目标词，只用一般现在时
     "The Lost Ball":                 [4, 3, 4, 3],
-    "The Camel and the Tent":        [4, 4, 4, 3],
-    "Too Much Salt":                 [4, 3, 2, 3],
+    "The Camel and the Tent":        [4, 4, 4, 4],
+    "Too Much Salt":                 [4, 3, 3, 3],
     "Night at the Camp":             [2, 5, 3, 3],
-    "The Dog on the Road":           [3, 3, 2, 3],
-    "A Merry Evening":               [3, 4, 3, 3],
+    "The Dog on the Road":           [3, 3, 3, 3],
+    "A Merry Evening":               [3, 4, 4, 3],
     "A Small Accident":              [3, 3, 2, 3],
     "Up the Mountain":               [2, 2, 3, 2],
     "The Old Man Next Door":         [3, 2, 3, 3],
@@ -26,7 +31,7 @@ SPLIT = {
     "The Missing Wallet":            [3, 3, 2, 3],
     "The New Community Center":      [3, 2, 2, 3],
     "The Letter That Was Never Sent": [3, 3, 2, 3],
-    "Fourth Place":                  [2, 2, 3, 2],
+    "Fourth Place":                  [2, 2, 3, 3],
     "The Old Radio":                 [2, 2, 3, 4],
     "Why We Forget":                 [3, 3, 3, 2],
     "The Cost of Convenience":       [2, 3, 2, 4],
@@ -34,6 +39,47 @@ SPLIT = {
 }
 
 SCENES = {
+# L0+ 过渡：6 个新词、约 90 词，场景仍以「具体人物 + 动作」为主
+"The Rich Man and the Poor Man": [
+ ("a rich man standing in front of a big house, three cars in the drive, morning",
+  "富人站在大房子前，车道上有三辆车"),
+ ("a poor man working in a garden with a hoe, simple clothes, daylight",
+  "穷人在花园里干活，衣着朴素"),
+ ("two men talking beside a garden fence, one in fine clothes, one in work clothes",
+  "两个男人在花园篱笆边说话，一个衣着讲究一个穿工装"),
+ ("a man sitting alone in a big room, thinking, evening light",
+  "富人独自坐在大屋里思考"),
+],
+"Run with Ease": [
+ ("children lined up at the start of a school race, morning light",
+  "孩子们在学校跑道起点排队"),
+ ("a boy sitting on the track after falling, dust on his knees, upset face",
+  "男孩摔倒坐在跑道上，脸上很难过"),
+ ("a boy standing up and starting to run again, a friend cheering beside him",
+  "男孩站起来重新开跑，朋友在旁边加油"),
+ ("a boy running slowly with a smile, finishing the race, friends clapping",
+  "男孩笑着慢慢跑完，朋友们鼓掌"),
+],
+"The Beggar and the Castle": [
+ ("an old beggar sitting by the gate of a stone castle, winter, bare trees",
+  "老乞丐坐在石头城堡门口，冬日枯树"),
+ ("a young woman giving a warm coat to an old beggar, gentle expression",
+  "年轻女人把一件厚外套递给老乞丐"),
+ ("an old man reading a book by a small fire at night, close up",
+  "夜里老人借着小火堆读书"),
+ ("an old man standing up and throwing away a wooden bowl, morning light",
+  "清晨老人站起来，扔掉木碗"),
+],
+"The Barber's Beard": [
+ ("an old barber with a long white beard standing in his small shop",
+  "老理发师留着长白胡子，站在小店里"),
+ ("a small barber shop near a town square at sunrise, door opening",
+  "日出时广场旁的小理发店开门"),
+ ("an old barber cutting a young officer's hair, a mirror on the wall",
+  "老理发师给年轻军官剪头发，墙上挂着镜子"),
+ ("an old barber and a young man laughing together in the barber shop",
+  "老理发师和年轻人在店里一起笑"),
+],
 # L0 入门：场景全部是「具体的人 + 具体动作」，避开抽象物件与桌面静物
 "The Lost Ball": [
  ("a boy bouncing a red ball on a green lawn in a park, morning light",
