@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01 21:27:03",
+ "generated_at": "2026-11-01 22:16:05",
  "count": 100,
  "width": 768,
  "height": 512,
@@ -428,12 +428,12 @@
    "id": "a-merry-evening-3",
    "story": "A Merry Evening",
    "idx": 3,
-   "prompt": "an old woman laughing and clapping, family around her clapping too, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
+   "prompt": "an old woman sitting in a chair and clapping her hands, happy face, simple room, children's storybook illustration, soft watercolor, warm natural light, muted colors, simple background, no text, no letters, no watermark",
    "negative": "text, letters, words, watermark, signature, nsfw, extra fingers, deformed hands, distorted face, multiple heads, lowres, jpeg artifacts",
    "width": 768,
    "height": 512,
    "seed": 1038,
-   "zh": "奶奶笑着拍手，家人也跟着拍"
+   "zh": "奶奶坐在椅子上拍手笑"
   },
   {
    "id": "a-merry-evening-4",
