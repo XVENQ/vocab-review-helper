@@ -1138,7 +1138,7 @@ function speak(word, acc, msgEl) {
     auEl.src = url;                                    // 缓存命中时是本地 Blob，立即出声
     const p = auEl.play();
     if (p && p.catch) p.catch(() => fail("浏览器拒绝播放"));
-  }).catch(() => fail("网络请求失败"));
+  }).catch(e => fail("网络请求失败" + (e && e.message ? " · " + String(e.message).slice(0, 48) : "")));
 }
 
 // 降级：浏览器自带语音合成（离线可用，音色取决于系统）
