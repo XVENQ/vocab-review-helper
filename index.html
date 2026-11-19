@@ -968,7 +968,7 @@ function buildQueue() {
 // ---------- 发音（有道词典接口 + 本地语音兜底）----------
 // 接口：https://dict.youdao.com/dictvoice?audio=WORD&type=1(英)/2(美)，公开可用、无需 Key
 const TTS_URL = "https://dict.youdao.com/dictvoice?audio=";
-let auEl = null, auTimer = 0, auSeq = 0;
+let auEl = null, auTimer = 0, auSeq = 0, auBusy = false;
 
 function curAccent() { return (state.settings && state.settings.accent === "us") ? "us" : "uk"; }
 function accentName(a) { return a === "us" ? "美式" : "英式"; }
@@ -1052,6 +1052,7 @@ function prefetchAllAudio() {
   let i = 0, fail = 0;
   const t0 = Date.now();
   const tick = () => {
+    if (auBusy) { setTimeout(tick, 400); return; }         // 用户正在点喇叭取词：预取让路
     if (i >= ws.length) {
       const secs = Math.round((Date.now() - t0) / 1000);
       try {
@@ -1111,10 +1112,10 @@ function speak(word, acc, msgEl) {
   let done = false;
   const fail = why => {
     if (done || seq !== auSeq) return;
-    done = true; clearTimeout(auTimer);
+    done = true; clearTimeout(auTimer); auBusy = false;
     if (ttsSpeak(w, a)) {
       if (msgEl) say("在线音频不可用（" + why + "），已改用本地语音 · " + accentName(a));
-      else toast("在线音频不可用，已改用本地语音");
+      else toast("在线音频不可用（" + why + "），已改用本地语音");
     } else {
       const p = lookupPhonetic(w);
       say((p ? "发音获取失败，先看音标 /" + p + "/" : "发音获取失败") + "，请检查网络后重试", true);
@@ -1124,12 +1125,13 @@ function speak(word, acc, msgEl) {
   auEl.onerror = () => fail("加载失败");
   auEl.onplaying = () => {
     if (done || seq !== auSeq) return;
-    done = true; clearTimeout(auTimer);
+    done = true; clearTimeout(auTimer); auBusy = false;
     if (msgEl) say("已播放 · " + accentName(a) + "（来源：有道）");
   };
-  auTimer = setTimeout(() => { if (seq === auSeq && !done && auEl.readyState < 2) fail("超时"); }, 8000);
+  auTimer = setTimeout(() => { if (seq === auSeq && !done && auEl.readyState < 2) fail("超时"); }, 15000);
+  auBusy = true;
   auFetch(w, a, 1).then(url => {
-    if (seq !== auSeq || done) return;
+    if (seq !== auSeq || done) { auBusy = false; return; }
     auEl.src = url;                                    // 缓存命中时是本地 Blob，立即出声
     const p = auEl.play();
     if (p && p.catch) p.catch(() => fail("浏览器拒绝播放"));
