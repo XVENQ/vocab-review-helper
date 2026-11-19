@@ -1,0 +1,580 @@
+[
+ {
+  "idx": 1,
+  "file": "clipboard-2026-11-05T13-28-39-768Z-5a8f06b5.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1425
+  ],
+  "page_size": [
+   894,
+   1425
+  ],
+  "pages": [
+   "img01_L.png",
+   "img01_R.png"
+  ]
+ },
+ {
+  "idx": 2,
+  "file": "clipboard-2026-11-05T13-28-39-771Z-3610c437.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1402
+  ],
+  "page_size": [
+   894,
+   1402
+  ],
+  "pages": [
+   "img02_L.png",
+   "img02_R.png"
+  ]
+ },
+ {
+  "idx": 3,
+  "file": "clipboard-2026-11-05T13-28-39-773Z-34a29985.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1464
+  ],
+  "page_size": [
+   894,
+   1464
+  ],
+  "pages": [
+   "img03_L.png",
+   "img03_R.png"
+  ]
+ },
+ {
+  "idx": 4,
+  "file": "clipboard-2026-11-05T13-28-39-776Z-3c7bec39.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1398
+  ],
+  "page_size": [
+   894,
+   1398
+  ],
+  "pages": [
+   "img04_L.png",
+   "img04_R.png"
+  ]
+ },
+ {
+  "idx": 5,
+  "file": "clipboard-2026-11-05T13-28-39-779Z-059b2d57.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1417
+  ],
+  "page_size": [
+   894,
+   1417
+  ],
+  "pages": [
+   "img05_L.png",
+   "img05_R.png"
+  ]
+ },
+ {
+  "idx": 6,
+  "file": "clipboard-2026-11-05T13-28-39-782Z-0693dd76.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1231
+  ],
+  "page_size": [
+   894,
+   1231
+  ],
+  "pages": [
+   "img06_L.png",
+   "img06_R.png"
+  ]
+ },
+ {
+  "idx": 7,
+  "file": "clipboard-2026-11-05T13-28-39-785Z-5d9b63e3.jpg",
+  "rotated": 90,
+  "src_size": [
+   1920,
+   1434
+  ],
+  "page_size": [
+   894,
+   1434
+  ],
+  "pages": [
+   "img07_L.png",
+   "img07_R.png"
+  ]
+ },
+ {
+  "idx": 8,
+  "file": "clipboard-2026-11-05T13-28-39-787Z-de0eaaeb.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1395
+  ],
+  "page_size": [
+   894,
+   1395
+  ],
+  "pages": [
+   "img08_L.png",
+   "img08_R.png"
+  ]
+ },
+ {
+  "idx": 9,
+  "file": "clipboard-2026-11-05T13-28-39-790Z-ffc4f8e9.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1428
+  ],
+  "page_size": [
+   894,
+   1428
+  ],
+  "pages": [
+   "img09_L.png",
+   "img09_R.png"
+  ]
+ },
+ {
+  "idx": 10,
+  "file": "clipboard-2026-11-05T13-28-39-793Z-05f54ae5.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1408
+  ],
+  "page_size": [
+   894,
+   1408
+  ],
+  "pages": [
+   "img10_L.png",
+   "img10_R.png"
+  ]
+ },
+ {
+  "idx": 11,
+  "file": "clipboard-2026-11-05T13-28-39-796Z-de23b451.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1429
+  ],
+  "page_size": [
+   894,
+   1429
+  ],
+  "pages": [
+   "img11_L.png",
+   "img11_R.png"
+  ]
+ },
+ {
+  "idx": 12,
+  "file": "clipboard-2026-11-05T13-28-39-800Z-a585426b.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1396
+  ],
+  "page_size": [
+   894,
+   1396
+  ],
+  "pages": [
+   "img12_L.png",
+   "img12_R.png"
+  ]
+ },
+ {
+  "idx": 13,
+  "file": "clipboard-2026-11-05T13-28-39-804Z-6f510e6f.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1422
+  ],
+  "page_size": [
+   894,
+   1422
+  ],
+  "pages": [
+   "img13_L.png",
+   "img13_R.png"
+  ]
+ },
+ {
+  "idx": 14,
+  "file": "clipboard-2026-11-05T13-28-39-807Z-a8591e8a.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1415
+  ],
+  "page_size": [
+   894,
+   1415
+  ],
+  "pages": [
+   "img14_L.png",
+   "img14_R.png"
+  ]
+ },
+ {
+  "idx": 15,
+  "file": "clipboard-2026-11-05T13-28-39-810Z-3c708706.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1445
+  ],
+  "page_size": [
+   894,
+   1445
+  ],
+  "pages": [
+   "img15_L.png",
+   "img15_R.png"
+  ]
+ },
+ {
+  "idx": 16,
+  "file": "clipboard-2026-11-05T13-28-39-813Z-fc7581d3.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1388
+  ],
+  "page_size": [
+   894,
+   1388
+  ],
+  "pages": [
+   "img16_L.png",
+   "img16_R.png"
+  ]
+ },
+ {
+  "idx": 17,
+  "file": "clipboard-2026-11-05T13-28-39-815Z-61a8f345.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1437
+  ],
+  "page_size": [
+   894,
+   1437
+  ],
+  "pages": [
+   "img17_L.png",
+   "img17_R.png"
+  ]
+ },
+ {
+  "idx": 18,
+  "file": "clipboard-2026-11-05T13-28-39-818Z-932d739a.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1403
+  ],
+  "page_size": [
+   894,
+   1403
+  ],
+  "pages": [
+   "img18_L.png",
+   "img18_R.png"
+  ]
+ },
+ {
+  "idx": 19,
+  "file": "clipboard-2026-11-05T13-28-39-820Z-ef8e9bbf.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1437
+  ],
+  "page_size": [
+   894,
+   1437
+  ],
+  "pages": [
+   "img19_L.png",
+   "img19_R.png"
+  ]
+ },
+ {
+  "idx": 20,
+  "file": "clipboard-2026-11-05T13-28-39-823Z-3c2b83ce.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1425
+  ],
+  "page_size": [
+   894,
+   1425
+  ],
+  "pages": [
+   "img20_L.png",
+   "img20_R.png"
+  ]
+ },
+ {
+  "idx": 21,
+  "file": "clipboard-2026-11-05T13-28-39-826Z-5c2ad82c.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1431
+  ],
+  "page_size": [
+   894,
+   1431
+  ],
+  "pages": [
+   "img21_L.png",
+   "img21_R.png"
+  ]
+ },
+ {
+  "idx": 22,
+  "file": "clipboard-2026-11-05T13-28-39-829Z-dedfa673.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1399
+  ],
+  "page_size": [
+   894,
+   1399
+  ],
+  "pages": [
+   "img22_L.png",
+   "img22_R.png"
+  ]
+ },
+ {
+  "idx": 23,
+  "file": "clipboard-2026-11-05T13-28-39-831Z-d14eacf8.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1453
+  ],
+  "page_size": [
+   894,
+   1453
+  ],
+  "pages": [
+   "img23_L.png",
+   "img23_R.png"
+  ]
+ },
+ {
+  "idx": 24,
+  "file": "clipboard-2026-11-05T13-28-39-834Z-431296b8.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1410
+  ],
+  "page_size": [
+   894,
+   1410
+  ],
+  "pages": [
+   "img24_L.png",
+   "img24_R.png"
+  ]
+ },
+ {
+  "idx": 25,
+  "file": "clipboard-2026-11-05T13-28-39-836Z-45b0cb76.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1441
+  ],
+  "page_size": [
+   894,
+   1441
+  ],
+  "pages": [
+   "img25_L.png",
+   "img25_R.png"
+  ]
+ },
+ {
+  "idx": 26,
+  "file": "clipboard-2026-11-05T13-28-39-839Z-89e99875.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1403
+  ],
+  "page_size": [
+   894,
+   1403
+  ],
+  "pages": [
+   "img26_L.png",
+   "img26_R.png"
+  ]
+ },
+ {
+  "idx": 27,
+  "file": "clipboard-2026-11-05T13-28-39-841Z-06049d21.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1440
+  ],
+  "page_size": [
+   894,
+   1440
+  ],
+  "pages": [
+   "img27_L.png",
+   "img27_R.png"
+  ]
+ },
+ {
+  "idx": 28,
+  "file": "clipboard-2026-11-05T13-28-39-844Z-29cf6ed3.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1416
+  ],
+  "page_size": [
+   894,
+   1416
+  ],
+  "pages": [
+   "img28_L.png",
+   "img28_R.png"
+  ]
+ },
+ {
+  "idx": 29,
+  "file": "clipboard-2026-11-05T13-28-39-846Z-08786bf3.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1396
+  ],
+  "page_size": [
+   894,
+   1396
+  ],
+  "pages": [
+   "img29_L.png",
+   "img29_R.png"
+  ]
+ },
+ {
+  "idx": 30,
+  "file": "clipboard-2026-11-05T13-28-39-848Z-1ccf54a9.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1427
+  ],
+  "page_size": [
+   894,
+   1427
+  ],
+  "pages": [
+   "img30_L.png",
+   "img30_R.png"
+  ]
+ },
+ {
+  "idx": 31,
+  "file": "clipboard-2026-11-05T13-28-39-851Z-1c599eb9.jpg",
+  "rotated": 0,
+  "src_size": [
+   1824,
+   1371
+  ],
+  "page_size": [
+   849,
+   1371
+  ],
+  "pages": [
+   "img31_L.png",
+   "img31_R.png"
+  ]
+ },
+ {
+  "idx": 32,
+  "file": "clipboard-2026-11-05T13-28-39-855Z-7ad5678a.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1434
+  ],
+  "page_size": [
+   894,
+   1434
+  ],
+  "pages": [
+   "img32_L.png",
+   "img32_R.png"
+  ]
+ },
+ {
+  "idx": 33,
+  "file": "clipboard-2026-11-05T13-28-39-857Z-8e092b64.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1449
+  ],
+  "page_size": [
+   894,
+   1449
+  ],
+  "pages": [
+   "img33_L.png",
+   "img33_R.png"
+  ]
+ },
+ {
+  "idx": 34,
+  "file": "clipboard-2026-11-05T13-28-39-860Z-88ab5854.jpg",
+  "rotated": 0,
+  "src_size": [
+   1920,
+   1434
+  ],
+  "page_size": [
+   894,
+   1434
+  ],
+  "pages": [
+   "img34_L.png",
+   "img34_R.png"
+  ]
+ }
+]

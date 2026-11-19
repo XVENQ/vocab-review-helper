@@ -1,0 +1,105 @@
+{
+  "_note": "人工裁决：逐条对照真题原句确定「该留哪个义项」。status=approved，优先级高于机器结论与旧人工映射。格式必须是 `词性. 义项, 义项；词性. 义项`，且对 normalizeMeaningLine / ensurePos 幂等。",
+  "decisions": {
+    "corresponding": {
+      "meaning": "adj. 相应的, 对应的",
+      "why": "真题 5 套均为 mark the corresponding letter（相应的字母），非「相当的」",
+      "pages": [1, 17, 33, 45, 57]
+    },
+    "judgement": {
+      "meaning": "n. 判断, 判决",
+      "why": "真题为 make your judgement（作出判断），不是法庭「审判」",
+      "pages": [3, 19]
+    },
+    "found": {
+      "meaning": "v. 发现, 找到（find 的过去式）；创立, 建立",
+      "why": "真题 she later found it was her own fault 是 find 的过去式；原释义只留「创立」会误导读成 found a company",
+      "pages": [24, 40, 52]
+    },
+    "appearance": {
+      "meaning": "n. 外观, 外表；出现",
+      "why": "真题 adorable fluffy appearance / its lovely appearance 都是「外观」",
+      "pages": [1, 2]
+    },
+    "care": {
+      "meaning": "n. 照料, 小心；vi. 关心, 介意",
+      "why": "真题 need my care / takes less care of her daughter 都是「照料」",
+      "pages": [47, 48]
+    },
+    "prevent": {
+      "meaning": "v. 防止, 阻止, 预防",
+      "why": "真题 prevent us from connecting 是「阻止」，原释义缺这一义",
+      "pages": [41]
+    },
+    "senior": {
+      "meaning": "adj. 高级的, 年长的；n. 长辈",
+      "why": "真题 senior middle school（高中）/ senior engineers（高级工程师）都是「高级的」，不是「年长的」",
+      "pages": [15, 50]
+    },
+    "approach": {
+      "meaning": "n. 方法, 途径；v. 接近, 着手处理",
+      "why": "真题 the country's approach to sports 是名词「方法」，原释义把动词放首位",
+      "pages": [8]
+    },
+    "complete": {
+      "meaning": "v. 完成；adj. 完全的, 完整的",
+      "why": "真题 as soon as I complete my studies 是动词「完成」",
+      "pages": [40]
+    },
+    "exact": {
+      "meaning": "adj. 准确的, 精确的",
+      "why": "真题 to be exact（准确地说）；原释义里的 v. 强求几乎不考，删掉",
+      "pages": [64]
+    },
+    "wide": {
+      "meaning": "adj. 广泛的, 宽的",
+      "why": "真题 a wide range of（广泛的）；原释义把「宽的」放首位",
+      "pages": [22, 60]
+    },
+    "fortune": {
+      "meaning": "n. 运气, 财富",
+      "why": "真题 a symbol of good fortune（好运）；原释义把「财富」放首位",
+      "pages": [60]
+    },
+    "content": {
+      "meaning": "n. 内容, 目录；adj. 满足的",
+      "why": "真题 generate content（生成内容）；v. 使满足不考，删掉",
+      "pages": [55, 61]
+    },
+    "threat": {
+      "meaning": "n. 威胁, 恐吓",
+      "why": "真题 climate change threat（气候变化的威胁）；原释义「恐吓, 恶兆」偏了",
+      "pages": [21]
+    },
+    "spread": {
+      "meaning": "v. 传播, 蔓延；n. 传播",
+      "why": "真题 Tea plantations spread across the country 是动词「蔓延」",
+      "pages": [54]
+    },
+    "fight": {
+      "meaning": "v. 对抗, 斗争；n. 打架, 争吵",
+      "why": "真题 fight climate change（对抗气候变化）是动词",
+      "pages": [21]
+    },
+    "item": {
+      "meaning": "n. 物品, 项目, 条款",
+      "why": "真题 100 yuan on each item 是「物品」；原释义只有「条, 条款」",
+      "pages": [47]
+    },
+    "junior": {
+      "meaning": "adj. 初级的, 年少的；n. 晚辈",
+      "why": "真题 a junior technician（初级技术员）是「初级的」",
+      "pages": [24]
+    },
+    "advantage": {
+      "meaning": "n. 优点, 优势；vt. 有助于",
+      "why": "真题 the advantage of having an AI pet（优点）/ take advantage of（利用）",
+      "pages": [2, 29]
+    },
+    "ease": {
+      "meaning": "n. 容易, 舒适；v. 减轻, 缓和",
+      "why": "真题语境为 take it easy / at ease（自在），名词义更常用",
+      "pages": [5]
+    }
+  }
+}

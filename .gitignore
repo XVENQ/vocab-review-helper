@@ -11,11 +11,13 @@ ecdict.csv
 phonetic_us_old.json
 *.tar.gz
 
-# 故事配图：本地生成，体积 3–5 MB，不入库（prompts.json 与 _preview.html 保留）
-assets/stories/*.webp
-assets/stories/*.png
-assets/stories/*.jpg
+# 故事配图：2026-11-16 起随 GitHub Pages 部署入库（用户同意公开）
 assets/stories/_candidates/
+
+# 本地安全网与运行时缓存，绝不入库
+backups/
+.tts_cache/
+2026-11-*.md
 
 # 系统与编辑器
 .DS_Store

@@ -1,0 +1,1264 @@
+{
+ "_meta": {
+  "source": "C:/Users/xuenc/Desktop/英语学习方法/studyEnglish/背词助手数据.json",
+  "n_groups": 60,
+  "n_words": 147,
+  "generated_at": "2026-11-07 16:03:04"
+ },
+ "hints": {
+  "active": [
+   [
+    "activity",
+    "活动"
+   ]
+  ],
+  "activity": [
+   [
+    "active",
+    "积极的"
+   ]
+  ],
+  "actual": [
+   [
+    "actually",
+    "实际上"
+   ]
+  ],
+  "actually": [
+   [
+    "actual",
+    "真实的"
+   ]
+  ],
+  "adapt": [
+   [
+    "adopt",
+    "采用"
+   ]
+  ],
+  "adopt": [
+   [
+    "adapt",
+    "使适应"
+   ]
+  ],
+  "amuse": [
+   [
+    "amusement",
+    "兴味"
+   ]
+  ],
+  "amusement": [
+   [
+    "amuse",
+    "消遣"
+   ]
+  ],
+  "apologize": [
+   [
+    "apology",
+    "道歉"
+   ]
+  ],
+  "apology": [
+   [
+    "apologize",
+    "道歉"
+   ]
+  ],
+  "appear": [
+   [
+    "appearance",
+    "出现"
+   ]
+  ],
+  "appearance": [
+   [
+    "appear",
+    "出现"
+   ]
+  ],
+  "astonish": [
+   [
+    "astonished",
+    "吃惊的"
+   ],
+   [
+    "astonishing",
+    "令人惊讶的"
+   ]
+  ],
+  "astonished": [
+   [
+    "astonish",
+    "使惊讶"
+   ],
+   [
+    "astonishing",
+    "令人惊讶的"
+   ]
+  ],
+  "astonishing": [
+   [
+    "astonish",
+    "使惊讶"
+   ],
+   [
+    "astonished",
+    "吃惊的"
+   ]
+  ],
+  "bald": [
+   [
+    "ball",
+    "球"
+   ],
+   [
+    "bold",
+    "大胆的"
+   ]
+  ],
+  "ball": [
+   [
+    "bald",
+    "秃的"
+   ],
+   [
+    "bold",
+    "大胆的"
+   ]
+  ],
+  "bold": [
+   [
+    "bald",
+    "秃的"
+   ],
+   [
+    "ball",
+    "球"
+   ]
+  ],
+  "basic": [
+   [
+    "basically",
+    "基本上"
+   ],
+   [
+    "basin",
+    "盆"
+   ],
+   [
+    "basis",
+    "基础"
+   ]
+  ],
+  "basically": [
+   [
+    "basic",
+    "基本的"
+   ],
+   [
+    "basin",
+    "盆"
+   ],
+   [
+    "basis",
+    "基础"
+   ]
+  ],
+  "basin": [
+   [
+    "basic",
+    "基本的"
+   ],
+   [
+    "basically",
+    "基本上"
+   ],
+   [
+    "basis",
+    "基础"
+   ]
+  ],
+  "basis": [
+   [
+    "basic",
+    "基本的"
+   ],
+   [
+    "basically",
+    "基本上"
+   ],
+   [
+    "basin",
+    "盆"
+   ]
+  ],
+  "behave": [
+   [
+    "behavior",
+    "行为"
+   ]
+  ],
+  "behavior": [
+   [
+    "behave",
+    "表现"
+   ]
+  ],
+  "broad": [
+   [
+    "broadcast",
+    "广播"
+   ]
+  ],
+  "broadcast": [
+   [
+    "broad",
+    "宽的"
+   ]
+  ],
+  "camp": [
+   [
+    "campaign",
+    "运动"
+   ],
+   [
+    "campus",
+    "校园"
+   ]
+  ],
+  "campaign": [
+   [
+    "camp",
+    "营地"
+   ],
+   [
+    "campus",
+    "校园"
+   ]
+  ],
+  "campus": [
+   [
+    "camp",
+    "营地"
+   ],
+   [
+    "campaign",
+    "运动"
+   ]
+  ],
+  "cash": [
+   [
+    "cast",
+    "投"
+   ],
+   [
+    "castle",
+    "城堡"
+   ]
+  ],
+  "cast": [
+   [
+    "cash",
+    "现金"
+   ],
+   [
+    "castle",
+    "城堡"
+   ]
+  ],
+  "castle": [
+   [
+    "cash",
+    "现金"
+   ],
+   [
+    "cast",
+    "投"
+   ]
+  ],
+  "cheer": [
+   [
+    "cheerful",
+    "快活的"
+   ]
+  ],
+  "cheerful": [
+   [
+    "cheer",
+    "欢呼"
+   ]
+  ],
+  "clarification": [
+   [
+    "clarify",
+    "澄清"
+   ],
+   [
+    "clarity",
+    "清晰"
+   ]
+  ],
+  "clarify": [
+   [
+    "clarification",
+    "澄清"
+   ],
+   [
+    "clarity",
+    "清晰"
+   ]
+  ],
+  "clarity": [
+   [
+    "clarification",
+    "澄清"
+   ],
+   [
+    "clarify",
+    "澄清"
+   ]
+  ],
+  "clash": [
+   [
+    "crash",
+    "撞碎"
+   ]
+  ],
+  "crash": [
+   [
+    "clash",
+    "冲突"
+   ]
+  ],
+  "classic": [
+   [
+    "classical",
+    "古典的"
+   ],
+   [
+    "classify",
+    "分类"
+   ]
+  ],
+  "classical": [
+   [
+    "classic",
+    "经典的"
+   ],
+   [
+    "classify",
+    "分类"
+   ]
+  ],
+  "classify": [
+   [
+    "classic",
+    "经典的"
+   ],
+   [
+    "classical",
+    "古典的"
+   ]
+  ],
+  "combination": [
+   [
+    "combine",
+    "结合"
+   ]
+  ],
+  "combine": [
+   [
+    "combination",
+    "结合"
+   ]
+  ],
+  "communicate": [
+   [
+    "communication",
+    "交流"
+   ],
+   [
+    "community",
+    "社区"
+   ]
+  ],
+  "communication": [
+   [
+    "communicate",
+    "交流"
+   ],
+   [
+    "community",
+    "社区"
+   ]
+  ],
+  "community": [
+   [
+    "communicate",
+    "交流"
+   ],
+   [
+    "communication",
+    "交流"
+   ]
+  ],
+  "compete": [
+   [
+    "competition",
+    "竞争"
+   ],
+   [
+    "competitor",
+    "竞争者"
+   ]
+  ],
+  "competition": [
+   [
+    "compete",
+    "竞争"
+   ],
+   [
+    "competitor",
+    "竞争者"
+   ]
+  ],
+  "competitor": [
+   [
+    "compete",
+    "竞争"
+   ],
+   [
+    "competition",
+    "竞争"
+   ]
+  ],
+  "concept": [
+   [
+    "conceptual",
+    "概念的"
+   ]
+  ],
+  "conceptual": [
+   [
+    "concept",
+    "观念"
+   ]
+  ],
+  "congratulate": [
+   [
+    "congratulations",
+    "祝贺词"
+   ]
+  ],
+  "congratulations": [
+   [
+    "congratulate",
+    "祝贺"
+   ]
+  ],
+  "connect": [
+   [
+    "connection",
+    "连接"
+   ]
+  ],
+  "connection": [
+   [
+    "connect",
+    "连接"
+   ]
+  ],
+  "correspond": [
+   [
+    "corresponding",
+    "相当的"
+   ]
+  ],
+  "corresponding": [
+   [
+    "correspond",
+    "符合"
+   ]
+  ],
+  "elegance": [
+   [
+    "elegant",
+    "优雅的"
+   ]
+  ],
+  "elegant": [
+   [
+    "elegance",
+    "高雅"
+   ]
+  ],
+  "employ": [
+   [
+    "employee",
+    "职员"
+   ],
+   [
+    "employer",
+    "雇主"
+   ],
+   [
+    "employment",
+    "雇用"
+   ]
+  ],
+  "employee": [
+   [
+    "employ",
+    "雇用"
+   ],
+   [
+    "employer",
+    "雇主"
+   ],
+   [
+    "employment",
+    "雇用"
+   ]
+  ],
+  "employer": [
+   [
+    "employ",
+    "雇用"
+   ],
+   [
+    "employee",
+    "职员"
+   ],
+   [
+    "employment",
+    "雇用"
+   ]
+  ],
+  "employment": [
+   [
+    "employ",
+    "雇用"
+   ],
+   [
+    "employee",
+    "职员"
+   ],
+   [
+    "employer",
+    "雇主"
+   ]
+  ],
+  "establish": [
+   [
+    "establishment",
+    "建立"
+   ]
+  ],
+  "establishment": [
+   [
+    "establish",
+    "建立"
+   ]
+  ],
+  "event": [
+   [
+    "eventually",
+    "最后"
+   ]
+  ],
+  "eventually": [
+   [
+    "event",
+    "事件"
+   ]
+  ],
+  "exact": [
+   [
+    "exactly",
+    "确切地"
+   ]
+  ],
+  "exactly": [
+   [
+    "exact",
+    "准确的"
+   ]
+  ],
+  "final": [
+   [
+    "finally",
+    "最后"
+   ]
+  ],
+  "finally": [
+   [
+    "final",
+    "决赛"
+   ]
+  ],
+  "fortunate": [
+   [
+    "fortunately",
+    "幸运地"
+   ],
+   [
+    "fortune",
+    "财富"
+   ]
+  ],
+  "fortunately": [
+   [
+    "fortunate",
+    "幸运的"
+   ],
+   [
+    "fortune",
+    "财富"
+   ]
+  ],
+  "fortune": [
+   [
+    "fortunate",
+    "幸运的"
+   ],
+   [
+    "fortunately",
+    "幸运地"
+   ]
+  ],
+  "found": [
+   [
+    "foundation",
+    "基础"
+   ]
+  ],
+  "foundation": [
+   [
+    "found",
+    "创立"
+   ]
+  ],
+  "frighten": [
+   [
+    "frightening",
+    "令人恐惧的"
+   ]
+  ],
+  "frightening": [
+   [
+    "frighten",
+    "使惊吓"
+   ]
+  ],
+  "grace": [
+   [
+    "graceful",
+    "优美的"
+   ],
+   [
+    "grateful",
+    "感谢的"
+   ],
+   [
+    "grave",
+    "坟墓"
+   ]
+  ],
+  "graceful": [
+   [
+    "grace",
+    "优雅"
+   ],
+   [
+    "grateful",
+    "感谢的"
+   ],
+   [
+    "grave",
+    "坟墓"
+   ]
+  ],
+  "grateful": [
+   [
+    "grace",
+    "优雅"
+   ],
+   [
+    "graceful",
+    "优美的"
+   ],
+   [
+    "grave",
+    "坟墓"
+   ]
+  ],
+  "grave": [
+   [
+    "grace",
+    "优雅"
+   ],
+   [
+    "graceful",
+    "优美的"
+   ],
+   [
+    "grateful",
+    "感谢的"
+   ]
+  ],
+  "gradual": [
+   [
+    "gradually",
+    "逐渐地"
+   ]
+  ],
+  "gradually": [
+   [
+    "gradual",
+    "逐渐的"
+   ]
+  ],
+  "great": [
+   [
+    "greet",
+    "问候"
+   ],
+   [
+    "greeting",
+    "祝贺"
+   ]
+  ],
+  "greet": [
+   [
+    "great",
+    "大的"
+   ],
+   [
+    "greeting",
+    "祝贺"
+   ]
+  ],
+  "greeting": [
+   [
+    "great",
+    "大的"
+   ],
+   [
+    "greet",
+    "问候"
+   ]
+  ],
+  "intense": [
+   [
+    "intensive",
+    "加强的"
+   ],
+   [
+    "intensively",
+    "密集地"
+   ]
+  ],
+  "intensive": [
+   [
+    "intense",
+    "强烈的"
+   ],
+   [
+    "intensively",
+    "密集地"
+   ]
+  ],
+  "intensively": [
+   [
+    "intense",
+    "强烈的"
+   ],
+   [
+    "intensive",
+    "加强的"
+   ]
+  ],
+  "invent": [
+   [
+    "invention",
+    "发明"
+   ]
+  ],
+  "invention": [
+   [
+    "invent",
+    "发明"
+   ]
+  ],
+  "join": [
+   [
+    "joint",
+    "共同的"
+   ]
+  ],
+  "joint": [
+   [
+    "join",
+    "参加"
+   ]
+  ],
+  "judge": [
+   [
+    "judgement",
+    "审判"
+   ]
+  ],
+  "judgement": [
+   [
+    "judge",
+    "法官"
+   ]
+  ],
+  "just": [
+   [
+    "justice",
+    "正义"
+   ],
+   [
+    "justify",
+    "证明…正当"
+   ]
+  ],
+  "justice": [
+   [
+    "just",
+    "刚刚"
+   ],
+   [
+    "justify",
+    "证明…正当"
+   ]
+  ],
+  "justify": [
+   [
+    "just",
+    "刚刚"
+   ],
+   [
+    "justice",
+    "正义"
+   ]
+  ],
+  "loose": [
+   [
+    "loosen",
+    "解开"
+   ]
+  ],
+  "loosen": [
+   [
+    "loose",
+    "松的"
+   ]
+  ],
+  "mount": [
+   [
+    "mountain",
+    "山"
+   ]
+  ],
+  "mountain": [
+   [
+    "mount",
+    "登上"
+   ]
+  ],
+  "nearby": [
+   [
+    "nearly",
+    "差不多"
+   ]
+  ],
+  "nearly": [
+   [
+    "nearby",
+    "附近的"
+   ]
+  ],
+  "officer": [
+   [
+    "official",
+    "官方的"
+   ]
+  ],
+  "official": [
+   [
+    "officer",
+    "军官"
+   ]
+  ],
+  "precise": [
+   [
+    "precisely",
+    "精确地"
+   ]
+  ],
+  "precisely": [
+   [
+    "precise",
+    "精确的"
+   ]
+  ],
+  "react": [
+   [
+    "reaction",
+    "反应"
+   ],
+   [
+    "reactor",
+    "反应堆"
+   ]
+  ],
+  "reaction": [
+   [
+    "react",
+    "反应"
+   ],
+   [
+    "reactor",
+    "反应堆"
+   ]
+  ],
+  "reactor": [
+   [
+    "react",
+    "反应"
+   ],
+   [
+    "reaction",
+    "反应"
+   ]
+  ],
+  "receipt": [
+   [
+    "receive",
+    "收到"
+   ],
+   [
+    "receiver",
+    "接收器"
+   ]
+  ],
+  "receive": [
+   [
+    "receipt",
+    "收据"
+   ],
+   [
+    "receiver",
+    "接收器"
+   ]
+  ],
+  "receiver": [
+   [
+    "receipt",
+    "收据"
+   ],
+   [
+    "receive",
+    "收到"
+   ]
+  ],
+  "response": [
+   [
+    "responsibility",
+    "责任"
+   ],
+   [
+    "responsible",
+    "负责的"
+   ]
+  ],
+  "responsibility": [
+   [
+    "response",
+    "反应"
+   ],
+   [
+    "responsible",
+    "负责的"
+   ]
+  ],
+  "responsible": [
+   [
+    "response",
+    "反应"
+   ],
+   [
+    "responsibility",
+    "责任"
+   ]
+  ],
+  "satisfaction": [
+   [
+    "satisfactory",
+    "令人满意的"
+   ],
+   [
+    "satisfy",
+    "满足"
+   ]
+  ],
+  "satisfactory": [
+   [
+    "satisfaction",
+    "满意"
+   ],
+   [
+    "satisfy",
+    "满足"
+   ]
+  ],
+  "satisfy": [
+   [
+    "satisfaction",
+    "满意"
+   ],
+   [
+    "satisfactory",
+    "令人满意的"
+   ]
+  ],
+  "scare": [
+   [
+    "scared",
+    "害怕的"
+   ]
+  ],
+  "scared": [
+   [
+    "scare",
+    "惊吓"
+   ]
+  ],
+  "scream": [
+   [
+    "stream",
+    "水流"
+   ]
+  ],
+  "stream": [
+   [
+    "scream",
+    "尖叫声"
+   ]
+  ],
+  "sensible": [
+   [
+    "sensitive",
+    "敏感的"
+   ]
+  ],
+  "sensitive": [
+   [
+    "sensible",
+    "明智的"
+   ]
+  ],
+  "spit": [
+   [
+    "spite",
+    "恶意"
+   ]
+  ],
+  "spite": [
+   [
+    "spit",
+    "唾液"
+   ]
+  ],
+  "swear": [
+   [
+    "sweat",
+    "汗"
+   ],
+   [
+    "sweater",
+    "厚运动衫"
+   ],
+   [
+    "sweep",
+    "扫除"
+   ],
+   [
+    "sweet",
+    "甜的"
+   ]
+  ],
+  "sweat": [
+   [
+    "swear",
+    "发誓"
+   ],
+   [
+    "sweater",
+    "厚运动衫"
+   ],
+   [
+    "sweep",
+    "扫除"
+   ],
+   [
+    "sweet",
+    "甜的"
+   ]
+  ],
+  "sweater": [
+   [
+    "swear",
+    "发誓"
+   ],
+   [
+    "sweat",
+    "汗"
+   ],
+   [
+    "sweep",
+    "扫除"
+   ],
+   [
+    "sweet",
+    "甜的"
+   ]
+  ],
+  "sweep": [
+   [
+    "swear",
+    "发誓"
+   ],
+   [
+    "sweat",
+    "汗"
+   ],
+   [
+    "sweater",
+    "厚运动衫"
+   ],
+   [
+    "sweet",
+    "甜的"
+   ]
+  ],
+  "sweet": [
+   [
+    "swear",
+    "发誓"
+   ],
+   [
+    "sweat",
+    "汗"
+   ],
+   [
+    "sweater",
+    "厚运动衫"
+   ],
+   [
+    "sweep",
+    "扫除"
+   ]
+  ],
+  "threat": [
+   [
+    "threaten",
+    "恐吓"
+   ]
+  ],
+  "threaten": [
+   [
+    "threat",
+    "恐吓"
+   ]
+  ],
+  "undergo": [
+   [
+    "underneath",
+    "在…下面"
+   ],
+   [
+    "undertake",
+    "承担"
+   ]
+  ],
+  "underneath": [
+   [
+    "undergo",
+    "经历"
+   ],
+   [
+    "undertake",
+    "承担"
+   ]
+  ],
+  "undertake": [
+   [
+    "undergo",
+    "经历"
+   ],
+   [
+    "underneath",
+    "在…下面"
+   ]
+  ],
+  "weak": [
+   [
+    "weakness",
+    "虚弱"
+   ],
+   [
+    "wear",
+    "穿着"
+   ]
+  ],
+  "weakness": [
+   [
+    "weak",
+    "虚弱的"
+   ],
+   [
+    "wear",
+    "穿着"
+   ]
+  ],
+  "wear": [
+   [
+    "weak",
+    "虚弱的"
+   ],
+   [
+    "weakness",
+    "虚弱"
+   ]
+  ],
+  "wealth": [
+   [
+    "wealthy",
+    "富有的"
+   ]
+  ],
+  "wealthy": [
+   [
+    "wealth",
+    "财富"
+   ]
+  ],
+  "wide": [
+   [
+    "widespread",
+    "充分伸展的"
+   ]
+  ],
+  "widespread": [
+   [
+    "wide",
+    "宽的"
+   ]
+  ]
+ }
+}

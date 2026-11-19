@@ -1,0 +1,306 @@
+{
+ "_meta": {
+  "version": "2026-11-05.1",
+  "corpus_sha1": "afee6ee80c788820",
+  "rules_sha1": "d0f90e49f265",
+  "default_min_df": 2,
+  "n_entries": 20,
+  "generated_at": "2026-11-05 23:02:07",
+  "generator": "tools/exam_vocab/build_overrides.py"
+ },
+ "overrides": {
+  "advantage": {
+   "meaning": "n. 优点, 优势；vt. 有助于",
+   "df": 2,
+   "tf": 3,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p2",
+    "p29"
+   ],
+   "why": "真题 the advantage of having an AI pet（优点）"
+  },
+  "appearance": {
+   "meaning": "n. 外观, 外表；出现",
+   "df": 3,
+   "tf": 5,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p1",
+    "p2"
+   ],
+   "why": "真题 adorable fluffy appearance / its love"
+  },
+  "approach": {
+   "meaning": "n. 方法, 途径；v. 接近, 着手处理",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p8"
+   ],
+   "why": "真题 the country's approach to sports 是名词「"
+  },
+  "care": {
+   "meaning": "n. 照料, 小心；vi. 关心, 介意",
+   "df": 3,
+   "tf": 4,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p47",
+    "p48"
+   ],
+   "why": "真题 need my care / takes less care of her"
+  },
+  "complete": {
+   "meaning": "v. 完成；adj. 完全的, 完整的",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p40"
+   ],
+   "why": "真题 as soon as I complete my studies 是动词「"
+  },
+  "content": {
+   "meaning": "n. 内容, 目录；adj. 满足的",
+   "df": 2,
+   "tf": 2,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p55",
+    "p61"
+   ],
+   "why": "真题 generate content（生成内容）；v. 使满足不考，删掉"
+  },
+  "corresponding": {
+   "meaning": "adj. 相应的, 对应的",
+   "df": 5,
+   "tf": 14,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p1",
+    "p17",
+    "p33",
+    "p45",
+    "p57"
+   ],
+   "why": "真题 5 套均为 mark the corresponding letter（相"
+  },
+  "ease": {
+   "meaning": "n. 容易, 舒适；v. 减轻, 缓和",
+   "df": 2,
+   "tf": 2,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p5"
+   ],
+   "why": "真题语境为 take it easy / at ease（自在），名词义更常用"
+  },
+  "exact": {
+   "meaning": "adj. 准确的, 精确的",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p64"
+   ],
+   "why": "真题 to be exact（准确地说）；原释义里的 v. 强求几乎不考，删掉"
+  },
+  "fight": {
+   "meaning": "v. 对抗, 斗争；n. 打架, 争吵",
+   "df": 1,
+   "tf": 2,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p21"
+   ],
+   "why": "真题 fight climate change（对抗气候变化）是动词"
+  },
+  "fortune": {
+   "meaning": "n. 运气, 财富",
+   "df": 2,
+   "tf": 4,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p60"
+   ],
+   "why": "真题 a symbol of good fortune（好运）；原释义把「财富」"
+  },
+  "found": {
+   "meaning": "v. 发现, 找到（find 的过去式）；创立, 建立",
+   "df": 4,
+   "tf": 14,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p24",
+    "p40",
+    "p52"
+   ],
+   "why": "真题 she later found it was her own fault "
+  },
+  "item": {
+   "meaning": "n. 物品, 项目, 条款",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p47"
+   ],
+   "why": "真题 100 yuan on each item 是「物品」；原释义只有「条, "
+  },
+  "judgement": {
+   "meaning": "n. 判断, 判决",
+   "df": 5,
+   "tf": 6,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p3",
+    "p19"
+   ],
+   "why": "真题为 make your judgement（作出判断），不是法庭「审判」"
+  },
+  "junior": {
+   "meaning": "adj. 初级的, 年少的；n. 晚辈",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p24"
+   ],
+   "why": "真题 a junior technician（初级技术员）是「初级的」"
+  },
+  "prevent": {
+   "meaning": "v. 防止, 阻止, 预防",
+   "df": 3,
+   "tf": 6,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p41"
+   ],
+   "why": "真题 prevent us from connecting 是「阻止」，原释义缺"
+  },
+  "senior": {
+   "meaning": "adj. 高级的, 年长的；n. 长辈",
+   "df": 3,
+   "tf": 5,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p15",
+    "p50"
+   ],
+   "why": "真题 senior middle school（高中）/ senior engi"
+  },
+  "spread": {
+   "meaning": "v. 传播, 蔓延；n. 传播",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p54"
+   ],
+   "why": "真题 Tea plantations spread across the cou"
+  },
+  "threat": {
+   "meaning": "n. 威胁, 恐吓",
+   "df": 1,
+   "tf": 1,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p21"
+   ],
+   "why": "真题 climate change threat（气候变化的威胁）；原释义「恐吓"
+  },
+  "wide": {
+   "meaning": "adj. 广泛的, 宽的",
+   "df": 3,
+   "tf": 3,
+   "min_df": 1,
+   "status": "approved",
+   "action": "hand",
+   "conf": "high",
+   "in314": 1,
+   "evidence": [
+    "p22",
+    "p60"
+   ],
+   "why": "真题 a wide range of（广泛的）；原释义把「宽的」放首位"
+  }
+ }
+}

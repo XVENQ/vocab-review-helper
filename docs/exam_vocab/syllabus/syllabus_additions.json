@@ -1,0 +1,267 @@
+{
+ "_meta": {
+  "n": 37,
+  "source_sha1": "4497bdd5e68a2bf2"
+ },
+ "additions": {
+  "a.m.": {
+   "meaning": "abbr. 上午",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "according to": {
+   "meaning": "prep. 据...所说",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "air conditioning": {
+   "meaning": "n. 空调系统",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "banknote": {
+   "meaning": "n. 纸币",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "bbq": {
+   "meaning": "abbr. 户外烧烤",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "bc": {
+   "meaning": "abbr. 公元前",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "christ": {
+   "meaning": "n. 基督；int. 天啊",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "clear-cut": {
+   "meaning": "adj. 清晰的",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "commutation": {
+   "meaning": "n. 减刑, 代偿",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "confucian": {
+   "meaning": "adj. 儒家的；n. 儒家学者",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "easy-going": {
+   "meaning": "adj. 随和",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "european": {
+   "meaning": "adj. 欧洲的, 欧盟的；n. 欧洲人, 欧盟支持者",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "germany": {
+   "meaning": "n. 德国",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "hectare": {
+   "meaning": "n. 公顷",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "high-tech": {
+   "meaning": "adj. 高科技的, 高技派的",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "homo": {
+   "meaning": "n. 同性恋, 同",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "inwards": {
+   "meaning": "adv. 向内",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "make-up": {
+   "meaning": "n. 化妆品, 性格",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "marxism": {
+   "meaning": "n. 马克思主义",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "mechanize": {
+   "meaning": "v. 机械化",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "medicare": {
+   "meaning": "n. 医疗保险, 全民医疗保健",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "middle-class": {
+   "meaning": "adj. 中产阶级, 中产作风",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "october": {
+   "meaning": "n. 十月",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "ok": {
+   "meaning": "int. 好的",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "old-fashioned": {
+   "meaning": "adj. 过时的, 守旧的",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "ought to": {
+   "meaning": "v. 应该",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "p.m.": {
+   "meaning": "abbr. 下午",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "podcast": {
+   "meaning": "n. 播客",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "prime minister": {
+   "meaning": "n. 首相",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "refundable": {
+   "meaning": "adj. 可退还的, 可退还的款项",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "russia": {
+   "meaning": "n. 俄罗斯",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "september": {
+   "meaning": "n. 九月",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "smartphone": {
+   "meaning": "n. 智能手机",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "take-off": {
+   "meaning": "n. 起飞, 起跳",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "telecommunication": {
+   "meaning": "n. 电信, 远程通信",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "up to date": {
+   "meaning": "adj. 新的, 最新的",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  },
+  "webcast": {
+   "meaning": "n. 网络直播",
+   "src": "syllabus",
+   "df": 5,
+   "min_df": 1,
+   "in314": 1
+  }
+ }
+}

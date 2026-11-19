@@ -1,0 +1,2989 @@
+# 专升本基础高频词 · 21 天精讲
+
+> 源：《21 天突破基础高频词》（426 词，Day 1–21，每日 20–22 个）。
+
+> 这份文档给的是**词典里查不到的东西**：搭配和词族。释义本身词典已有。
+
+| Day | 词数 | 覆盖 |
+|---|---|---|
+| Day 1 | 20 | 第 1–20 个 |
+| Day 2 | 21 | 第 1–21 个 |
+| Day 3 | 20 | 第 1–20 个 |
+| Day 4 | 20 | 第 1–20 个 |
+| Day 5 | 20 | 第 1–20 个 |
+| Day 6 | 20 | 第 1–20 个 |
+| Day 7 | 20 | 第 1–20 个 |
+| Day 8 | 20 | 第 1–20 个 |
+| Day 9 | 20 | 第 1–20 个 |
+| Day 10 | 20 | 第 1–20 个 |
+| Day 11 | 20 | 第 1–20 个 |
+| Day 12 | 20 | 第 1–20 个 |
+| Day 13 | 20 | 第 1–20 个 |
+| Day 14 | 20 | 第 1–20 个 |
+| Day 15 | 20 | 第 1–20 个 |
+| Day 16 | 22 | 第 1–22 个 |
+| Day 17 | 20 | 第 1–20 个 |
+| Day 18 | 22 | 第 1–22 个 |
+| Day 19 | 21 | 第 1–21 个 |
+| Day 20 | 20 | 第 1–20 个 |
+| Day 21 | 20 | 第 1–20 个 |
+
+> ✱ = 已在你 314 张卡里；✓ = 已在 3716 词纲（词典能查到释义）。
+
+
+---
+
+## Day 1
+
+### change  `/tʃeɪndʒ/`
+
+n. 变化，改变；零钱 v. 改变，转变，（使）不同
+
+- **搭配**　change from A to / into B 由 A变成 B change in 在……方面改变
+- **拓展**　同根词 exchange v.&n. 交换，兑换；交流
+
+### company ✓  `/ˈkʌmpənɪ/`
+
+n. 公司；陪伴，作伴；剧团
+
+- **拓展**　同根词 companion n. 陪伴；旅伴；伙伴 [compan + ‐ion名词后缀 ] accompany v. 陪同；陪伴；伴随 [ac‐ 表加强或强调 + company陪伴 ]
+
+### problem ✓  `/ˈprɒbləm/`
+
+n. 棘手的问题，难题；困难
+
+- **搭配**　to solve a problem 解决难题
+
+### result ✓  `/rɪˈzʌlt/`
+
+n. 后果；结果；成绩 v. 发生；产生
+
+- **搭配**　as a result ( of sth. ) （作为……的）结果 result in sth. 造成；导致 result from 起因于，由……造成
+- **拓展**　近义词 consequence n. 后果，结果；影响
+
+### height ✓  `/haɪt/`
+
+n. 高地；高度；身高；顶点
+
+- **搭配**　medium / average height 中等身材 at / in the height of 在……的顶点；在……的顶峰或鼎盛时期
+- **拓展**　关联词 high adj. 高的 adv. 高，在高处 同根词 heighten v.（使）提高；加强 [height + ‐en 动词后缀，使……]
+
+### essential ✓  `/ɪ’senʃl/`
+
+adj. 必要的；不可缺少的；极其重要的；本质的 n. 要素；要点
+
+- **搭配**　... is essential to / for sth. ……对某事（物）是必要的或必不可少的 It’s essential to do sth. / that ... 有必要做某事；必须做某事
+
+### arrive ✓  `/əˈraɪv/`
+
+v. 到达；抵达；送达
+
+- **搭配**　arrive in / at / on 到达……
+- **拓展**　近义词 get v. 使达到；到达；获得 reach v. 到达，抵达；达到（某点）；实现 Day 1
+
+### realize ✓  `/ˈrɪəlaɪz/`
+
+v. 认识到或承认（某事物）属实，意识到；实现，将……变为现实
+
+- **拓展**　同根词 real adj. 实际的；真实的；实在的 really adv. 实际上；事实上；真正地 [real + ‐ly副词后缀 ] reality n. 现实；实际 [real + ‐ity 名词后缀 ] 近义词 recognize v. 认出，辨别出；意识到 come true 实现
+
+### spend ✓  `/spend/`
+
+v. 度过，消磨（时光）；花费；消耗；用尽
+
+- **搭配**　sb. spend time / money on sth. 某人在……上花费时间／金钱 sb. spend time / money ( in ) doing sth. 某人花时间／金钱做某事
+- **拓展**　近义词 cost n. 费用；成本；代价 v. 价钱为，需花费；使付出代价 pay v. 付费；交纳 n. 工资，薪水 [payment n. 支付，付款方式 ]
+
+### equal ✓  `/ˈiːkwəl;ˈikwəl/`
+
+adj. 相同的，相等的；平等的；能胜任的
+
+- **搭配**　equal right / treatment 平等权利／对待
+- **拓展**　同根词 equally adv. 相等地；平均地 equality n. 平等；相等
+
+### expect ✓  `/ɪkˈspekt/`
+
+v. 预料；预期；预计；期待
+
+- **搭配**　expect ( sb. ) to do sth. 期望（某人）去做某事
+- **拓展**　同根词 expectation n. 预料；预期；期待 [expect + ‐ation名词后缀 ] unexpected adj. 意想不到的 [un‐表否定 + expect预料 + ‐ed形容词后缀 ]
+
+### social ✓  `/ˈsəuʃl; ˈsoʃəl/`
+
+adj. 社会的；社会上的；社会地位的；社交的
+
+- **拓展**　同根词 society n. 社会 sociable adj. 社交的，好交际的
+
+### close  `/kləus; kləuz/`
+
+adj. 接近；亲近的；密切的 v. 关，关闭；停业；终止
+
+- **拓展**　同根词 closely adv. 亲密地；接近地 closed adj. 关着的；不公开的
+
+### understand ✓  `/ˌʌndəˈstænd/`
+
+v. 懂；理解；领会；了解
+
+- **拓展**　同根词 understanding n. 了解，认识 misunderstand v. 误解，误会 [mis‐ 前缀，表否定 + understand]
+
+### convince ✓  `/kənˈvɪns/`
+
+v. 使确信，使相信；说服
+
+- **搭配**　convince sb. of sth. 使某人确信／明白某事 convince sb. to do sth. 说服某人做某事
+
+### fail ✓  `/feɪl/`
+
+v. 失败；未能做到；不及格
+
+- **搭配**　fail to do sth. 做某事失败；未能做某事
+- **拓展**　同根词 failure n. 失败；故障 [fail + ‐ure名词后缀 ]
+
+### comment ✓  `/ˈkɒment; ˈkɑmɛnt/`
+
+n. 评论；批评；意见 v. 评论；发表意见
+
+- **搭配**　make a comment ( on / about sth. ) （对某事）作出评论 comment on / upon sth. 对某事表达意见
+
+### command ✓  `/kəˈmɑːnd; kəˈmænd/`
+
+n.&v. 命令；指示；指挥；控制
+
+- **搭配**　in command of 指挥；掌控 under the command of 在……的指挥下 have a good command of English 精通英语
+- **拓展**　同根词 demand v.（强烈）要求；需要 近义词 order v. 命令；指挥；要求 control n. 控制；掌管；管理
+
+### recommend ✓  `/ˌrekəˈmend/`
+
+v. 推荐；介绍；劝告，建议
+
+- **搭配**　recommend sb. / sth. ( to sb. ) （向某人）推荐某人或某物
+
+### type ✓  `/taɪp/`
+
+n. 类型，种类；典型；字体 v. 打字
+
+- **拓展**　同根词 typical adj. 典型的；有代表性的；特有的 [typ + ‐ical形容词后缀 ] 关联词 tape n. 磁带；录音带
+
+
+---
+
+## Day 2
+
+### decide ✓  `/dɪˈsaɪd/`
+
+v. 决定；作出抉择；判决
+
+- **搭配**　decide to do sth. 决定做某事
+- **拓展**　同根词 decision n. 决心；决定；抉择 [decide ( =decis ) + ‐ion名词后缀 ] make a decision 作决定
+
+### determine ✓  `/dɪˈtɜːmɪn/`
+
+v. 确定，决定；查明
+
+- **搭配**　determine to do sth. 决心／决定做某事 determine on / upon sth. 决定某事
+- **拓展**　同根词 determination n. 决心；决定 [determin ( e ) + ‐ation名词后缀 ]
+
+### send ✓  `/send/`
+
+v. 运送；邮寄；派遣；打发；发送（消息）
+
+- **搭配**　send out 分发；发出（信号等）
+
+### break ✓  `/breɪk; brek/`
+
+v.（使）破，裂，碎；损坏；违反；中断 n. 间隙；间断；中断
+
+- **搭配**　break out 爆发；突然发生	 break off 中断；断开 break up 解散；散去；打碎	 break down 出故障；垮掉 break in 破门而入；闯入	 break through 突破
+
+### mind ✓  `/maɪnd/`
+
+n. 头脑；思维方式；心思，想法 v. 介意；留心
+
+- **搭配**　make up oneʼs mind to 下决心做…… keep in mind 记住 mind ( oneʼs ) doing sth. 介意（某人）干某事
+
+### remind ✓  `/rɪˈmaɪnd/`
+
+v. 提醒；使想起
+
+- **搭配**　remind sb. about / of sth. / sb. 提醒某人某事；使某人回想起某事或某人 remind sb. to do sth. 提醒某人做某事
+
+### admire ✓  `/ədˈmaɪə ( r )/`
+
+v. 钦佩；赞赏；羡慕；欣赏
+
+- **拓展**　同根词 admiration n. 钦佩；赞赏；羡慕；赞美 [admir ( e ) + ‐tion名词后缀 ]
+
+### success ✓  `/səkˈses/`
+
+n. 成功，成就；胜利；成功的人或事物
+
+- **搭配**　achieve success 取得成功 success in 在……方面成功
+- **拓展**　同根词 successful adj. 成功的 [success+ ‐ful形容词后缀 ] Day 2 successfully adv. 成功地；顺利地 [success+ ‐ful形容词后缀 + ‐ly副词后缀 ]
+
+### sound  `/saund/`
+
+n. 声音；声响 v. 听起来好像 adj. 健康的；健全的；明智的
+
+- **拓展**　近义词 voice n. 嗓音；说话声 noise n. 噪音；嘈杂声；响声
+
+### case ✓  `/keɪs; kes/`
+
+n. 事例；实例；情形；病例；案件
+
+- **搭配**　in case 以防	 in case of 万一；如果，假设 in no case 决不	 in any case 不管怎样；在任何情况下
+
+### lie  `/laɪ/`
+
+v. 躺；平放；位于；存在，在于；说谎 n. 谎言
+
+- **搭配**　lie in 在于；睡懒觉 lie down 躺着；躺下 lie to sb. 对某人说谎
+- **拓展**　关联词 lay v. 放置，安放；铺；下蛋，产卵 lay off 解雇；裁员 lay down 规定；制定（条例等）
+
+### believe ✓  `/bɪˈliːv; bɪˈliv/`
+
+v. 相信；认定；认为有可能
+
+- **搭配**　believe in 信任
+- **拓展**　同根词 belief n. 信任；信仰
+
+### business ✓  `/ˈbɪznɪs;ˈbɪznəs/`
+
+n. 商业；买卖；商务；公司，商店；职责
+
+- **搭配**　business card 名片 business hours 营业时间 on business 出差办事
+- **拓展**　同根词 businessman n. 生意人 [business + ‐man表示人的名词后缀 ]
+
+### inform ✓  `/ɪnˈfɔːm/`
+
+v. 通知；通告；了解；熟悉
+
+- **搭配**　inform sb. of / about sth. 通知某人某事
+- **拓展**　同根词 form n. 表格；形式 v. 使形成 informal adj. 非正式的；日常的
+
+### information ✓  `/ˌɪnfəˈmeɪʃn;ˌɪnfərˈmeɪʃn/`
+
+n. 信息；消息；情报；资料
+
+- **搭配**　a piece of information 一则消息 information on / about 关于……的消息
+
+### finish ✓  `/ˈfɪnɪʃ/`
+
+v. 完成；结束 n. 最后部分或结尾
+
+- **搭配**　finish doing sth. 结束做某事；完成某事
+
+### important ✓  `/ɪmˈpɔːtnt/`
+
+adj. 重要的，重大的；有重大影响的
+
+- **搭配**　play an important role 起到重要作用
+- **拓展**　同根词 import n. 进口；输入 v. 进口；输入；引进 importance n. 重要性；重大 [import + ‐ance名词后缀，表状况、性质等 ]
+
+### instead ✓  `/ɪnˈsted/`
+
+adv. 代替；作为……的替换；反而
+
+- **搭配**　instead of ( doing sth. ) 代替；而不是；取代
+
+### turn  `/tɜːn/`
+
+v. 转动，转身；翻转；转弯；变成 n. 转弯；转变；（轮到的）机会
+
+- **搭配**　turn down 调低，拒绝	 turn up 调高；出现 turn into 变成，进入	 turn out 结果是 turn on 打开	 	 turn off 关掉 turn to 求助于，转向	 turn over 翻转 take turns 轮流，依次	 in turn 依次，轮流；反过来
+
+### return ✓  `/rɪˈtɜːn; rɪˈtən/`
+
+v. & n. 回来；回去；归还；退回；恢复
+
+- **搭配**　in return 作为回报 return sth. to ... 带回或归还某物给……
+
+### refuse ✓  `/rɪˈfjuːz/`
+
+v. 拒绝；回绝
+
+- **搭配**　refuse to do sth. 拒绝做某事
+
+
+---
+
+## Day 3
+
+### hardly ✓  `/ˈhɑːdlɪ; ˈhɑrdlɪ/`
+
+adv. 几乎不，几乎没有；刚刚，才
+
+- **搭配**　hardly ... when ... 刚一……就……
+- **拓展**　同根词 hard adj. 硬的，坚固的；困难的 adv. 努力地，费力地；用力地
+
+### mental ✓  `/ˈmentl/`
+
+adj. 精神的，思想的，智力的
+
+- **搭配**　mental illness 精神疾病 mental health 心理健康
+- **拓展**　关联词 physical adj. 身体的；物质的；外在的；物理的，物理学的
+
+### graduate ✓  `/ˈgrædʒueɪt; ˈgrædʒuət/`
+
+v. 大学毕业；毕业 n. 毕业生
+
+- **搭配**　graduate from ... 从……毕业 graduate student 研究生，毕业生
+- **拓展**　同根词 grade n. 等级，品级 v. 按照级别安排或分配，分类 graduation n. 毕业；毕业典礼 [graduat ( e ) + ‐ion名词后缀 ]
+
+### cause  `/kɔːz; kɔz/`
+
+n. 原因；理由；起因；事业 v. 导致，引起，使发生
+
+- **拓展**　关联词 because conj.（说明原因）因为，由于 近义词 reason n. 原因，理由 v. 推理，推断 excuse n. 借口，托词；理由 v. 原谅，宽恕；辩解
+
+### solve ✓  `/sɔlv; sɑlv/`
+
+v. 解决，处理，解答
+
+- **拓展**　同根词 solution n. 解决办法 关联词 resolve v. 解决（问题或困难）；决定，下定决心 n. 决心
+
+### confirm ✓  `/kənˈfɜːm; kənˈfəm/`
+
+v. 确定，确认；证实，证明；批准
+
+- **拓展**　同根词 confirmation n. 确认，确定；证实，证明 [confirm + ‐ation名词后缀 ] 关联词 conform v. 遵守，符合；顺从	 conform to ... 与……相符合 confine v. 限制，局限；关押	 	 confine to ... 将……控制在某地 confess v. 供认，招供；承认
+
+### raise ✓  `/reɪz/`
+
+v. 提升，举起；站立；提高；筹集；抚养
+
+- **搭配**　raise up 举起，抬起	 	 raise oneʼs voice 提高嗓门 Day 3 raise money 集资；筹款		 raise a child 抚养孩子
+- **拓展**　关联词 rise v. 增加，提高；升起；站起 n. 增加；上涨 rise up 起身，耸立，起义	 give rise to 引发 arise v. 产生，出现；由……引出；上升 arouse v. 引起，激起；叫醒，唤醒
+
+### praise ✓  `/preɪz/`
+
+v. 赞美，表扬 n. 表扬，赞美
+
+- **搭配**　praise sb. / sth. for sth. 因某事赞扬某人或某事
+- **拓展**　关联词 prize n. 奖品，奖项
+
+### produce ✓  `/prəˈdjuːs; prəˈdus/`
+
+v. 引起，造成；生产，产生 n. 农产品
+
+- **拓展**　同根词 product n. 产品，制品；生成物 production n. 生产，制造；加工；产量 [produc ( e ) + ‐tion名词后缀 ] producer n. 生产者，制造商；制片人 [produc ( e ) + ‐er名词后缀，表示人 ]
+
+### necessary ✓  `/ˈnesəsərɪ; ˈnɛsəˏsɛrɪ/`
+
+adj. 必要的，必需的；必然的 n. （生活）必需品
+
+- **搭配**　it is necessary ( for sb. ) to do sth. （对某人来说）做某事是必须的 it is necessary that ... ……是必要的
+- **拓展**　同根词 unnecessary adj. 不必要的；多余的 [un‐ 否定前缀 + necessary] necessity n. 必需品
+
+### nearly ✱ ✓  `/ˈnɪəlɪ; ˈnɪrlɪ/`
+
+adv. 几乎；非常接近
+
+- **拓展**　同根词 near v. 接近，靠近 adj. 近，在附近；差不多的 adv. 在附近；不久 近义词 approximately adv. 大约，大概	 almost adv. 几乎，差不多 about adv. 大约；几乎	 	 	 around adv. 环绕；大约；周围
+
+### patient ✓  `/ˈpeɪʃ ( ə ) nt/`
+
+adj. 能忍耐的，有耐心的 n. 病人，患者
+
+- **搭配**　be patient with 对……有耐心
+- **拓展**　同根词 patience n. 耐心；耐性；忍耐力 [patien ( t ) + ‐ce名词后缀 ] impatient adj. 不耐烦的，没有耐心的 [im‐否定前缀 +patient]
+
+### reach  `/riːtʃ/`
+
+v. 到达，抵达；达到；伸手；与……联系 n. 伸出；伸手可及的距离
+
+- **搭配**　reach an agreement 达成协议 out of reach 够不着，力量不及
+
+### program  `/ˈprəugræm/`
+
+n. 程序 ( =programme ) ；项目；节目 v. 编写程序；设置
+
+- **搭配**　TV program 电视节目 research program 研究项目
+- **拓展**　同根词 programmer n. 程序设计员 [programm ( e ) + ‐er名词后缀，表示人 ] 关联词 progress n. 进步，进展 v. 进步，进展；推移 process n. 步骤；过程；制作方法 v. 处理，加工
+
+### build ✓  `/bɪld/`
+
+v. 建造；发展，建立；逐渐增强 n. 体型；体格
+
+- **搭配**　build up 增强；逐步建立
+- **拓展**　同根词 building n. 建筑物，房屋，楼房 office building 办公大楼
+
+### promise ✓  `/ˈprɔmɪs; ˈprɑmɪs/`
+
+v. 承诺，保证；有指望，有前途 n. 承诺，诺言；前途
+
+- **搭配**　promise sb. sth. 承诺某人某事	 promise to do sth. 承诺做某事 make a promise 允诺	 	 keep oneʼs promise 履行诺言
+- **拓展**　同根词 promising adj. 有希望的，有前途的 [promis ( e ) + ‐ing形容词后缀，表……的 ]
+
+### surprise ✓  `/səˈpraɪz/`
+
+n. 意外之事，惊喜 v. 使（某人）吃惊 adj. 意外的
+
+- **搭配**　surprise sb. 使某人吃惊	 	 to oneʼs surprise 让某人惊讶的是
+- **拓展**　同根词 surprised adj. 意外的，惊讶的，吃惊的（主语通常是人） be surprised at 对……感到惊奇 surprising adj. 令人惊讶的，出人意料的（主语通常是物） 近义词 amaze v. 使惊奇，使惊愕 [amazement n. 惊诧，惊奇 ]
+
+### enough ✓  `/ɪˈnʌf/`
+
+adj. 充足的，足够的 adv. 足够地；相当 pron. 足够，充分
+
+- **搭配**　strong enough to do sth. 足够强壮做某事 enough time / money 足够的时间／金钱
+- **拓展**　近义词 sufficient adj. 足够的，充足的 adequate adj. 足够的，适当的
+
+### interest ✓  `/ˈɪntrəst/`
+
+n. 兴趣；趣味；利息；利益 v. 使感兴趣，引起……关注
+
+- **搭配**　have an interest in 对……感兴趣 lose the interest in 对……失去兴趣
+- **拓展**　同根词 interested adj. 感兴趣的，关心的（主语通常是人） be interested in 对……感兴趣 interesting adj. 有趣的，有吸引力的（主语通常是物）
+
+### plan  `/plæn/`
+
+n. 规划；方案；计划，打算 v. 计划，筹划；打算；设计
+
+- **搭配**　make plans ( for sth. ) （为某事）定计划 plan to do sth. 计划／打算做某事
+- **拓展**　同根词 planning n. 规划；计划 关联词 plant n. 植物；工厂，发电厂 v. 栽种，种植；灌输 plane n. 飞机 planet n. 行星；地球
+
+
+---
+
+## Day 4
+
+### receive ✱ ✓  `/rɪˈsiːv/`
+
+v. 收到；遭受；接待；接收；收听（信号）
+
+- **搭配**　receive a letter / present 接到信／礼物 receive a good education 受到良好教育 receive sth. from sb. 收到某人某物
+- **拓展**　同根词 reception n. 接待；服务台；招待会 receipt n. 发票，收据；收到
+
+### project ✓  `/ˈprɒdʒekt; ˈprɑːdʒekt/`
+
+n. 项目；课题 v. 预计；规划；投射，放映
+
+- **搭配**　carry out a project 执行一项计划 construction / building project 建设项目
+- **拓展**　同根词 projection n. 估算，预测；投射，投影 [project + ‐ion名词后缀 ] 关联词 reject v. 拒绝，否决 inject v. 注射；添加，增加 subject n. 话题；科目 v. 使臣服，使经受 adj. 隶属的；受……影响的
+
+### provide ✓  `/prəˈvaɪd/`
+
+v. 提供，供给；配备
+
+- **搭配**　provide sb. with sth. / provide sth. for sb. 给某人提供某物
+
+### suggest ✓  `/səˈdʒest; səɡˈdʒɛst/`
+
+v. 提议，建议；推荐；显示，表明；暗示
+
+- **搭配**　suggest doing sth. 建议做某事
+- **拓展**　同根词 suggestion n. 建议，意见；提议；暗示 [suggest + ‐ion名词后缀 ] 近义词 advise v. 通知，告知；劝告，建议 advise sb. to do sth. 建议某人做某事 advise doing 建议做……
+
+### advice ✓  `/ədˈvaɪs/`
+
+n. 忠告，劝告，建议
+
+- **搭配**　follow / take sb.’s advice 遵从／接受某人的劝告 a piece of advice 一条建议 advice for 给……的建议 advice on ……方面的建议
+- **拓展**　同根词 advise v. 通知，告知；劝告，建议
+
+### remember ✓  `/rɪˈmembə ( r )/`
+
+v. 记得；记起；记牢；纪念，缅怀
+
+- **搭配**　remember to do sth. 记得要做某事 remember doing sth. 记得做过某事
+- **拓展**　关联词 member n. 成员；会员 Day 4 近义词 memorize v. 记忆；记住
+
+### design ✓  `/dɪˈzaɪn/`
+
+n. 设计，布局，安排 v. 设计，制图，构思；筹划
+
+- **拓展**　同根词 designer n. 设计师，设计者；谋划者 [design + ‐er表示人的名词后缀 ]
+
+### wonder ✓  `/ˈwʌndə ( r )/`
+
+v. 想知道，好奇；不知是否 n. 惊讶；奇观；令人惊讶的事物
+
+- **拓展**　同根词 wonderful adj. 绝妙的，令人惊叹的，极好的 [wonder + ‐ful形容词后缀 ] 近义词 miracle n. 奇迹，不可思议的事 adj. 神奇的，不可思议的
+
+### course ✓  `/kɔːs; kors/`
+
+n. 课程；航线；进程
+
+- **搭配**　in the course of 在……期间 in course of 在……的过程中
+- **拓展**　近义词 lesson n. 一节课；课；经验，教训 teach you a lesson 给你一个教训 learn a lesson 吸取教训
+
+### obtain ✓  `/əbˈteɪn/`
+
+v. 得到，获得
+
+- **搭配**　obtain sth. from 从……获得某物
+- **拓展**　关联词 contain v. 包含，容纳
+
+### rise ✓  `/raɪz/`
+
+n. 增加；上升；增强；涨薪 v. 增加；上升；增强；起身，起床
+
+- **搭配**　on the rise 在增加；在上涨 give rise to sth. 使发生（或存在）；引起 rise up 上升，升起
+- **拓展**　关联词 raise v. 提升，举起；站立；提高；筹集；抚养 n. 加薪 arise v. 出现，（由……）引起，多指问题、困境等出现
+
+### doubt ✓  `/daut/`
+
+n. 疑惑，怀疑 v. 怀疑；不信
+
+- **搭配**　without ( a ) doubt / no doubt 无疑地 There is no doubt about sth. / There is no doubt that ... 毫无疑问……
+- **拓展**　同根词 doubtful adj. 怀疑的；不确定的 [doubt + ‐ful形容词后缀，充满……的 ]
+
+### possible ✓  `/ˈpɔsəbl; ˈpɑsəbl/`
+
+adj. （做某事）可能的；可能存在（发生）的；合理的
+
+- **搭配**　as soon / much ... as possible 尽可能（快、多……） if possible 如果可能的话 It is possible to do sth. （做某事）是可能的
+- **拓展**　同根词 impossible adj. 不可能的 [im‐ 表示否定的前缀 + possible]
+
+### similar ✓  `/ˈsɪmɪlə ( r ) ; ˈsɪməlɚ/`
+
+adj. 相似的；类似的
+
+- **搭配**　be similar to 与……相似 be similar in 在……方面相似 in a similar way按同样的方式
+- **拓展**　同根词 similarly adv. 类似地；同样地，相同地 [similar + ‐ly副词后缀 ]
+
+### consider ✓  `/kənˈsɪdə ( r )/`
+
+v. 仔细考虑；认为，觉得
+
+- **搭配**　consider doing sth. 考虑做某事 consider sb. / sth. ( as ) sth. 认为；以为；觉得
+- **拓展**　同根词 consideration n. 考虑，关心 [consider + ‐ation名词后缀 ] considerable adj. 相当多的 [consider + ‐able形容词后缀 ] considerate adj. 精心考虑的，体贴的 be considerate of 体贴
+
+### concern ✓  `/kənˈsɜːn/`
+
+v. 影响；与……有关；使担忧 n. 担忧；关心；重要的事情
+
+- **搭配**　be concerned with sth. 与……有关 concern sb. 使某人担忧
+
+### manage ✓  `/ˈmænɪdʒ/`
+
+v. 管理（企业、时间、金钱等）；设法做成某事；成功应对
+
+- **搭配**　manage to do sth. 设法做成某事
+- **拓展**　同根词 manager n. 经理；经纪人 [manag ( e ) + ‐er名词后缀 ,表人 ] management n. 经营；管理；处理手段或能力 [manage + ‐ment名词后缀 ]
+
+### control ✓  `/kənˈtrəul; kənˈtrol/`
+
+n. & v. 控制；掌管；管制
+
+- **搭配**　be in control ( of sth. ) 掌控，控制（某机构、地区或局势） be / get / run out of control 无法管理；失去控制
+
+### treat ✓  `/triːt/`
+
+v.（疾病）治疗；对待；处理；款待 n. 款待；乐事
+
+- **搭配**　treat ... as 以……态度对待／把……看作 treat sb. to sth. 用……招待
+- **拓展**　同根词 treatment n. 治疗，疗法；待遇 [treat + ‐ment名词后缀 ]
+
+### exercise ✓  `/ˈeksəsaɪz/`
+
+n. 活动；练习，习题；运用；演习 v. 训练；练习；运用
+
+- **搭配**　do some exercise 做运动／做练习
+- **拓展**　近义词 practice n. 练习；实践；惯例 training n. 训练；锻炼；培训
+
+
+---
+
+## Day 5
+
+### sudden ✓  `/ˈsʌdn/`
+
+adj. 意外的，突然的
+
+- **拓展**　同根词 suddenly adv. 意外地，突然地 [sudden + ‐ly副词后缀 ]
+
+### effect ✓  `/ɪˈfekt/`
+
+n. 作用，影响；效应，效果
+
+- **搭配**　have an effect on ... 对……有影响 in effect 实际上，生效 come / carry / put into effect 实施；生效 take effect 生效
+- **拓展**　同根词 effective adj. 有效的 [effect + ‐ive形容词后缀 ] efficient adj. 有效率的 [effect + ‐ient形容词后缀 ] 关联词 infect v. 传染 perfect adj. 无瑕的，完好的；完美的 近义词 affect v. 影响
+
+### complete ✱ ✓  `/kəmˈpliːt; kəmˈplit/`
+
+adj. 完整的；完全的 v. 完成
+
+- **拓展**　同根词 completely adv. 完全地，彻底地 [complete + ‐ly副词后缀 ] incomplete adj. 不完整的，不完全的；不完善的 [in‐否定前缀 + complete] 关联词 compete v. 比赛，竞争 compete with 与……竞争 近义词 finish v. 完成 accomplish v. 完成，实现
+
+### require ✓  `/rɪˈkwaɪə ( r )/`
+
+vt. 需要；要求，命令
+
+- **搭配**　require sb. to do sth. 要求某人做某事
+- **拓展**　同根词 requirement n. 需要；必要条件；必需品 [require + ‐ment名词后缀 ] 关联词 inquire v. 询问，调查 acquire v. 获得；得到
+
+### handle ✓  `/ˈhændl/`
+
+n. 把手 v. 处理，管控
+
+- **拓展**　近义词 deal with sth. / do with sth. / tackle sth. 都表示处理某事
+
+### report ✓  `/rɪˈpɔːt; rɪˈpɔrt/`
+
+v. 报告；报道 n. 报告
+
+- **搭配**　It is / was reported that ... 据报道／据说……
+- **拓展**　同根词 reporter n. 记者；报告人 [report + ‐er名词后缀 ] 关联词 support v. 支持；支援 export v.&n. 出口 Day 5
+
+### recognize ✓  `/ˈrekəgnaɪz/`
+
+v. 认出；识别
+
+- **拓展**　关联词 realize 领悟，认识到
+
+### respond ✓  `/rɪˈspɔnd; rɪˈspɑnd/`
+
+v. 回答，回复；响应
+
+- **拓展**　同根词 response n. 反应，响应 [re + spons ( spond ) +e] responsible adj. 有责任的，负责的 [respons ( e ) + ‐ible形容词后缀 ] responsibility n. 责任 [responsib ( le ) + ‐ility名词后缀 ]
+
+### forget ✓  `/fəˈget/`
+
+v. 忘记，遗忘
+
+- **搭配**　forget to do sth. 忘记做某事 forget doing sth. 忘记做过某事
+- **拓展**　同根词 unforgettable adj. 难忘的 [un‐ 否定前缀 + forget + ‐able形容词后缀，表示能……的 ]
+
+### protect ✓  `/prəˈtekt/`
+
+v. 保护
+
+- **搭配**　protect sb./ sth. from / against sth. 保护；防护
+- **拓展**　同根词 protection n. 保护 [protect + ‐ion名词后缀 ] 近义词 defend v. 保护，保卫 guard v. 保卫，守卫
+
+### prevent ✱ ✓  `/prɪˈvent/`
+
+v. 阻止，妨碍；防止，预防
+
+- **搭配**　prevent sb./ sth. ( from ) doing sth. 阻止或妨碍某人（事物）做某事
+
+### trouble ✱ ✓  `/ˈtrʌbl/`
+
+n. 苦恼，痛苦；困难 v. 使……痛苦
+
+- **搭配**　get into trouble 惹上麻烦 make trouble ( for sb. ) 制造麻烦，捣乱 be in trouble 处于困境
+
+### speech ✓  `/spiːtʃ; spitʃ/`
+
+n. 说话的能力；讲话；演说
+
+- **搭配**　make / deliver / give a speech发言；演讲
+- **拓展**　关联词 speak v. 说话，讲话；会讲（某种语言）
+
+### apply ✓  `/əˈplaɪ/`
+
+v. 申请；适用；应用
+
+- **搭配**　apply to sb. for sth. 向某人申请某物 apply for a job / post 申请工作／职位
+- **拓展**　同根词 applicant n. 申请者 [apply变 y为 i + ‐cant名词后缀 ] reply v. 回答，答复 supply v. 补给；供给 n. 供应品 imply v. 意指；暗示
+
+### invite ✓  `/ɪnˈvaɪt/`
+
+v. 邀请；请求 n. 邀请（口语）
+
+- **搭配**　invite sb. to / for sth. 邀请某人做某事
+- **拓展**　同根词 invitation n. 邀请 [invit ( e ) + ‐ation名词后缀 ]
+
+### hurt ✓  `/hɜːt; hərt/`
+
+v. 感到疼痛；使受伤 adj.（身体或感情上）受伤的 n. 伤害；创伤
+
+- **拓展**　近义词 harm n.&v. 损害，伤害 injure v. 伤害损害 wound n. 创伤 v. 伤害
+
+### charge ✓  `/tʃɑːdʒ; tʃɑrdʒ/`
+
+n. 控告，指控；费用；掌管 v. 控告；收费
+
+- **搭配**　charge sb. with sth. 控告某人某事 be in charge of sth. 负责某事
+- **拓展**　同根词 discharge v. 卸货；排放 [dis‐ 否定前缀 + charge]
+
+### develop ✓  `/dɪˈveləp/`
+
+v. 发展；发育；成长；开发
+
+- **搭配**　develop from sth. 从某事物发展而来 develop into sth. 发展成某事物
+- **拓展**　同根词 development n. 发展 [develop + ‐ment名词后缀 ] developing adj. 发展中的 [develop + ‐ing形容词后缀 ] developed adj. 发达的 [develop + ‐ed形容词后缀 ]
+
+### except ✓  `/ɪkˈsept/`
+
+prep. 除了……之外 v. 除去
+
+- **搭配**　except sb. / sth. from sth. 将某人 /某事除外
+- **拓展**　同根词 exception n. 除外，例外 [except + ‐ion名词后缀 ] 近义词 besides prep. 除……之外（还有） but prep. 除了……之外；此外
+
+### involve ✓  `/ɪnˈvɔlv; ɪnˈvɑlv/`
+
+v. 包括，包含；牵涉，牵连
+
+- **搭配**　involve sb. / sth. in ( doing ) sth. 使（某人、某事物）参与某活动或陷入某情况
+- **拓展**　近义词 include v. 包含，包括 contain v. 包含，含有
+
+
+---
+
+## Day 6
+
+### exam  `/ɪgˈzæm/`
+
+n. 考试
+
+- **搭配**　take / have an exam 参加考试	 pass / fail an exam 通过考试／考试失败
+- **拓展**　同根词 examination n. 考试 近义词 test n.（书面或口头）小考；测试；检验
+
+### examine ✓  `/ɪgˈzæmɪn/`
+
+v. 仔细观察，检查
+
+- **搭配**　examine sb. on / in sth. 在某些方面（测验）某人
+
+### example  `/ɪgˈzɑːmpl; ɪɡˈzæmpl/`
+
+n. 实例，例证；榜样
+
+- **搭配**　for example 例如 set a good example 树立好榜样
+
+### different ✓  `/ˈdɪfrənt/`
+
+adj. 不同的
+
+- **搭配**　be different from / to ... 与……不同
+- **拓展**　同根词 difference n. 不同 differ v. 不同于
+
+### accept ✱ ✓  `/əkˈsept/`
+
+v. 接受；录取；承担（责任）
+
+- **搭配**　accept ... as ... 承认……是；接受……为
+- **拓展**　同根词 acceptable adj. 可接受的 [accept + ‐able形容词后缀，能……的 ] 近义词 receive v. 收到
+
+### expert ✓  `/ˈekspɜːt; ˈɛkspərt/`
+
+n. 专家 adj. 熟练的，专业的
+
+- **搭配**　expert in 善于……；在……方面是行家
+- **拓展**　关联词 expect v. 期待，预期	 except prep. 除……之外
+
+### present ✓  `/ˈpreznt; prɪˈzent/`
+
+adj. 出席的；目前的 n. 礼物；现在 v. 出席；赠送
+
+- **搭配**　at present 此刻，现在
+- **拓展**　同根词 presentation n. 陈述；发布会
+
+### deal ✓  `/diːl; dil/`
+
+n. 协议，交易 v. 处理，解决，应付，应对
+
+- **搭配**　deal with sb. 应对某人 deal with sth. 处理某事 a good / great deal of 大量的 Day 6
+- **拓展**　关联词 ideal adj. 理想的 meal n. 一餐
+
+### person ✓  `/ˈpɜːsn; ˈpərsn/`
+
+n. 人；人称；角色
+
+- **搭配**　in person 亲自，本人
+- **拓展**　同根词 personal adj. 私人的 [person + ‐al形容词后缀，……的 ] personality n. 个性，人格；名人	 personnel n.（全体）员工 adj. 人事的
+
+### spite ✱ ✓  `/spaɪt/`
+
+n. 恶意，怨恨；尽管
+
+- **搭配**　in spite of 尽管；不管；不顾
+- **拓展**　近义词 despite prep. 尽管
+
+### popular ✓  `/ˈpɔpjulə ( r )/`
+
+adj. 流行的；受欢迎的；普遍的
+
+- **搭配**　be popular with 为……所喜爱；受……欢迎
+- **拓展**　同根词 popularity n. 流行；声望 [popupar + ‐ity名词后缀 ] population n. 人口 [popula + ‐tion名词后缀 ]
+
+### allow ✓  `/əˈlau/`
+
+v. 允许，准许；承认
+
+- **搭配**　allow sb. to do sth. 允许某人做某事
+- **拓展**　近义词 permit v. 准许，允许 反义词 forbid v. 禁止，不准
+
+### offer ✓  `/ˈɔfə ( r )/`
+
+v. 提供 n. 提议，建议；出价
+
+- **搭配**　offer to do sth. 主动提出做某事 offer sth. to sb. / offer sb. sth. 向某人提供某物
+
+### move  `/muːv; muv/`
+
+n. 移动；行动；转变 v. 移动；搬家；前进
+
+- **搭配**　move on 继续前进 move into 迁入
+- **拓展**　同根词 remove v. 消除 mobile adj. 移动的 [move去 ve加 b + ‐ile形容词后缀 ] movement n. 运动 [move + ‐ment名词后缀 ]
+
+### travel ✓  `/ˈtrævl/`
+
+v.& n. 旅游，旅行；行走
+
+- **拓展**　同根词 traveller n. 旅行者
+
+### knock ✓  `/nɔk; nɑk/`
+
+n. 敲打声 v. 敲，击；碰撞
+
+- **搭配**　knock sb. down将某人击倒或撞倒 knock sb. out使某人筋疲力尽 knock into 与……相撞 knock at 敲（门、窗等）
+
+### whole  `/həul/`
+
+adj. 完整的，整体的，全部的 n. 整体
+
+- **搭配**　as a whole 作为整体；总的来说 on the whole 基本上，大体上
+- **拓展**　近义词 complete adj. 完整的 total adj. 完全的 关联词 hole n. 洞
+
+### factor ✓  `/ˈfæktə ( r )/`
+
+n. 因素；要素
+
+- **拓展**　同根词 factory n. 工厂
+
+### lead ✓  `/liːd; lid/`
+
+v. 引领，带路；导致；领导 n. 领先地位；榜样
+
+- **搭配**　lead to 导致；通向 lead in 导入
+- **拓展**　同根词 leader n. 领导
+
+### stand ✱  `/stænd/`
+
+v. 站立；处于某种状态 n.（置物的）架，座；立脚点
+
+- **搭配**　stand out 突出，显眼 stand up站起来，坚持 stand for 代表，象征
+- **拓展**　同根词 standard adj. 标准的 outstanding adj. 突出的，优秀的 understand v. 理解，明白
+
+
+---
+
+## Day 7
+
+### full  `/fʊl/`
+
+adj. 满的，充满的；完全的；丰富的；吃饱了的 adv. 直接地；径直地
+
+- **搭配**　be full of 充满	 	 in full 整个；全部 full marks 满分		 full moon / time 满月／全职，专职
+- **拓展**　近义词 fill v. 装满；盛满；占满 be filled with 充满 fill in 填写（表格等）
+
+### fulfill ✓  `/fʊlˈfɪl/`
+
+v. 履行；实现；满足 [同 fulfil]
+
+- **搭配**　to fulfill one’s dream / ambition 实现梦想／抱负 fulfill oneself 完全实现自己的抱负
+- **拓展**　同根词 fulfillment n. 履行；实现；成就（感）[fulfill + ‐ment名词后缀 ]
+
+### fall  `/fɔːl/`
+
+v. 落下；跌倒；降低；沦陷；来临 n. 秋天；落下
+
+- **搭配**　fall asleep 入睡；睡着 fall apart 崩溃；瓦解；破裂；破碎 fall behind 落后	 fall ill 生病 fall into 落入；陷入	 fall in love 坠入爱河；爱上 fall off 跌落；下降	 fall over 跌倒 fall down ( from ) 跌倒，跌落；倒塌
+
+### test  `/test/`
+
+v.&n. 测试；试验；检验
+
+- **搭配**　IQ / eye / driving / spelling test智商测试／视力检查／驾照考试／拼写测验 pass / fail a test 通过／没有通过测验
+- **拓展**　近义词 examination n. [正式 ]考试 an entrance examination入学考试
+
+### festival ✓  `/ˈfestɪvl/`
+
+n. 节日；（音乐﹑戏剧、电影等的）会演
+
+- **搭配**　Spring Festival 春节	 	 Lantern Festival 元宵节 Dragon Boat Festival 端午节	 Mid‐autumn Festival 中秋节 a film / music festival电影／音乐节
+- **拓展**　近义词 holiday n. 假日，休息日	 vacation n. 假期，休假 Day 7
+
+### comfortable ✓  `/ˈkʌmftəbl; ˈkʌmfə ( r ) təbl/`
+
+adj. 舒适的；富足的；充裕的
+
+- **搭配**　a comfortable bed / life / job 舒适的床／舒适的生活／轻松的工作
+- **拓展**　同根词 comfort n. 安慰；舒适 v. 安慰，抚慰 uncomfortable adj. 不舒服的；不自在的 [un‐ 否定前缀 + comfortable]
+
+### physical ✓  `/ˈfɪzɪkl/`
+
+adj. 身体的；物质的；物理的 n. 体检
+
+- **搭配**　physical examination 身体检查	 physical exercise 体育锻炼 physical education ( PE ) 体育	 physical activity / fitness 体育活动／健身
+- **拓展**　同根词 physically adv. 身体上 [physical + ‐ly副词后缀 ] physics n. 物理学 [physic自然科学 + ‐ics名词后缀，学术 ] physicist n. 物理学家 [physic自然科学 + ‐ist名词后缀，人 ] physician n. 内科医生 [physic医学，医治 + ‐ian名词后缀，人 ] 关联词 mental / psychological adj. 心理的，精神的
+
+### explain ✓  `/ɪkˈspleɪn/`
+
+v. 解释；说明；为……辩解
+
+- **搭配**　explain sth. to sb. 向某人解释某事
+- **拓展**　同根词 explanation n. 解释；说明
+
+### gain ✓  `/ɡeɪn/`
+
+n. 利润；增加 v. 获得；获益；增加
+
+- **搭配**　gain experience / power / strength / weight 增加经验／权势／力量／重量 gain and loss 得失；盈亏，损益 gain in 增加；增长
+- **拓展**　近义词 get v. 获得；得到 obtain v.（尤指经努力）获得，赢得
+
+### free  `/friː/`
+
+adj. 自由的；空闲的；免费的 adv. 免费地；自由地 v. 释放；使摆脱
+
+- **搭配**　free from 使摆脱；免于 for free 免费 free time 空闲时间
+- **拓展**　同根词 freedom n. 自由 [free + ‐dom] freely adv. 自由地；直率地 [free + ‐ly副词后缀 ]
+
+### news ✓  `/njuːz; nuːz/`
+
+n. 新闻；消息
+
+- **搭配**　good / bad news 好／坏消息	 a piece of news 一则新闻 news report 新闻报道	 	 news agency 新闻通讯社 national / international news 国家／国际新闻
+- **拓展**　同根词 newspaper n. 报纸 [news 新闻 + paper 纸 → 报纸 ] 近义词 message n. 书信，口信；电邮信息；（手机）短信息 [可数 ] information n.（泛指）消息；信息；情报 [不可数 ] word n. 信息，消息 [不可数 ]；词 [可数 ]
+
+### rapid ✓  `/ˈræpɪd/`
+
+adj. 迅速的，快的；急促的
+
+- **搭配**　at a rapid rate / pace 快速 rapid growth / development 快速增长／发展
+- **拓展**　同根词 rapidly adv. 迅速地，很快地，立即 [rapid + ‐ly副词后缀 ] 近义词 quick adj. 迅速的，较常用以描述迅速或立即完成的事 fast adj.&adv. 迅速的／地，尤用以描述高速运动的人或事物
+
+### nowadays ✓  `/ˈnaʊədeɪz/`
+
+adv. 现今；现在，目前
+
+- **拓展**　近义词 now adv. 现在，马上 at present 目前，现在 these days 如今，近来（常与现在完成时连用）
+
+### engage ✓  `/ɪnˈɡeɪdʒ/`
+
+v. 从事；聘用；与（某人）交战；保证
+
+- **搭配**　engage in ( doing ) 从事；参加	 engage with 交战；与……接洽 engage sb. 聘用某人	 	 engage to do 保证／允诺做某事
+- **拓展**　同根词 engagement n. 约定；订婚 [engage + ‐ment名词后缀 ] engaged adj. 已订婚的；忙于……的；（电话线）被占用的 be engaged to sb. 与某人订婚 be engaged in / on sth.; be engaged with sb. / sth. 忙于，从事于
+
+### wealth ✱ ✓  `/welθ/`
+
+n. 财产，财富；丰富
+
+- **拓展**　同根词 wealthy adj. 有财富的；富有的 [wealth + ‐y形容词后缀 ]
+
+### frighten ✱ ✓  `/ˈfraɪtn/`
+
+v. 使惊吓；使惊恐
+
+- **拓展**　近义词 scare v. 惊吓；使害怕；使恐惧 n. 恐惧 同根词 fright n. 惊恐，惊吓 frightened adj. 恐惧的；害怕的；受惊的（用于形容人） frightening adj. 引起恐惧的；惊恐的；可怕的（用于形容物）
+
+### demand ✓  `/dɪˈmɑːnd; dɪˈmænd/`
+
+v.&n. 要求；请求；需要
+
+- **搭配**　demand sb. do sth. 要求……做……	 demand of 要求；向……索取 demand for 对……的需求	 	 meet the demand 满足需要；符合要求
+- **拓展**　同根词 demanding adj. 要求高的；苛求的 [demand + ‐ing] 近义词 require v. 要求；需要；命令 request v.&n. 要求，请求
+
+### term ✓  `/tɜːm; tɜːrm/`
+
+n. 期；学期；术语；条款 v. 把……称为
+
+- **搭配**　in terms of 从……角度；按照；就……来说 be on good terms with sb. 同某人关系好；与某人有交情 in the long / short term 从长远／短期来看
+- **拓展**　同根词 terminal adj. 末端的；终点的；晚期的 n. 终点站；航站楼；终端 [termin‐边界，终端 + ‐al 形容词后缀 ]
+
+### miss  `/mɪs/`
+
+v. 思念，怀念；错过 n. 小姐
+
+- **拓展**　同根词 missing adj. 丢失的；失踪的；缺少的 dismiss v. 开除，解雇，不理会 [dis‐ 否定前缀 + miss]
+
+### shock ✓  `/ʃɒk; ʃɑːk/`
+
+n. 冲击；震惊；休克 v. 使震惊
+
+- **搭配**　culture shock 文化冲击 in shock 休克；处于极度震惊的状态
+- **拓展**　同根词 shocked adj. 震惊的；震撼的（修饰人）[shock + ‐ed形容词后缀 ] shocking adj. 令人震惊的；可怕的（修饰事物）[shock + ‐ing]
+
+
+---
+
+## Day 8
+
+### choice ✓  `/tʃɔɪs/`
+
+n. 选择 adj. 优选的；上等的
+
+- **搭配**　make a choice 做出选择 have no choice but to do 除了……别无选择
+- **拓展**　同根词 choose v. 选择，挑选 ( choose‐chose‐chosen ) choose ... from ... 从……中挑选 choose to do sth. 选择／决定做某事
+
+### habit ✓  `/ˈhæbɪt/`
+
+n. 习惯；习性；嗜好
+
+- **搭配**　good / bad habit 好／坏习惯 eating / living habit 饮食／生活习惯 pick up / develop a habit 养成习惯 have / be in / fall into / get into the habit of doing sth. 有／养成做某事的习惯
+- **拓展**　关联词 tradition n. 传统；惯例 custom n. 风俗，习俗；习惯（作“个人习惯”讲时，比 habit更为正式）
+
+### size  `/saɪz/`
+
+n. 尺寸，大小
+
+- **搭配**　small / medium / large size 小／中／大码
+
+### alone ✓  `/əˈləʊn/`
+
+adj. 单独的；孤独的 adv. 单独地；独自地
+
+- **搭配**　let alone 更不用说	 	 leave alone 不打扰；不碰 all alone 独自地，独立地	 feel alone 感到孤单
+- **拓展**　近义词 lonely adj. 孤独的，寂寞的；偏僻的
+
+### purpose ✓  `/ˈpɜːpəs; ˈpɜːrpəs/`
+
+n. 目的；意图
+
+- **搭配**　on purpose 故意；有意地 with / for the purpose of 为了……，目的是 special purpose 专用；特殊用途
+
+### damage ✓  `/ˈdæmɪdʒ/`
+
+v.&n. 损害，毁坏，破坏
+
+- **搭配**　cause / do damage to 对……造成损害 environmental damage 环境破坏
+- **拓展**　近义词 destroy v. 毁坏，破坏 ruin v.&n. 毁坏，破坏
+
+### amount ✱ ✓  `/əˈmaʊnt/`
+
+n. 总数，总额；数量 v. 总计
+
+- **搭配**　amount to 总计；相当于 total amount 总额 a great / large amount of 许多，大量（后跟不可数名词）
+- **拓展**　近义词 number n. 数字；数目 quantity n. 数量 deal n. 大量；交易
+
+### waste ✓  `/weɪst/`
+
+v. 浪费；滥用；消耗 n. 浪费；废物；荒原 adj. 废弃的；荒芜的
+
+- **搭配**　waste paper / water 废纸／废水 a waste of time 浪费时间 waste sth. on sth. / waste sth. ( in ) doing sth. 浪费某物（做）某事
+
+### part  `/pɑːt; pɑːrt/`
+
+n. 部分；角色；零件 v. 分离；分开 adj. 局部的
+
+- **搭配**　in part 部分地；在某种程度上	 	 part of ……的一部分 play a part in 起作用；参与；扮演角色	 take part in 参加
+- **拓展**　同根词 partly 部分地，在一定程度上 [part + ‐ly副词后缀 ] apart adv. 相距；分离 adj. 分离的 [a‐ 向，往 + part 分开 ] apartment n. 公寓 [apart分开 + ‐ment名词后缀 ]
+
+### train ✓  `/treɪn/`
+
+n. 火车；队列 v. 培养；训练
+
+- **搭配**　train station / ticket 火车站／火车票 by train / take a train 乘火车
+- **拓展**　同根词 trained adj. 受过培训的 [train + ‐ed形容词后缀 ] training n. 训练；培训 [train + ‐ing名词后缀 ] staff training 员工培训
+
+### taste ✓  `/teɪst/`
+
+v. 品尝 n. 味道；品味；尝试
+
+- **搭配**　taste of 体验；有……的味道	 taste for 对……的喜爱 have a taste 品尝一下	 	 sense of taste 味觉
+- **拓展**　同根词 tasty adj. 美味的 [tast ( e ) + ‐y形容词后缀 ] 关联词 look 看 sound 听 smell 闻 feel 触；摸起来
+
+### goal ✓  `/ɡəʊl/`
+
+n. 目的；球门；得分
+
+- **搭配**　achieve / reach / set a goal 达到／达成／设定目标 life goal 人生目标 long‐term / short‐term goal 长期／短期目标
+- **拓展**　同根词 goalkeeper n. 守门员 [goal球门 + keeper看守人 ] 近义词 aim n. 目标，目的；瞄准，对准 v. 瞄准，对准；旨在 target v. 瞄准；以……为目标 n. 目标；靶子
+
+### task ✓  `/tɑːsk; tæsk/`
+
+n. 任务，工作；活动 v. 交给某人（任务）；派给某人（工作）
+
+- **搭配**　to finish / complete / accomplish a task 完成任务
+
+### puzzle ✓  `/ˈpʌzl/`
+
+v. 迷惑；使困惑 n. 难题；谜
+
+- **拓展**　同根词 puzzled adj. 困惑的，迷惑的（常修饰人）[puzzle + ‐d形容词后缀 ] puzzling adj. 令人迷惑的，令人费解的（常修饰物）[puzzl ( e ) + ‐ing]
+
+### health ✓  `/helθ/`
+
+n. 健康；卫生；保健
+
+- **搭配**　be good / bad for your health 对您的健康有利／不利 be in poor / good health 身体不好／身体健康 health care 卫生保健 public health 公共卫生
+- **拓展**　同根词 healthy adj. 健康的，有益健康的 [health + ‐y形容词后缀 ] unhealthy adj. 不健康的，有害健康的 [un‐否定前缀 + healthy]
+
+### start  `/stɑːt; stɑːrt/`
+
+v. 开始；出发；启动 n. 开始；起点
+
+- **搭配**　start ( to do / doing ) sth. 开始（做）某事 start out / off 出发；开始 start with 从……开始
+- **拓展**　近义词 begin v. 开始
+
+### finally ✱  `/ˈfaɪnəli/`
+
+adv. 最终；最后
+
+- **拓展**　同根词 final n. 决赛 adj. 最终的 近义词 at last / in the end / eventually 最终 lastly adv. 最后
+
+### guest ✓  `/ɡest/`
+
+n. 客人，宾客；房客 v. 客串
+
+- **拓展**　关联词 guess v.&n. 猜测 gesture n. 姿势；手势
+
+### grow ✓  `/ɡrəʊ/`
+
+v. 生长；变成；增长；种植；逐渐开始
+
+- **搭配**　grow up 长大；逐渐形成 grow into 逐渐成长为
+- **拓展**　同根词 growth n. 生长；发育；增长；发展 [grow + ‐th，名词后缀 ] economic / population growth 经济／人口增长 growing adj. 增长的，增加的 [grow + ‐ing]
+
+### space  `/speɪs/`
+
+n. 太空；空间；场地 v. 留间隔；分隔
+
+- **搭配**　in space 在空间；在宇宙空间 space travel / exploration 太空旅行／探索 space station 空间站
+- **拓展**　同根词 spaceman n. 宇航员 spacecraft n. 航天器 spaceship n. 宇宙飞船
+
+
+---
+
+## Day 9
+
+### future ✓  `/ˈfjuːtʃə ( r )/`
+
+n. 未来；将来；前途 adj. 未来的
+
+- **搭配**　in future 从此以后；今后 in the future 在未来
+
+### danger ✓  `/ˈdeɪndʒə ( r )/`
+
+n. 危险；危险物
+
+- **搭配**　in danger 处于危险中 out of danger 脱离危险
+- **拓展**　同根词 dangerous adj. 危险的 [danger + ‐ous形容词后缀 ]
+
+### progress ✓  `/ˈprəʊɡres/`
+
+n. 前进；进展；进步 v. 进展；进步；进行
+
+- **搭配**　make great progress 取得巨大进步	 in progress 进行中
+- **拓展**　近义词 improve v. 改进；改善	 improvement n. 改进；改善
+
+### besides ✓  `/bɪˈsaɪdz/`
+
+prep. 除……之外（还） adv. 而且；此外；也
+
+- **拓展**　关联词 beside adv. 在旁边
+
+### die  `/daɪ/`
+
+v. 死亡；灭亡
+
+- **搭配**　die of 死于（疾病、冻饿、情感等内因） die from 死于（事故、环境等外因） die out 灭绝；消失
+- **拓展**　同根词 death n. 死亡；毁灭 关联词 diet n. 饮食
+
+### experience ✓  `/ɪkˈspɪəriəns; ɪkˈspɪriəns/`
+
+n. 经验；经历 v. 经历；经受
+
+- **搭配**　experience of sth. 某件事的经历 experience in 有……的经验 in one’s experience 根据某人的经验看 work / rich experience 工作经验／丰富的经验
+- **拓展**　同根词 experienced adj. 有经验的；有阅历的 [experience + ‐d形容词后缀 ] 关联词 experiment n. 实验
+
+### prepare ✓  `/prɪˈpeə ( r ) ; prɪˈper/`
+
+v. 准备；预备
+
+- **搭配**　prepare for sth. 为某事做准备	 prepare to do sth. 准备做某事
+- **拓展**　同根词 prepared adj. 准备好的	 preparation n. 准备 Day 9 be prepared for sth. 为某事做好准备 be prepared to do sth. 准备好做某事
+
+### avoid ✱ ✓  `/əˈvɔɪd/`
+
+v. 避免；防止；避开；躲避
+
+- **搭配**　avoid doing sth. 避免做某事
+- **拓展**　同根词 avoidable adj. 可避免的 [avoid + ‐able形容词后缀 ]
+
+### heavy  `/ˈhevi/`
+
+adj. 重的；过度的；沉重地；阴沉的 adv. 大量地
+
+- **搭配**　heavy rain / snow 暴雨／雪 heavy traffic 交通拥挤
+- **拓展**　同根词 heavily adv. 在很大程度上；严重地；大量地；沉重地
+
+### improve ✓  `/ɪmˈpruːv/`
+
+v. 改进；改善；提高
+
+- **搭配**　improve on / upon sth. 改进
+- **拓展**　同根词 improvement n. 改进；改善 [improve + ‐ment名词后缀 ]
+
+### afford ✓  `/əˈfɔːd; əˈfɔːrd/`
+
+v. 买得起；有（时间）做某事；承担得起
+
+- **搭配**　can / cannot afford sth. 买得起，有能力负担／买不起，支付不起 afford to do sth. 能够做某事，担负得起做某事，支付得起去做某事
+- **拓展**　同根词 affordable adj. 负担得起的 [afford + ‐able形容词后缀，可……的 ]
+
+### effort ✓  `/ˈefət; ˈefərt/`
+
+n. 努力，艰难的尝试；力气，精力；努力的结果，成就
+
+- **搭配**　spare no effort 不遗余力，竭尽全力 joint effort 共同努力 make an / every effort to do sth. 努力做某事／尽一切努力做某事 关联词 affect v. 影响，感动，感染 effect n. 效果，作用
+
+### depend ✓  `/dɪˈpend/`
+
+v. 取决于；依赖，依靠；相信，指望
+
+- **搭配**　depend on / upon 依赖，依靠，取决于
+- **拓展**　同根词 dependent adj. 依靠的 [depend + ‐ent形容词后缀，……的 ] dependence n. 依赖；依靠；信任 [depend + ‐ence名词后缀，表性质或状态 ] independent adj. 独立的，自立的 [in‐ 否定前缀 + dependent] independence n. 独立，自主 [in‐ 否定前缀 + dependence]
+
+### field  `/fiːld/`
+
+n. 田地，田野；专业，领域；场地，战场；现场，实地
+
+- **搭配**　in the field of 在……方面，在……领域 research field 研究领域
+- **拓展**　近义词 area n. 地区，区域；场地，地方；领域
+
+### place  `/pleɪs/`
+
+n. 地点，场所；位置；地位 v. 放置
+
+- **搭配**　take place 举行，进行，发生 take the place of / take one’s place 代替，取代 in place 在适当的地方，在恰当的位置 in the first place 首先，起初，第一
+- **拓展**　同根词 replace v. 取代 [re‐ 重新 + place → 重新放 → 复职，引申为“代替”] displace v. 取代；移动 [dis‐ 去掉 + place → 把放的东西去掉 → 移位 ]
+
+### attention ✓  `/əˈtenʃ ( ə ) n; əˈtenʃn/`
+
+n. 注意，注意力，关注；照料
+
+- **搭配**　pay no / more / close attention to 不注意／更加注意／密切注意…… attract / draw one’s attention 引起……的注意 public attention 公众的关注
+- **拓展**　同根词 attend v. 出席，参加；注意，专心；处理，照料
+
+### enable ✱ ✓  `/ɪˈneɪbl/`
+
+v. 使能够；使可能
+
+- **搭配**　enable sb. / sth. to do sth. 使某人能够做某事／使某事可能发生
+- **拓展**　同根词 able adj. 能够，有能力的 ( be able to do sth. 能够做某事） 关联词 disable v. 使丧失能力，使伤残 [dis‐ 否定前缀，除去 + ‐able → 使不能 → 使丧失能力 ]
+
+### language ✓  `/ˈlæŋɡwɪdʒ/`
+
+n. 语言，语言文字；言语
+
+- **搭配**　foreign / body / official / native / second language 外语／肢体语言／官方语言／本国语言／第二语言
+
+### limit ✓  `/ˈlɪmɪt/`
+
+n. 限度，限制；（区域的）界限，边界 v. 限制，限定
+
+- **搭配**　time / speed limit 期限／速度限制 be limited to 仅限于（某地、某团体）
+
+### latter ✓  `/ˈlætə ( r ) ; ˈlætər/`
+
+adj. （两者之中）后者的；后期的 n. （两者之间的）后者
+
+- **搭配**　the former ... the latter ... 前者……后者……
+- **拓展**　关联词 late adj. 晚期的，末期的；晚的，迟的 adv. 晚，迟 later adv. 后来，随后 adj. 较晚的，以后的 latest adj. 最近的，最新的 n. 最新事物，最新消息 ( the latest ) lately adv. 近来，最近 last adj. 最后的；最近的，上一个的；最不重要的 v. 持续；维持 adv. 最后
+
+
+---
+
+## Day 10
+
+### unite ✓  `/juˈnaɪt/`
+
+v. （使）联合，（使）团结；统一，使统一
+
+- **搭配**　unite with 与……联合
+- **拓展**　同根词 united adj. 一致的，统一的；团结的 [unite + ‐d形容词后缀，……的 ]
+
+### suppose ✓  `/səˈpəuz; səˈpoz/`
+
+v. 推断，料想，猜想；假设，假定，设想
+
+- **搭配**　be supposed to do sth. 应该／被期望做某事
+- **拓展**　关联词 propose v. 提议，建议；求婚 proposal n. 提议；求婚 expose v. 暴露，使显露，揭露 exposure n. 暴露；曝光 expose / exposure to sth. impose v. 强制实行；把（自己的观点、信仰等）强加于 impose sth. on sb. oppose v. 反抗，阻碍 oppose to 反对 近义词 presume v. 料想；假设，设想；假定（侧重有根据的推断） assume v. 假定，假设，认为（侧重无根据的推断）；承担（责任等）
+
+### public ✓  `/ˈpʌblɪk/`
+
+adj. 公众的，大众的；公共的；公开的 n. 公众，大众
+
+- **搭配**　in public 公开地，当众
+- **拓展**　同根词 publication 出版（物）；发表 [public + ‐ation名词后缀，表行为，状态 ] 关联词 publish v. 出版，发行，发表
+
+### agree ✓  `/əˈɡriː/`
+
+v. 同意，赞成，达成一致意见
+
+- **搭配**　agree with sb. / sth. 同意，和……意见一致 agree on / upon sth. 对……取得一致意见 agree to do sth. 赞成做某事
+- **拓展**　同根词 agreement n. 协议；同意，一致 [agree + ‐ment名词后缀，表结果 ] disagree v. 有分歧，不同意；不一致 [dis‐ 否定前缀，除去，反对 + agree] disagreement n. 分歧，不一致 [dis‐ 否定前缀 + agreement]
+
+### lecture ✓  `/ˈlektʃə ( r )/`
+
+n. 讲座，讲课，演讲 v. （尤指在大学里）开讲座，讲课
+
+- **搭配**　attend a lecture 参加演讲，听演讲，听讲座 lecture on 有关……的演讲 give a lecture 演讲
+- **拓展**　同根词 lecturer n. 讲师，演讲者 [lecture + ‐r名词后缀，……人 ] 近义词 speech n. 演说，发言，谈话；口语，言语 give a speech 发言 talk v.&n. 说话，交谈，谈话；谈论；谈判，商讨 talk with sb. about sth. report n. 报告，汇报；新闻报道 v. 报道；据说；述说，报告 report on 就……的报告 It is reported that 据报道
+
+### natural ✓  `/ˈnætʃrəl/`
+
+adj. 自然的，天然的，非人为的；天生的
+
+- **搭配**　natural gas / disaster / resource / science 天然气／自然灾难／自然资源／自然科学
+- **拓展**　同根词 nature n. 自然；性质；本性
+
+### fact  `/fækt/`
+
+n. 事实，真相；现实
+
+- **搭配**　in fact 实际上，其实，确切地说 as a matter of fact 事实上，实际上
+- **拓展**　同根词 factor n. 因素 [fact + ‐or名词后缀 ]
+
+### punish ✓  `/ˈpʌnɪʃ/`
+
+v. 处罚，惩罚
+
+- **搭配**　punish sb. for doing sth. 因某事而处罚某人
+- **拓展**　同根词 punishment n. 惩罚；严厉对待 [punish + ‐ment名词后缀 ]
+
+### measure ✓  `/ˈmeʒə ( r )/`
+
+n. 措施，办法 v. 测量
+
+- **搭配**　take active / effective measures to do sth. 采取积极／有效措施做某事 safety ( security ) / protective measure 安全／保护措施
+
+### alive ✓  `/əˈlaɪv/`
+
+adj. 活着的；仍然存在的；活跃的，充满活力的
+
+- **搭配**　stay alive 活着，仍活着 keep alive 保持生机；使……活着
+- **拓展**　关联词 live v. 生存，活着；生活在；居住 adj. 活的，有生命的；现场直播的 ( live broadcast ) living adj. 活着的，活的 n. 生计；生活方式；活着的人 ( the living ) lively adj. 活泼的，生气勃勃的；热闹的，激烈的；生动有趣的
+
+### regard ✓  `/rɪˈɡɑːd/`
+
+v. 认为，把……看作 n. 尊重；关心，关注；致意，问候
+
+- **搭配**　regard as / be regarded as 当作，认作／被当作，被认作 with / in regard to 关于，至于，对于 as regards 关于，至于
+- **拓展**　同根词 regardless adv. 不管怎样，不顾 [regard + ‐less] regardless of 不顾，不管 regarding prep. 关于，有关 [regard + ‐ing]
+
+### complain ✓  `/kəmˈpleɪn/`
+
+v. 抱怨，投诉
+
+- **搭配**　complain ( to sb. ) about sth.（向某人）抱怨／投诉某事
+- **拓展**　同根词 complaint n. 抱怨；诉苦
+
+### acquire ✓  `/əˈkwaɪə ( r )/`
+
+v. 获得，得到；学到，习得
+
+- **搭配**　acquire knowledge / skills / a habit / language 学习知识／习得技巧／养成习惯／习得语言
+- **拓展**　关联词 inquire v. 打听，询问 require v. 需要，要求 enquire v. 询问；调查；问候
+
+### compare ✱ ✓  `/kəmˈpeə ( r )/`
+
+v. 比较，对比；把……比作；（与……）相比
+
+- **搭配**　compare sth. with sth. 将……和……作比较 compare sth. to sth. 将……比作……
+- **拓展**　同根词 comparison n. 比较，对照；相比 by comparison 相比之下 comparable adj. 可比较的；比得上的
+
+### increase ✓  `/ɪnˈkriːs; ˈɪŋkriːs/`
+
+v. 增长，增强，增大 n. 增长；增长量
+
+- **搭配**　increase by 增加了，增长了 increase to 增加到，增长到，上升到 increase in ( production / sale / price / value) （使）在……增加（增产／扩大销量／涨价／增值）
+- **拓展**　同根词 increasing adj. 越来越多的，渐增的 [increas ( e ) + ‐ing形容词后缀 ] increasingly adv. 越来越多地，不断增加地 [increasing + ‐ly副词后缀 ] 反义词 decrease v. （使）减少，（使）降低 n. 减少，降低
+
+### create ✓  `/kriˈeɪt/`
+
+v. 创造；设计，创作；造成，引起
+
+- **搭配**　create jobs / opportunity / wealth 创造就业／机会／财富
+- **拓展**　同根词 creative adj. 创造性的 [creat ( e ) + ‐ive形容词后缀 ] creature n. 动物，生物；人；创造物 [creat ( e ) + ‐ure名词后缀 ] creation n. 创造，创作；作品 [creat ( e ) + ‐ion名词后缀 ] creativity n. 创造力；创造性 [creativ ( e ) + ‐ity名词后缀 ] creator n. 创造者；创建者 [creat ( e )+ ‐or名词后缀 ] 近义词 invent v. 发明，创造；编造，虚构
+
+### education ✓  `/ˌedʒuˈkeɪʃn/`
+
+n. （尤指学校）教育；培养，训练；教育机构；教育学
+
+- **搭配**　distance / special / primary / compulsory education 远程／特殊／初等／义务教育 education and training 教育与培训 further education 进修；深造
+- **拓展**　同根词 educational adj. 教育的；有教育意义的 [education + ‐al形容词后缀 ] educate v. 教育；培养；训练 educated adj. 受过教育的；有教养的 educator n. 教育家；教育工作者；教师 关联词 vocation n. 职业 vacation n. 休假，假期
+
+### prefer ✓  `/prɪˈfɜː ( r )/`
+
+v. 更喜爱，宁可
+
+- **搭配**　prefer to do / doing sth. 宁愿做某事，更喜欢做某事 prefer sth. to sth. 相对……更喜欢 would prefer 更愿意，宁肯
+- **拓展**　同根词 preferred adj. 优先的；首选的 [prefer ( r ) + ‐ed形容词后缀 ] preferable adj. 更好的，更可取的；更合意的 [prefer + ‐able形容词后缀 ] preference n. 偏爱，偏好；更喜欢的人（或物）[prefer + ‐ence名词后缀 ] have a preference for 偏爱……
+
+### share ✓  `/ʃeə ( r )/`
+
+v. 分享；分担，分摊，共同享有 n. 股份，股票；份额
+
+- **搭配**　share sth. with sb. 和某人分享……		 market share [贸易 ]市场份额 share capital [金融 ]股份资本，股本	 share price [经 ]股价
+
+### account ✓  `/əˈkaʊnt/`
+
+n. 账户；描述；理由，解释 v. 认为；解释，说明；占比
+
+- **搭配**　take sth. into account / take account of 考虑到 account for 说明，解释，（比例、数量）占 on no account 决不，绝对不 on account of 由于
+- **拓展**　同根词 accountable adj. 有责任的；可解释的 [account + ‐able形容词后缀 ] accountancy n. 会计 [account + ‐ancy名词后缀 ] 关联词 count v. 数数；计数；重要；看作，认为 n. 计算，总数；数数
+
+
+---
+
+## Day 11
+
+### imagine ✓  `/ɪˈmædʒɪn/`
+
+v. 想象，设想；假设，猜测；料想，认为
+
+- **搭配**　imagine ( sb. ) doing sth. 想象（某人）在做某事（强调做某事的状态） imagine to do sth. 想象做某事（强调做某事的意愿）
+- **拓展**　同根词 imagination n. [心理 ]想象力；空想；幻想物 [imagin ( e ) + ‐ation名词后缀 ] 关联词 image n. 形象；画像，图像；印象
+
+### available ✓  `/əˈveɪləbl/`
+
+adj. 可得到的；可利用的；有空的
+
+- **搭配**　available resources 可利用的资源 be available to do sth. 可以做某事 be available to 可被……利用；可得到的 be available for 有效；对……有用；有空做……
+
+### particularly ✓  `/pəˈtɪkjulə ( r ) li/`
+
+adv. 特别地；非常，尤其
+
+- **搭配**　particularly good / important / useful 特别好／重要／有用
+- **拓展**　同根词 particular adj. 专指的；特殊的；挑剔的 in particular 特别地 近义词 especially adv. 特别地，尤其 specially adv. 特别地，专门地
+
+### view ✓  `/vjuː; vju/`
+
+n. 看法；态度；方法，方式；景色 v. 观看；看待
+
+- **搭配**　in my view 依我看 in view of sth. 鉴于，考虑到
+- **拓展**　同根词 interview n. 面试；访谈；会谈 v. 进行面试；采访 [inter‐ 相互 + view看] review n. 审查；评论；复习 v. 审视；评论；复习；反思 [re‐ 再 + view看] 近义词 sight n. 风景；视力；视野 scene n. 景色；场面，事件；片段，情节
+
+### practice  `/ˈpræktɪs/`
+
+n. 实践；练习；惯例；习惯 v. 练习
+
+- **搭配**　put into practice 实施；付诸实践 in practice 实际上，事实上 practice doing sth. 练习做某事
+- **拓展**　同根词 practical adj. 实际的；可行的；实用的 [practice去 e + ‐al形容词后缀 ] impractical adj. 不可行的 [im‐不，非 + practical]
+
+### express ✓  `/ɪkˈspres/`
+
+v. 表达；流露 adj. 快速的；明确陈述的 n. 快车；快递
+
+- **搭配**　express oneself 表达自己的思想 express delivery 快递，限时专送 express way 高速公路；快车道
+- **拓展**　同根词 expression n. 表达；表情；字词 [ex‐ 向外 + ‐press‐压 + ‐ion名词后缀 ] expressive adj. 富有表情的；有表现力的 [ex‐ 向外 + ‐press‐压 + ‐ive形容词后缀 ]
+
+### impress ✓  `/ɪmˈpres/`
+
+v. 给……留下深刻印象；使铭记
+
+- **搭配**　impress sb. ( with sth. / sb. ) 给某人留下深刻印象；使某人钦佩而起敬
+- **拓展**　同根词 impressive adj. 令人钦佩的；令人印象深刻的 [im‐向内 + ‐press‐压 + ‐ive形容词后缀 ] impression n. 印象；影响 [im‐向内 + ‐press‐压 + ‐ion名词后缀 ] make an impression on sb. / sth. 给某人／某事造成影响，留下印象 关联词 express v. 表达 depress v. 使沮丧，消沉
+
+### operate ✓  `/ˈɔpəreɪt; ˈɑpəˏret/`
+
+v.（机器等）运转，工作；（组织或公司）经营；做手术
+
+- **搭配**　operate on sb. 给某人做手术 operate a machine 操作机器
+- **拓展**　同根词 operator n. 操作员；经营者；投机取巧者 [operat ( e ) + ‐or名词后缀，表人 ] cooperate v. 合作，协作；配合，协助 [co‐ 共同 + operate]
+
+### insist ✓  `/ɪnˈsɪst/`
+
+v. 坚决要求；坚持说，强调
+
+- **搭配**　insist on / upon sth. 坚决要求某事 insist on doing sth. 执意继续／坚持做
+- **拓展**　关联词 persist v. 坚持做；持续存在 persist in ( doing ) sth. 坚持做某事 resist v. 抵抗，抗拒；忍耐	 	 resist doing sth. 抵抗，拒绝做某事
+
+### detail ✓  `/ˈdiːteɪl; dɪˈteɪl/`
+
+n. 细节；详情；细微之处；部分 v. 详述
+
+- **搭配**　in detail 详细地
+- **拓展**　关联词 retail n.&v. 零售 tailor n. 裁缝；v. 调整
+
+### light  `/laɪt/`
+
+n. 光；灯 v. 照亮；点燃，点火 adj. 明亮的；浅色的；轻的
+
+- **搭配**　in bright / dim light 在明亮的／昏暗的灯光下 in the light of sth. 考虑到
+- **拓展**　同根词 lighten v. 变得明亮；缓和；减少（工作量、担忧等），使轻松 [light + ‐en动词后缀，使……] 关联词 slight adj. 轻微的；瘦小的 delight n. 高兴；欣喜 v. 使高兴
+
+### below  `/bɪˈləu; bəˈlo/`
+
+prep. 在……下面；低于 adv. 在下面；零度以下
+
+- **搭配**　far below 远低于 down below 在底下
+- **拓展**　近义词 under prep. 在……下面；在……下 adv. 在……以下 关联词 slow adj. 慢的 adv. 缓慢地
+
+### active ✱ ✓  `/ˈæktɪv/`
+
+adj. 好动的；活跃的；积极主动的
+
+- **搭配**　active participation 积极参与
+- **拓展**　同根词 action n. 行动；行为；诉讼 [act + ‐ion名词后缀 ] activity n. 活跃状况；活动 [act + ‐ivity名词后缀，表……性，……力 ] actor / actress n. 男演员／女演员 [act + ‐or / ‐ress名词后缀，表人 ]
+
+### attract ✓  `/əˈtrækt/`
+
+v. 吸引；引起……的注意／兴趣
+
+- **搭配**　attract sb. ( to sb. / sth. ) 引起……的兴趣
+- **拓展**　同根词 attraction n. 吸引力 [attract + ‐ion名词后缀 ] attractive adj. 有魅力的；诱人的 [attract + ‐ive形容词后缀 ]
+
+### contact ✓  `/ˈkɔntækt; ˈkɑntækt/`
+
+n.&v. 接触；联系
+
+- **搭配**　keep in contact with 与……接触 / 有联系
+- **拓展**　关联词 contract n. 合同 v. 签订合同；感染（疾病）；缩小
+
+### repair ✓  `/rɪˈpeə ( r ) ; rɪˈpɛr/`
+
+n.& v. 修理；补救
+
+- **拓展**　近义词 mend v. 修理；修补；解决（争端）；（身体）痊愈 fix v. 修理；使固定；确定（时间、数量等）；安排，组织
+
+### form  `/fɔːm; fɔrm/`
+
+n. 形式；方式；形状；表格 v. 构成；形成；编排成
+
+- **搭配**　in the form of 以……的形式
+- **拓展**　同根词 former adj. 以前的；昔日的；（两者中）前者的 formal adj. 正式的；官方的；正规的 [form + ‐al形容词后缀 ] 关联词 reform n.&v. 改革 inform v. 通知；告诉
+
+### perform ✓  `/pəˈfɔːm; pɚrˈfɔrm/`
+
+v. 做，执行；表演；表现
+
+- **拓展**　同根词 performance n. 表演；业绩，性能；执行 [perform + ‐ance名词后缀 ] performer n. 表演者；演员 [perform + ‐er名词后缀，表人 ]
+
+### order  `/ˈɔːdə ( r )/`
+
+n. 顺序；秩序；命令；订单 v. 命令；要求；订购，点（餐）
+
+- **搭配**　in order 有条理 in good order 处于良好状态中 out of order 出故障；违反规程的 in order to do sth. 目的是；以便；为了
+- **拓展**　同根词 disorder n. 混乱；骚乱 v. 使失调；扰乱 [dis‐ 不，非 + order]
+
+### advance ✓  `/ədˈvɑːns; ədˈvæns/`
+
+n. 前进；进展 v. 前进；发展；促进；提前
+
+- **搭配**　in advance 提前，预先 in advance of 超过，在……之前
+- **拓展**　同根词 advanced adj. 先进的；高级的 [advance + ‐d形容词后缀 ] advancement n. 前进，进步 [advance + ‐ment名词后缀 ]
+
+
+---
+
+## Day 12
+
+### confuse ✓  `/kənˈfjuːz/`
+
+v. 混淆；使迷惑；使复杂化
+
+- **搭配**　confuse A and / with B 把 A和 B混淆
+- **拓展**　同根词 confused adj. 困惑的（修饰人） be confused about 对……感到困惑 confusing adj. 令人困惑的，难以理解的（修饰物）
+
+### care ✱  `/keə ( r ) ; kɛr/`
+
+n. 照顾，护理，照料；小心 v. 关心，关怀；关注，在意
+
+- **搭配**　take care of sb. / sth. 照顾，爱护 care for sb. 照顾，照料（病、老、幼者等） care about sb. / sth. 关心某人／关注某事
+- **拓展**　同根词 careless adj. 粗心的；不关心的 [care + ‐less形容词后缀，表否定 ] careful adj. 小心的；仔细的；当心的 [care + ‐ful形容词后缀，充满……的 ] carefully adv. 小心地；仔细地 [careful + ‐ly副词后缀 ]
+
+### career ✓  `/kəˈrɪə ( r ) ; kəˈrɪr/`
+
+n. 生涯；职业，事业
+
+- **搭配**　a teaching career 教学事业 career planning 职业规划
+- **拓展**　近义词 profession n. 职业；行业 occupation n. 工作，职业；消遣；占用 job n. 工作，职业；任务；职责 vocation n. 工作，职业；使命感
+
+### remain ✓  `/rɪˈmeɪn/`
+
+v. 保持；剩余，继续存在；停留 n. 残余；遗体（通常用作复数）
+
+
+### mean ✓  `/miːn/`
+
+v. 意思是；打算；意味着 adj. 吝啬的；刻薄的 n. 平均数；中庸
+
+- **搭配**　mean to do sth. 打算做某事 mean doing sth. 意味着做某事
+- **拓展**　关联词 meaning n. 意义；意思 means n. 方式，方法
+
+### state  `/steɪt/`
+
+n. 状态；国家；州 v. 陈述，说明；规定
+
+- **搭配**　in a state of 处于……状态中
+- **拓展**　关联词 skate v. 滑冰，溜冰 n. 溜冰鞋 近义词 circumstance n. 状况，情况；条件 status n. 地位，身份；状况，情形 condition n. 状况，情况；条件；疾病 situation n. 状况，情况；地理位置
+
+### permit ✓  `/pəˈmɪt; ˈpɜːmɪt/`
+
+v. 许可；允许，准许 n. 许可证；特许证
+
+- **搭配**　permit sb. to do sth. 允许某人做某事 work permit 工作许可证 residence permit 居住许可证
+- **拓展**　同根词 permission n. 同意，许可；许可证 [permit变 t为 s + ‐sion名词后缀 ] without permission 未经许可
+
+### opportunity ✓  `/ˏɔpəˈtjuːnətɪ; ɑpəˈtuːnətɪ/`
+
+n. 时机；机会
+
+- **搭配**　seize / grasp the opportunity 抓住机会 equal opportunity 机会均等 take the opportunity to do sth. / of doing sth. 趁机做某事
+- **拓展**　近义词 chance n. 机会；可能性；冒险；偶然 v. 冒险
+
+### confidence ✓  `/ˈkɔnfɪdəns; ˈkɑnfədəns/`
+
+n. 信心；信任；秘密
+
+- **搭配**　have confidence in 对……有信心
+- **拓展**　同根词 confident adj. 自信的；确信的 be confident of 确信…… confidential adj. 机密的，保密的；隐秘的 关联词 conference n. （正式的）会议；专题研讨会
+
+### employ ✱ ✓  `/ɪmˈplɔɪ/`
+
+v. 雇佣；使用；利用
+
+- **搭配**　be employed in doing sth. 从事于……
+- **拓展**　同根词 employee n. 雇员 [employ雇佣 + ‐ee名词后缀：表人 ] employer n. 雇主 [employ雇佣 + ‐er名词后缀：表人 ] employment n. 雇佣；使用，利用 [employ雇佣 + ‐ment名词后缀 ]
+
+### prove ✓  `/pruːv/`
+
+v. 证明；显示出（优点）
+
+- **搭配**　prove to be 结果是，证明是 prove yourself 证明你自己
+- **拓展**　关联词 approve v. 批准（条文、协议等）；赞同（常与 of 连用） improve v. 改进，改善；提高 improve in 在某方面改进
+
+### strict ✓  `/strɪkt/`
+
+adj. 严格的；严厉的；严谨的
+
+- **搭配**　be strict with sb 对某人要求严格 strict rules 严格的规则
+- **拓展**　同根词 strictly adv. 严格地；严厉地 [strict + ‐ly副词后缀 ]
+
+### flexible ✓  `/ˈfleksəbl/`
+
+adj. 灵活的，能随机应变的；柔韧的；有弹性的
+
+- **搭配**　a flexible approach 灵活的方法 flexible working hours 弹性工作时间
+- **拓展**　同根词 flexibility n. 灵活性；弹性；柔性 [flexible去 le + ‐ility名词后缀：表性状 ]
+
+### special ✓  `/ˈspeʃl; ˈspɛʃəl/`
+
+adj. 特别的；特殊的；特有的 n. 特别节目；大减价
+
+- **搭配**　special economic zone 经济特区 special education 特殊教育
+- **拓展**　同根词 especially adv. 尤其；特别 specialist n. 专家 [special + ‐ist名词后缀：表人 ] specialize v . 专门研究，从事 [special+‐ize动词后缀 ] specialize in sth.专攻某事
+
+### injure ✓  `/ˈɪndʒə ( r )/`
+
+v. （尤指在事故中）使受伤，伤害；损害，伤害（名誉、自尊等）
+
+- **搭配**　injure sb. / sth. 伤害……
+- **拓展**　同根词 injured adj. 受伤的 the injured （在事故、战斗等中）受伤的人
+
+### sign ✓  `/saɪn/`
+
+n. 迹象，征兆；指示牌；符号 v. 签名；和……签约
+
+- **搭配**　a sign of sth. ……的迹象 sign in 签到；签收 sign on 签约雇佣
+- **拓展**　同根词 assign v. 分派（工作）；指派；委派 assignment n. （分派的）工作 近义词 symbol n. 象征；符号 signal n. 信号；信号灯；预示 v. 发信号
+
+### point  `/pɔɪnt/`
+
+n. 论点，观点；要点；意图；时刻 v. （用手或物体）指；指引
+
+- **搭配**　there is no point in doing sth. 做某事没有意义 at this point 在这个时刻 point at / to / towards sb. / sth. 指向某人／某物
+- **拓展**　同根词 appointment n. 约会，约定；任命，委派 disappoint v. 使失望，使落空 disappoint sb. 使某人失望 disappointment n. 失望，扫兴；令人失望的人或事 [disappoint + ‐ment名词后缀 ]
+
+### achieve ✓  `/əˈtʃiːv/`
+
+v. 实现；取得；达到
+
+- **搭配**　achieve one’s goal 实现目标 achieve success 获得成功
+- **拓展**　同根词 achievement n. 成就；完成，达到 [achieve + ‐ment名词后缀 ] achievable adj. 可实现的 [achiev去 e+‐able形容词后缀：表能力 ]
+
+### reason ✓  `/riːzn/`
+
+n. 原因，理由
+
+- **拓展**　同根词 reasonable adj. 有理由的；合理的 [reason + ‐able形容词后缀：有能力 ] 关联词 season n. 季节；时期
+
+### situation ✓  `/ˏsɪtʃuˈeɪʃ ( ə ) n/`
+
+n. 情况，形势；处境；地理位置
+
+- **搭配**　in a difficult situation 处境困难 current situation 现状 political / financial situation 政治／经济局势
+- **拓展**　关联词 position n. 位置；职位；地位 station n. 火车站；电视台
+
+
+---
+
+## Day 13
+
+### appear ✱ ✓  `/əˈpɪə ( r ) ; əˈpɪr/`
+
+v. 出现；显得，看起来好像
+
+- **拓展**　同根词 appearance n. 外表，外观；出现 [appear + ‐ance名词后缀：状态 ] disappear v. 消失，失踪 [dis‐ 不，没有 + appear]
+
+### position ✓  `/pəˈzɪʃn; pəˈzɪʃən/`
+
+n. 位置，方位；处境；职位；立场 v. 安置；定位
+
+- **搭配**　key position 要职 social position 社会地位
+
+### addition ✓  `/əˈdɪʃn; əˈdɪʃən/`
+
+n. [U]加；[C]增加的人或事物
+
+- **搭配**　in addition ( to sb. / sth. ) 另外；除……之外（还）
+- **拓展**　同根词 add v. 添加，增加 additional adj. 附加的；另外的 [addition + ‐al形容词后缀：……的 ]
+
+### address ✓  `/əˈdres; ˈædres/`
+
+v. 演说，演讲；处理，设法解决 n. 地址；演讲
+
+- **搭配**　address book 通讯录 home / email address 家庭 /电邮地址 public address 公开演说
+- **拓展**　近义词 speech n. 演讲，发言 lecture n. 演讲，讲课
+
+### satisfy ✱ ✓  `/ˈsætɪsfaɪ/`
+
+v. 使（某人）满意或满足；满足（需要、愿望等）
+
+- **搭配**　satisfy one’s needs 满足某人的需要 satisfy sb. 使得某人满意 be satisfied with 对……感到满意
+- **拓展**　同根词 satisfaction n. 满足 [satisf ( y ) + ‐action名词后缀：形成……]
+
+### quality ✓  `/ˈkwɔlətɪ/`
+
+n. 质量，品质；属性，特征
+
+- **搭配**　air quality 空气质量 quality of life 生活质量 personal quality 个人品德
+- **拓展**　关联词 quantity n. 数量
+
+### responsible ✱ ✓  `/rɪˈspɔnsəbl; rɪˈspɑnsəbl/`
+
+adj. 有责任的；负责的
+
+- **搭配**　responsible for sb. / sth. / doing sth.（在法律上或道义上）须负责任，承担责任
+- **拓展**　同根词 response n. 回答；反应 responsibility n. 责任，职责 [respons ( e ) + ‐ibility名词后缀 ]
+
+### value ✓  `/ˈvæljuː; ˈvælju/`
+
+n. 价值；重要性； ( pl ) 价值观 v. 估价；重视
+
+- **搭配**　of great value 很有价值的 high value 高价值
+- **拓展**　同根词 valuable adj. 贵重的，有价值的 [valu ( e ) + ‐able形容词后缀，表能力 ]
+
+### evaluate ✓  `/ɪˈvæljueɪt; ɪˈvæljʊˏet/`
+
+v. 评价；评估
+
+- **拓展**　同根词 evaluation n. 估价；评价 [evaluat ( e ) + ‐ion名词后缀：表示动作（过程）]
+
+### store ✓  `/stɔː ( r ) ; stɔr/`
+
+n. 商店；贮藏，储备 v. 储存；贮藏；保存
+
+- **搭配**　book store书店 in store ( for ) 储藏备用；准备着
+- **拓展**　关联词 story n. 故事，小说 storm n. 暴风雨（雪）
+
+### contain ✓  `/kənˈteɪn/`
+
+v. 包含，含有
+
+- **拓展**　同根词 container n. 容器；集装箱 [contain + ‐er名词后缀：表示物 ] 近义词 include v. 包括，包含 involve v. 包括，包含 hold v. 可容纳；包含
+
+### secret ✓  `/ˈsiːkrɪt; ˈsikrɪt/`
+
+adj. 秘密的，保密的；n. 秘密，机密；诀窍
+
+- **搭配**　in secret 偷偷的；暗地的 keep asecret 保密
+- **拓展**　同根词 secretary n. 秘书 [secret + ‐ary名词后缀：从事某种职业的人 ]
+
+### communicate ✱ ✓  `/kəˈmjuːnɪkeɪt; kəˈmjunəˏket/`
+
+v. 交流；沟通；传达，传递
+
+- **搭配**　communicate with sb. （与某人）交流；沟通
+- **拓展**　同根词 communication n. 传递；传播；交流 [communicat ( e ) + ‐ion名词后缀 ]
+
+### economic ✓  `/ˏiːkəˈnɔmɪk; ˏikəˈnɑmɪk/`
+
+adj. 经济学的；经济的；节约的
+
+- **搭配**　economic development / growth 经济发展 economic crisis 经济危机 economic system 经济制度 economic recovery 经济复苏
+- **拓展**　同根词 economical adj. 经济的；节约的 [economic + ‐al形容词后缀：……的 ] economy n. 经济 [学 ]；节约
+
+### research ✓  `/rɪˈsɜːtʃ; ˈriːsɜːrtʃ/`
+
+v. 进行研究或调查 n.研究，调查
+
+- **搭配**　scientific research 科学研究
+- **拓展**　同根词 researcher n. 研究员；调查者 [research + ‐er名词后缀：……的人 ]
+
+### settle ✓  `/ˈsetl/`
+
+v. 解决；定居；安顿；平静
+
+- **搭配**　settle down 定居；定下心来；安家
+- **拓展**　近义词 solve v. 解决 overcome v. 解决，克服
+
+### force ✓  `/fɔːs; fɔrs/`
+
+n. 力；力量；武力；效力 v. 强迫，迫使（某人做某事）
+
+- **搭配**　come into force（使法律、规则等）开始生效，开始实施 in force 大量的，大批的；生效的 force on 强加于……
+- **拓展**　近义词 compel v. 强迫，迫使
+
+### risk ✓  `/rɪsk/`
+
+n. 危险；风险 v. 冒……的危险；承受……的风险
+
+- **搭配**　at the risk of 冒着……的风险 take a risk 冒险
+
+### divide ✓  `/dɪˈvaɪd; dəˈvaɪd/`
+
+v. 分割，分开 n. 差异；分水岭
+
+- **搭配**　divide into 分成
+
+### adjust ✱ ✓  `/əˈdʒʌst/`
+
+v. 调整；校准；调节；使适应
+
+- **搭配**　adjust sth. / oneself to sth. 使适应（新环境等）
+- **拓展**　同根词 adjustment n. 调节；调整 [adjust + ‐ment名词后缀 ] 关联词 just adv. 正好；恰好 adopt v. 收养，采纳 近义词 adapt v.（使）适合，（使）适应
+
+
+---
+
+## Day 14
+
+### bill  `/bɪl/`
+
+n. 账单；钞票；法案 v. 开账单
+
+- **搭配**　pay a bill 付账 pass a bill 通过议案 the telephone / electricity / gas bill 电话费 / 电费 / 煤气费账单
+
+### ensure ✓  `/ɪnˈʃʊə ( r ) ; ɪnˈʃʊr/`
+
+v. 确保；保证；担保
+
+- **搭配**　ensure from / against 保护……免受危险 ensure sb. to do sth. 保证某人做某事
+- **拓展**　近义词 insure v. 保证，确保 assure v. 保证，确保 secure v. 确保，保证 guarantee v. 确保；担保
+
+### punish ✓  `/ˈpʌnɪʃ/`
+
+v. 处罚；惩罚
+
+- **搭配**　punish for 因……而惩罚 punish with / by 用……惩罚
+- **拓展**　同根词 punishment n. 处罚；受罚 [punish + ‐ment名词后缀 ] 关联词 publish v. 出版，发行
+
+### cheat ✓  `/tʃiːt; tʃit/`
+
+v. 欺骗；作弊 n. 骗子；欺骗
+
+- **拓展**　近义词 trick v. 欺骗，哄骗 deceive v. 欺骗，蒙骗 fool v. 哄骗，欺骗 关联词 cheap adj. 便宜的，廉价的
+
+### rarely ✓  `/ˈreəli;ˈrerli/`
+
+adv. 罕有；很少；不常
+
+- **拓展**　同根词 rare adj. 罕见的；不寻常的
+
+### content ✱ ✓  `/ˈkɔntent; kənˈtent/`
+
+n. 内容 adj. 知足；满意的 v.（使）满意、满足
+
+- **搭配**　be content with / content to do sth. 满足于……
+- **拓展**　同根词 contentment n. 满足，满意 contented adj. 心满意足的 近义词 satisfied adj. 满意的，满足的
+
+### beat ✱  `/biːt; bit/`
+
+v. （连续、猛烈）击、打；敲；赢，打败 n. 击打；拍打；跳动
+
+- **搭配**　beat sb. at sth.（在比赛或竞争中）赢，打败（某人） heart beat 心脏跳动
+- **拓展**　同根词 beating n. 打；敲打；失败 近义词 strike v. 打；撞击 hit v. 打，打击
+
+### warn ✓  `/wɔːn; wɔrn/`
+
+v. 警告；提醒；告诫
+
+- **搭配**　warn sb. of sth. 警告某人某事 warn against 警告不要……
+- **拓展**　同根词 warning n. 警告；警示 近义词 advise v. 劝告；忠告 caution v. 提醒；警告
+
+### injury ✓  `/ˈɪndʒərɪ/`
+
+n. 伤害；损害
+
+- **拓展**　同根词 injure v. 伤害，损害 近义词 wound n. 伤害；创伤 damage n. 损害，伤害 harm n. 伤害 hurt n. 伤痛 辨析：这些名词都可表示“伤害，疼痛”，具体区别如下： ① injury：通常指人在意外事故中受到的伤害，如由机器造成的或在运动中受 到的伤害； ② wound：一般指刀伤、枪伤、战场上受伤，也可指对感情的伤害； ③ damage：主要指对价值和功能的破坏，多用于无生命（房屋、车辆等）的 东西，一般 还可修复； ④ harm：常指伤及一个人或其健康、权利、事业等，构成短语 do harm to； ⑤ hurt：指精神上、感情上或肉体上的“创伤，伤害”。
+
+### worth ✓  `/wɜːθ; wəθ/`
+
+adj. 值得的；值钱的 n. 价值；财富
+
+- **搭配**　be worth doing 值得做某事 of great worth 非常有价值的
+- **拓展**　同根词 worthless adj. 无价值的；没用的 [worth + ‐less形容词后缀：无……的 ] worthy adj. 有价值的 [worth + ‐y形容词后缀 ] 近义词 worthy; worthwhile 辨析：这三个形容词均有“值得……的”之意，其区别在于： ① worth 作形容词时，只作表语，通常用在 be 动词之后，其后应接 名词、代词（宾格）、 数词或动名词； ② worthy既可以用作表语，也可以用作定语，作表语时常用结构为 be worthy of sth. / to do sth.； ③ worthwhile可作表语或定语，指某事物是值得的，或某事是值得花时间、 金钱、精力做的， 作表语时的常用结构为 It is worthwhile to do sth. / doing sth.。
+
+### repeat ✓  `/rɪˈpiːt; rɪˈpit/`
+
+v. 重复；复述 n. 重复；反复
+
+- **拓展**　同根词 repeatable adj. 可重复的；可复述的 repeated adj. 反复做的；反复发生的
+
+### cash ✱ ✓  `/kæʃ/`
+
+n. 钱；现金 v. 付现款；兑现
+
+- **搭配**　pay ( in ) cash 付现金 cash on delivery 货到付款
+- **拓展**　近义词 money n. 财产；钱；货币 coin n. 硬币 currency n. 货币
+
+### pollution ✓  `/pəˈluːʃn/`
+
+n. 污染；污染物
+
+- **搭配**　air / water pollution 空气／水污染 reduce pollution 降低污染
+- **拓展**　同根词 pollute v. 污染；弄脏 关联词 solution n. 解决（方法），解答
+
+### predict ✓  `/prɪˈdɪkt/`
+
+v. 预言；预告；预报
+
+- **拓展**　同根词 predictable adj. 可预言的；可预报的 prediction n. 预言；预报；预告 近义词 forecast v. 预测，预报 foresee v. 预见
+
+### feed ✓  `/fiːd; fid/`
+
+v. 喂养；饲养；施肥；养活 n. 喂食；进食；（家畜的）饲料
+
+- **搭配**　feed sth. / sb. on sth. 或 feed sth. to sb ./ sth. 用某物喂养某人或动物
+- **拓展**　关联词 feedback n. 反馈；反馈信息
+
+### speed ✓  `/spiːd; spid/`
+
+n. 速度；迅速 v. 迅速行进；加速
+
+- **搭配**　at speed 高速地；快地 speed up 加速
+- **拓展**　近义词 rate n. 速度 pace n. 速度
+
+### cure ✓  `/kjuə ( r ) ; kjʊr/`
+
+v. 治愈；解除（病痛） n. 治愈；疗法；药剂
+
+- **搭配**　cure sb. of 治愈某人
+- **拓展**　近义词 treat v. 治疗，医治 heal v.（使）康复，愈合
+
+### common ✓  `/ˈkɔmən/`
+
+adj. 普通的；通常的；常见的；共享的 n. 共性；共同点
+
+- **搭配**　have sth. in common ( with sb. ) （和某人）在……方面有共同之处 in common 共同的 common sense 常识
+- **拓展**　同根词 commonly adv. 通常地；常常地 [common + ‐ly副词词缀 ] 近义词 popular adj. 普遍的，大众的 ordinary adj. 普通的，通常的 universal adj. 普遍的，全体的
+
+### influence ✓  `/ˈɪnfluəns/`
+
+n. 影响（力）；作用；有影响力的人／物 v. 施加影响于；对……起作用
+
+- **搭配**　have influence on / upon 对……的影响
+- **拓展**　同根词 influential adj. 有影响的，有势力的 近义词 affect v. 影响 effect n. 影响 impact v. （对……）产生影响
+
+### capable ✓  `/ˈkeɪpəbl; ˈkepəbl/`
+
+adj. 有能力的；能胜任的
+
+- **搭配**　be capable of sth. / of doing sth. 有能力做某事
+- **拓展**　同根词 incapable adj. 不能胜任的；无能的 近义词 able adj. 能干的，有能力的 competent adj. 能胜任的；能干的
+
+
+---
+
+## Day 15
+
+### consist ✓  `/kənˈsɪst/`
+
+v. 由……组成；在于
+
+- **搭配**　consist of sth. 由……组成（或构成） consist in sth. 在于
+- **拓展**　同根词 consistent adj. 一致的，始终如一的 [consist + ‐ent形容词后缀 ] 近义词 compose v. 构成；写作，作曲 comprise v. 构成，包含
+
+### benefit ✓  `/ˈbenɪfɪt; ˈbɛnəfɪt/`
+
+n. 利益；好处 v. 有益于；使受益
+
+- **搭配**　benefit from 从……中获益
+- **拓展**　同根词 beneficial adj. 有益的 [benefit + ‐cial形容词后缀 ] be beneficial to ... 对……有益，有用
+
+### subject ✓  `/ˈsʌbdʒɪkt; səbˈdʒekt/`
+
+n. 主题；学科 adj. 易遭受……的；服从的 v. 使顺从
+
+- **搭配**　subject sb./ sth. to sth. 使某人／某物遭受某事 be subjected to sth. 遭受某事
+- **拓展**　同根词 subjective adj. 主观的 [subject + ‐ive形容词后缀 ] 关联词 object v. 拒绝 n. 目标，物体 objective adj. 客观的 n. 目标
+
+### custom ✓  `/ˈkʌstəm/`
+
+n. 习俗；风俗；习惯；海关 ( pl. )
+
+- **搭配**　folk custom 民间习俗 local custom 当地风俗
+- **拓展**　同根词 customer n. 顾客，主顾 [custom + ‐er名词后缀，表示人或物 ] accustom v. 习惯于，使适应于 be / get accustomed to sth. 习惯于
+
+### respect ✓  `/rɪˈspekt; rɪˈspɛkt/`
+
+n. 尊敬；敬重；方面 v. 尊重；尊敬
+
+- **搭配**　respect for sb. / sth.尊重某人／某事 with respect to sth. 关于，就……而言
+- **拓展**　同根词 respective adj. 分别的，各自的 [respect + ‐ive形容词后缀 ] respectful adj. 充满敬意的 [respect + ‐ful形容词后缀，表示“充满”]
+
+### affect ✓  `/əˈfekt; əˈfɛkt/`
+
+v. 影响；侵袭，感染；感动
+
+- **搭配**　affect health 影响健康
+- **拓展**　同根词 affection n. 喜爱；影响；感染 [affect + ‐ion名词后缀 ] 关联词 effect n. 影响；效果 v. 实现；产生 近义词 influence v. 影响，起作用
+
+### beyond ✓  `/bɪˈjɔnd; bɪˈjɑnd/`
+
+prep. 超过；超出；超越 adv. 在远处
+
+- **搭配**　be beyond sb. 使某人无法想像（或理解），超出某人的能力范围 beyond control 无法控制 beyond one’s power 超出某人的能力，力所不及
+
+### appreciate ✓  `/əˈpriːʃɪeɪt/`
+
+v. 欣赏，鉴赏；重视；感激；理解
+
+- **搭配**　appreciate ( doing ) sth. 感激／喜欢（做某事）
+- **拓展**　同根词 appreciation n. 欣赏；感激 [appreciat ( e ) + ‐ion名词后缀 ]
+
+### contribute ✓  `/kənˈtrɪbjuːt; kənˈtrɪbjʊt/`
+
+v. 捐助；贡献；促成；是……的原因
+
+- **搭配**　contribute ( sth. ) to / towards ( sth. ) 有助于，促进；对……有贡献 contribute to sth. 导致，造成
+- **拓展**　同根词 contribution n. 贡献 [contribut ( e ) + ‐ion名词后缀 ] make a contribution 做出贡献；捐款 近义词 donate v. 捐赠
+
+### locate ✓  `/ləuˈkeɪt/`
+
+v. 定位；确定……的位置；位于；放置
+
+- **搭配**　locate in 位于；定居 locate site 选址
+- **拓展**　同根词 location n. 地点；位置；定位 [locat ( e ) + ‐ion 名词后缀 ]
+
+### access ✓  `/ˈækses; ˈæksɛs/`
+
+n. 通道；机会；权利 v. 访问；到达；进入；使用
+
+- **搭配**　access to 获取；访问；有权利获得；接近 have access to 有……的权利；有权访问；使用
+- **拓展**　关联词 assess v. 评估
+
+### normal ✓  `/ˈnɔːml; ˈnɔrml/`
+
+adj. 典型的；正常的；标准的 n. 常态；标准
+
+- **搭配**　normal school 师范学校 normal family 普通家庭
+- **拓展**　同根词 normally adv. 正常地；通常 [normal + ‐ly副词后缀 ] abnormal adj. 畸形的；反常的 [ab‐前缀（相反）+ normal]
+
+### source ✓  `/sɔːs; sɔrs/`
+
+n. 发源地；来源，出处；原始资料 ( pl. )
+
+- **搭配**　power source 电源，动力源 main source 主要来源
+- **拓展**　同根词 resource n. 资源
+
+### conclusion ✓  `/kənˈkluːʒn; kənˈkluʒən/`
+
+n. 结论；推论；决定；结束
+
+- **搭配**　come to / draw / reach a conclusion 得出结论 in conclusion 总而言之，总之
+- **拓展**　同根词 conclude v. 推断出；得出结论；达成
+
+### translate ✓  `/trænzˈleɪt; trænzˈlet/`
+
+v. 翻译；转变
+
+- **搭配**　translate sth. into. sth. 将……翻译为
+- **拓展**　同根词 translation n. 翻译，译文 translator n. 译者 关联词 transplant v.&n. 迁移，移植 transport v. 运送；运输 transform v. 变换；改变 transfer v. 使转移；转让
+
+### adopt ✱ ✓  `/əˈdɔpt; əˈdɑpt/`
+
+v. 收养；采取，采纳
+
+- **搭配**　adopt various methods 采取不同方法 adopt a child 领养孩子
+- **拓展**　关联词 adapt v. 适应；改编 adapt ( oneself ) to sth. 使适应
+
+### familiar ✓  `/fəˈmɪlɪə ( r ) ; fəˈmɪljɚ/`
+
+adj. 熟悉的；常见的
+
+- **搭配**　be familiar with 对……熟悉 be familiar to sb. ……是某人所熟悉的
+
+### superior ✓  `/suːˈpɪərɪə ( r )/`
+
+adj. 优越的；上级的 n. 长者；上级
+
+- **搭配**　be superior to sb. / sth. 优于，占优势 superior in 在……方面优越
+- **拓展**　关联词 inferior adj. 较差的；级别低的 be inferior to 次于……；不如……
+
+### refer ✓  `/rɪˈfɜː ( r ) ; rɪˈfə/`
+
+v. 提到，谈及；查阅，参考；描述
+
+- **搭配**　refer to 提到；涉及；参考
+- **拓展**　同根词 reference n. 参考，参考书；提及；查询 关联词 prefer v. 更喜爱，宁可 prefer to 更加喜欢
+
+### contrary ✓  `/ˈkɔntrərɪ; ˈkɑntrɛrɪ/`
+
+adj. 相反的，相对的 n. 相反；对立面
+
+- **搭配**　on the contrary 与此相反 contrary to 与……相反
+- **拓展**　关联词 contrast n. 差异，对比 v. 对比，对照
+
+
+---
+
+## Day 16
+
+### distribute ✓  `/dɪˈstrɪbjuːt; dɪˈstrɪbjʊt/`
+
+v. 分发，分配；分销；分散
+
+
+### system ✓  `/ˈsɪstəm/`
+
+n. 系统；体系；体制，制度
+
+
+### major ✓  `/ˈmeɪdʒə ( r ) ; ˈmedʒɚ/`
+
+adj. 重大的，主要的 n. 主修课程，专业 v. 主修，专攻
+
+- **搭配**　major in sth. 主修 major problem 重大问题，主要问题
+- **拓展**　同根词 majority n. 大多数；大部分 be in the majority 占多数 the / a majority of 大多数 关联词 minor adj. 较小的；次要的 minority n. 少数
+
+### engine ✓  `/ˈendʒɪn; ˈɛndʒən/`
+
+n. 发动机；引擎；机车；火车头；工具
+
+- **搭配**　search engine 搜索引擎
+- **拓展**　同根词 engineer n. 工程师；技工 [engine + ‐er名词后缀 ]
+
+### reward ✓  `/rɪˈwɔːd; rɪˈwɔrd/`
+
+n.&v. 奖赏，奖励；报酬
+
+- **搭配**　reward for 作为……的回报
+
+### notice ✓  `/ˈnəutɪs; ˈnotɪs/`
+
+v. 注意到；察觉 n. 注意；通告，通知，布告
+
+- **搭配**　take notice of 注意到，留意
+- **拓展**　近义词 attention n. 注意；留心
+
+### attribute ✓  `/əˈtrɪbjuːt; əˈtrɪbjʊt/`
+
+v. 把……归因于；认为……具有某种特质 n. 属性
+
+- **搭配**　attribute sth. to sb. / sth. 将某事归因于某人／某事
+
+### disturb ✓  `/dɪˈstɜːb; dɪˈstəb/`
+
+v. 打扰，干扰；搅乱，扰乱；使烦恼，使不安
+
+- **拓展**　同根词 disturbing adj. 令人不安的，烦扰的 近义词 bother v. 打扰；打搅 upset v. 扰乱，使心烦意乱
+
+### assistant ✓  `/əˈsɪstənt/`
+
+n. 助理，助手 adj. 助理的；副的
+
+- **搭配**　shop assistant 店员，导购 teaching assistant 助教
+- **拓展**　同根词 assist v.& n. 帮助，促进 assistance n. 帮助，援助
+
+### attach ✓  `/əˈtætʃ/`
+
+v. 系上；附上，使附属；使依恋；与……有联系
+
+- **搭配**　attach to 依附，隶属于；依恋 attach sth. ( to sth. ) 将某物附在……上 attach importance to 重视 attach file 附件
+
+### various ✓  `/ˈveərɪəs; ˈvɛrɪəs/`
+
+adj. 不同的，各种各样的
+
+- **搭配**　in various ways 以不同的方式
+- **拓展**　同根词 vary v. 改变；不同 vary from ... to ... 从……到……不同 variety n. 变化；多样化	 	 ( a ) variety of 各种各样的 近义词 different adj. 不同的	 be different from 与……不同
+
+### favor ✓  `/ˈfeɪvə ( r ) ; ˈfevɚ/`
+
+n.&v. 赞成，支持；喜爱；恩惠；有利于（同 favour）
+
+- **搭配**　in favor of 赞成，支持 in one’s favor 对某人有利
+- **拓展**　同根词 favorable adj. 有利的；良好的；赞成的 [favor + ‐able形容词后缀 ] favorite adj. 最喜爱的 n. 最喜欢的人或事物
+
+### relative ✓  `/ˈrelətɪv; ˈrɛlətɪv/`
+
+adj. 相对的；相比较的；相关的 n. 亲戚，亲属
+
+- **搭配**　be relative to sth. 与……相关的；从……（角度）出发；与……相比
+- **拓展**　同根词 relate v. 关联；与……有关 relation n. 关系，关联；姻亲
+
+### claim ✓  `/kleɪm; klem/`
+
+v.&n. 声称，宣称；断言；索赔；主张；要求
+
+- **搭配**　claim for 要求；索取 claim to 声称；主张 make a claim 索赔；对……提出要求
+
+### land  `/lænd/`
+
+n. 土地；陆地；国家 v. 降落；着陆；登陆
+
+- **拓展**　关联词 island n. 岛，岛屿
+
+### usual ✓  `/ˈjuːʒl; ˈjuʒəl/`
+
+adj. 通常的；惯常的 n. 常事
+
+- **搭配**　as usual 像往常一样
+- **拓展**　同根词 unusual adj. 不同寻常的；异常的 [un‐ 否定前缀 + usual] usually adv. 通常地；经常地 [usual + ‐ly副词后缀 ]
+
+### curious ✓  `/ˈkjuərɪəs; ˈkjʊrɪəs/`
+
+adj. 好奇的；求知欲强的；奇特的，不寻常的
+
+- **搭配**　be curious about 对……好奇
+- **拓展**　同根词 curiosity n. 好奇；好奇心 curiously adv. 好奇地 关联词 cautious adj. 小心的；谨慎的 conscious adj. 意识到的；清醒的
+
+### occur ✓  `/əˈkɜː ( r ) ; əˈkə/`
+
+v. 发生；出现；存在于
+
+- **搭配**　occur to sb. （观念或想法）出现在头脑中；被想到 it occurred to sb. that 某人突然想到
+- **拓展**　近义词 happen v. 发生 take place 发生
+
+### support ✓  `/səˈpɔːt; səˈpɔrt/`
+
+v.&n. 支持；拥护；鼓励；帮助；支撑
+
+- **搭配**　support sb. / sth. 支持某人／某事 support for 对……的支持 in support of sb. / sth. 支持或拥护某人／某事 financial support 财政支持
+- **拓展**　同根词 supportive adj. 支持的；赞助的 supporter n. 支持者
+
+### amaze ✱ ✓  `/əˈmeɪz; əˈmez/`
+
+v. 使惊奇；使惊愕
+
+- **拓展**　同根词 amazed adj. 感到惊奇的；吃惊的（修饰人） be amazed at 对……感到惊讶 amazing adj. 令人惊奇的（修饰物）
+
+### background ✓  `/ˈbækgraund; ˈbækˏɡraʊnd/`
+
+n. 背景；学历；经历
+
+- **搭配**　in the background 在幕后；背景中	 background knowledge 背景知识 cultural background 文化背景	 background music 背景音乐
+
+### emerge ✓  `/ɪˈmɜːdʒ; ɪˈmədʒ/`
+
+v. 浮现，显现；暴露；知悉
+
+- **拓展**　同根词 emerging adj. 新兴的；出现的 emerging market 新兴市场 emergency n. 突发事件，紧急情况
+
+
+---
+
+## Day 17
+
+### function ✓  `/ˈfʌŋkʃn/`
+
+n. 作用，功能；职责 v. 起作用；运转
+
+- **拓展**　关联词 fiction n. 小说；虚构的事物
+
+### select ✓  `/sɪˈlekt/`
+
+v. 选择；挑选 adj. 精选的
+
+- **搭配**　select sb. / sth. ( from / out of ) 挑选某人／某物 select for 为……而挑选
+- **拓展**　同根词 selection n. 选择，挑选；精选品 [select + ‐ion名词后缀 ]
+
+### strength ✓  `/streŋθ/`
+
+n. 力气，力量；实力；优点
+
+- **搭配**　strengths and weaknesses 优点和缺点 on the strength of sth. 凭借（或根据）某事物；在某事物的影响下
+- **拓展**　同根词 strengthen v. 加强 [strength + ‐en动词后缀 ] 近义词 energy n. 能量；精力 force n. 力，力量
+
+### famous ✓  `/ˈfeɪməs; ˈfeməs/`
+
+adj. 著名的，有名的；极好的
+
+- **搭配**　be famous for 因……而著名 be famous as 作为……而出名
+
+### cover ✓  `/ˈkʌvə ( r )/`
+
+n. 封面，封皮；盖子 v. 包括；覆盖
+
+- **搭配**　cover up 掩盖，盖住 cover with 用……覆盖
+- **拓展**　同根词 discover v. 发现，找到 [dis‐ 前缀，表否定 + cover] discovery n. 发现 [discover + ‐y名词后缀 ] recover v. 恢复；康复
+
+### mistake ✓  `/mɪˈsteɪk; məˈstek/`
+
+n. 错误；失误 v. 弄错；认错
+
+- **搭配**　make mistakes 犯错误 by mistake 错误地；由疏忽所致
+- **拓展**　同根词 mistaken adj. 不正确的，错误的；被误解的 近义词 fault n. 缺点；过错 error n. 错误，谬误
+
+### positive ✓  `/ˈpɔzətɪv; ˈpɑzətɪv/`
+
+adj. 乐观的；积极的；支持的
+
+- **搭配**　be positive about sth. / that ... 有把握的，确信的
+- **拓展**　同根词 positively adv. 乐观地；赞成地；明确地 [positive + ‐ly副词后缀 ] 关联词 position n. 位置；职位
+
+### process ✓  `/ˈprəʊses; ˈprɑːses/`
+
+n. 过程；步骤 v. 加工；处理；进行
+
+- **搭配**　in the process 在进行中
+
+### condition ✓  `/kənˈdɪʃn/`
+
+n. 状况；环境；条件
+
+- **搭配**　living / housing / working conditions 生活／住房／工作条件 in ( out of ) ... condition 状况良好（或不佳） on no condition 绝不 on condition ( that ) ... 在……条件下／倘若……
+
+### guide ✓  `/ɡaɪd/`
+
+n. 指南；导游；准则 v. 给……当导游；引导，指导
+
+- **搭配**　guide sb. ( to ... ) 引导，指导
+- **拓展**　同根词 guidance n. 引导，指导，领导 [guid + ‐ance名词后缀 ] 近义词 direct v. 为……导向，指示 lead v. 引路，领导
+
+### argue ✓  `/ˈɑːɡjuː; ˈɑːrɡjuː/`
+
+v. 辩论，争论；证明；说服
+
+- **搭配**　argue with sb. 和……争论／争吵 argue against 反对，争辩 argue for 赞成，支持argue about sth. 争论某事
+- **拓展**　同根词 argument n. 争论 [argu + ‐ment名词后缀 ]
+
+### credit ✓  `/ˈkredɪt/`
+
+n. 信用；信贷；称赞；学分 v. 相信
+
+- **搭配**　credit card 信用卡
+- **拓展**　同根词 incredible adj. 难以相信的；不可思议的
+
+### constant ✓  `/ˈkɔnstənt; ˈkɑnstənt/`
+
+adj. 持续不断的，经常发生的；恒定的
+
+- **拓展**　同根词 constantly adv. 不断地；总是 [constant + ‐ly副词后缀 ] 关联词 distant adj. 远的；遥远的 instant adj. 立即的；紧迫的
+
+### enter ✓  `/ˈentə ( r )/`
+
+v. 进入；开始从事，成为……一员；登记
+
+- **拓展**　同根词 entrance n. 进入；入口；登台 [ent ( e ) r + ‐ance名词后缀 ]
+
+### harm ✓  `/hɑːm; hɑrm/`
+
+n.&v. 伤害；损害；危害
+
+- **搭配**　do harm ( n. ) to 损害，对……有害
+- **拓展**　同根词 harmful adj. 有害的；能造成损害的 [harm + ‐ful形容词后缀 ]
+
+### government ✓  `/ˈɡʌvənmənt; ˈɡʌvərnmənt/`
+
+n. 政府；统治；控制；政体
+
+- **拓展**　同根词 govern v. 统治，支配
+
+### stage ✓  `/steɪdʒ; stedʒ/`
+
+n. 阶段，时期；舞台 v. 上演；举办；组织
+
+- **搭配**　at / in ... stage 在……阶段
+- **拓展**　关联词 state v. 陈述；公布 n. 状态；国家
+
+### modern ✓  `/ˈmɔdn; ˈmɑdɚn/`
+
+adj. 现代的；当代的；新潮的
+
+- **搭配**　modern times 摩登时代；现代；近代 modern society 现代社会
+- **拓展**　关联词 modest adj. 谦虚的；有节制的 近义词 current adj. 目前的，现在的
+
+### proper ✓  `/ˈprɔpə ( r ) ; ˈprɑpɚ/`
+
+adj. 适当的；合适的；正确的
+
+- **拓展**　同根词 properly adv. 适当地，恰当地 [proper + ‐ly副词后缀 ] improper adj. 不适当的；不合理的 [im‐否定前缀 + proper ]
+
+### declare ✓  `/dɪˈkleə ( r )/`
+
+v. 公布；声称，宣称
+
+- **搭配**　declare for 声称赞成（支持）…… declare against 声称反对（不支持）……
+
+
+---
+
+## Day 18
+
+### aware ✓  `/əˈweə ( r )/`
+
+adj. 意识到的；知道的
+
+- **搭配**　be aware of 意识到 be aware that ... 意识到；知道
+- **拓展**　同根词 awareness n. 意识 [aware + ‐ness名词后缀 ] unaware adj. 不知道的，没有意识到的 [un‐否定前缀 + aware]
+
+### recall ✓  `/rɪˈkɔːl/`
+
+v. 回忆；回想起，使想到；召回
+
+- **搭配**　recall sb. to sth. 使某人重新注意到或意识到某事物
+- **拓展**　近义词 memorize v. 记住，熟记	 remember v. 记得，想起 remind v. 使想起，提醒	 	 remind sb. of sth. 提醒某人某事
+
+### lack ✓  `/læk/`
+
+v. 缺乏，不足 n. 缺乏，短缺
+
+- **搭配**　for lack of 因缺乏；缺少 lack of 缺乏；不足
+- **拓展**　近义词 shortage n. 缺少，短缺（常指供小于求）
+
+### attitude ✓  `/ˈætɪtjuːd; ˈætɪtuːd/`
+
+n. 态度；看法；姿势
+
+- **搭配**　attitude to / toward ( s ) 态度；看法；对……的态度 positive / negative attitude 积极／消极态度
+- **拓展**　关联词 altitude n. 高度
+
+### character ✓  `/ˈkærəktə ( r ) ; ˈkærɪktɚ/`
+
+n. 性格；品质；特性；人物，角色
+
+- **搭配**　have a strong / weak character 个性强／不强 main character 主要人物
+- **拓展**　同根词 characteristic adj. 典型的；特有的 [character + ‐istic形容词后缀 ] characterize v. 描述；以……为典型 [character + ‐ize动词后缀 ]
+
+### eager ✓  `/ˈiːɡə ( r )/`
+
+adj. 渴望的；热切的；渴求的
+
+- **搭配**　be eager for 渴望；迫切要 be eager to do sth. 渴望做某事
+- **拓展**　近义词 keen adj. 渴望的，热切的；对……着迷 辨析：两者表示“渴望”时用法区别如下： ① keen：强调因兴趣或欲望强烈而急于做某事，常后接介词 on或动词不定式； ② eager：指对即将发生的事情或想要做的事情感到热切和兴奋，含有迫不及待之意，后常 接介词 for或动词不定式。
+
+### admit ✓  `/ədˈmɪt/`
+
+v. 准许……进入；承认；接纳
+
+- **搭配**　admit ( to ) sth. 承认…… admit to doing sth. 承认……
+- **拓展**　同根词 admission n. 承认，许可；录取 [admi + ‐ssion名词后缀 ]
+
+### frequently  `/ˈfriːkwəntli/`
+
+adv. 频繁地；经常地
+
+- **拓展**　同根词 frequent adj. 经常发生的，频繁的 frequency n. 频率；频繁 关联词 regularly adv. 定期地；频繁地
+
+### brief ✓  `/briːf/`
+
+n. 摘要；大纲 adj. 简短的；短暂的
+
+- **搭配**　in brief 简言之 brief description 简短的描述
+- **拓展**　同根词 briefly adv. 短暂地，暂时地 [brief + ‐ly副词后缀 ] 近义词 concise adj. 简明的，简洁的 关联词 relief n. 缓解；宽慰
+
+### convenient ✓  `/kənˈviːniənt/`
+
+adj. 方便的，便利的
+
+- **搭配**　it is convenient ( for sb. ) to do sth. （对于某人）做某事很方便
+- **拓展**　同根词 convenience n. 便利，方便 [convenien + ‐ce名词后缀 ]
+
+### traditional  `/trəˈdɪʃənl/`
+
+adj. 传统的；习俗的；惯例的；守旧的
+
+- **搭配**　traditional culture 传统文化
+- **拓展**　同根词 tradition n. 惯例，传统 traditionally adv. 传统上；习惯上
+
+### separate ✓  `/ˈseprət/`
+
+adj. 单独的；分开的；独立的；不同的 v. 分开，分离
+
+- **搭配**　separate from 从……分离
+- **拓展**　同根词 separately adv. 单独地，分别地 近义词 divide v. 分开，分离 isolate v. 分隔，隔离
+
+### survive ✓  `/səˈvaɪv; sərˈvaɪv/`
+
+v. 幸免于；幸存；生还
+
+- **搭配**　survive in 生存于…… survive from 从……存活下来，流传下来
+- **拓展**　同根词 survival n. 幸存，存活 [surviv + ‐al 名词后缀 ] survivor n. 幸存者，生还者 [surviv + ‐or 名词后缀 ]
+
+### record ✓  `/ˈrekɔːd; rɪˈkɔːd/`
+
+n. 记录；唱片 v. 记录；录（像）
+
+- **搭配**　on record 记录在案的；公开发表的
+- **拓展**　同根词 recorder n. 录音机；记录器；记录员 [record + ‐er 名词后缀 ] 关联词 accord v. 与……一致；符合
+
+### balance ✓  `/ˈbæləns/`
+
+n. 平衡；余额；天平 v. 使平衡；结算；使相称
+
+- **搭配**　keep / lose one’s balance 保持／失去平衡
+- **拓展**　同根词 imbalance n. 不平衡；不安定 [im‐ 否定前缀 + balance]
+
+### regular ✓  `/ˈreɡjələ ( r )/`
+
+adj. 有规律的；频繁的；通常的；定期的
+
+- **搭配**　regular exercise定期锻炼
+- **拓展**　同根词 regularly adv. 定期地；频繁地 [regular + ‐ly 副词后缀 ] regulate v. 管制，控制
+
+### direction ✓  `/dɪˈrekʃn/`
+
+n. 方向；趋势；动向；用法说明
+
+- **搭配**　in the direction of 朝……方向，向……方向 sense of direction 方向感
+- **拓展**　同根词 direct v. 指导；领导 adj. & adv. 直接的／地；径直的／地 directly adv. 直接地；立即 director n. 指导者；主任；导演 近义词 guidance n. 指导，指引 tendency n. 趋势；倾向
+
+### advertise ✓  `/ˈædvətaɪz/`
+
+v. 做广告；征聘；公布；宣传
+
+- **搭配**　advertise on 在……上做广告 advertise sth. 为……做广告 advertise for sb. / sth. 登广告征求某人／某物
+- **拓展**　同根词 advertisement n. 广告；启事
+
+### intelligent ✓  `/ɪnˈtelɪdʒənt/`
+
+adj. 智能的；聪慧的；有才智的；智力的
+
+- **拓展**　同根词 intelligence n. 智力，脑力；情报 [intelligen + ‐ce 名词后缀 ] Artificial Intelligence 人工智能 ( AI ) intellectual adj. 智力的；聪明的 n. 知识分子
+
+### stick ✓  `/stɪk/`
+
+v. 粘贴；伸出；坚持 n. 棍，手杖；呆头呆脑的人
+
+- **搭配**　stick out 坚持到底；伸出；突出 stick to ( doing ) sth. 坚持做某事 stick with 坚持；保持联系 stick to sth. 粘在某物上
+- **拓展**　关联词 stuck adj. 被卡住的，不能动的
+
+### remove ✓  `/rɪˈmuːv/`
+
+v. 移除；去掉；移开；消除
+
+- **搭配**　remove sth. / sb. from sth. / sb. 把……从……移开
+- **拓展**　同根词 move v. 移动
+
+### announce ✓  `/əˈnaʊns/`
+
+v. 宣布；通知；声称；广播
+
+- **搭配**　announce sth. to sb. 向某人宣布某事 It is / was announced that ... 据宣布……
+- **拓展**　同根词 announcement n. 公告；发表；通告 [announce + ‐ment 名词后缀 ] 近义词 state v. 陈述，说明，声明 claim v. 宣称，声称 declare v. 宣布，宣告
+
+
+---
+
+## Day 19
+
+### touch ✓  `/tʌtʃ/`
+
+v. 触摸，碰；感动 n. 触觉，触感；触摸
+
+- **搭配**　keep in touch with 与……保持联系 in / out of touch ( with sb ) 有／无联系
+- **拓展**　近义词 contact n.&v. 联系，联络，接触
+
+### recently ✓  `/ˈriːsəntli/`
+
+adv. 最近，不久前
+
+- **拓展**　同根词 recent adj. 最近的，最新的 近义词 lately adv. 最近，近来
+
+### vacation ✓  `/vəˈkeɪʃn; veɪˈkeʃən/`
+
+n. （学校的）假期，（法院的）休庭期 v. 度假
+
+- **搭配**　( be ) on vacation（在）度假 take a vacation 休假 winter vacation 寒假 summer vacation 暑假
+- **拓展**　关联词 vocation n. 工作，职业 education n. 教育
+
+### rule  `/ruːl/`
+
+n. 规章；规则，法则 v. 统治，管辖；支配，控制
+
+- **搭配**　school rules 校规 traffic rules 交通规则
+
+### stimulate ✓  `/ˈstɪmjuleɪt/`
+
+v. 促进，激发；使（身体，生物系统）兴奋，刺激；激励
+
+- **搭配**　stimulate sb. / sth. ( to sth. ) 刺激／激励某人／某事物 stimulate economic growth 拉动经济增长
+- **拓展**　近义词 motivate v. 激励，激发 encourage v. 鼓励，促进
+
+### resource ✓  `/rɪˈsɔːs; ˈriːsɔːrs/`
+
+n. 资源（指钱、物、人等）
+
+- **搭配**　human resource 人力资源 natural resource 自然资源
+- **拓展**　近义词 source n. 来源，出处；根源
+
+### introduce ✓  `/ˌɪntrəˈdjuːs; ˌɪntrəˈduːs/`
+
+v. 介绍，引见；首次引入（某物），使传入
+
+- **搭配**　introduce into 引入 introduce oneself 自我介绍
+- **拓展**　同根词 introduction n. 介绍；传入 [introduc + ‐tion名词后缀 ] 关联词 produce v. 生产，产出 reduce v. 减少，降低
+
+### schedule ✓  `/ˈʃedjuːl; ˈskedʒul/`
+
+n. 计划（进度／时间／课程等）表 v. 安排，预定
+
+- **搭配**　on schedule 按时；按照预定时间 behind schedule 晚点，不准时
+- **拓展**　关联词 scheme n. 计划，方案 近义词 time‐table n. （火车等的）时间表
+
+### establish ✱ ✓  `/ɪˈstæblɪʃ/`
+
+v. 建立，设立；证实，确定
+
+- **搭配**　establish a business relationship 建立业务关系
+- **拓展**　同根词 establishment n. 建立，设立；企业
+
+### distinct ✓  `/dɪˈstɪŋkt/`
+
+adj. 不同的，有区别的；清楚的，明显的
+
+- **搭配**　( be ) distinct from 与……不同
+- **拓展**　同根词 distinction n. 差别，区分 distinctive adj. 独特的，与众不同的
+
+### include  `/ɪnˈkluːd/`
+
+v. 包括，包含；把……列为一部分
+
+- **拓展**　同根词 including prep. 包括，包含 exclude v. 不包括，把……排除在外 [ex表方向，向外、外部 + clude] 关联词 conclude v. 断定，推断出；结束，终止
+
+### serve ✓  `/sɜːv/`
+
+v. （为……）工作，服务；（给……）提供，端上（食物）
+
+- **搭配**　serve as 担任，充当 serve food 提供食品；上菜
+- **拓展**　同根词 service n. 服务 关联词 deserve v. 值得，应受 reserve v. 预订；保留 conserve v. 保护，保存
+
+### emotion ✓  `/ɪˈməʊʃn/`
+
+n. 情感，情绪；激情，强烈的情感
+
+- **拓展**　同根词 emotional adj. 情感的，情绪的 近义词 affection n. 喜爱；爱恋；感情 feeling n. 感觉；情感，情绪 passion n. 爱恋；激情，热情
+
+### distance ✓  `/ˈdɪstəns/`
+
+n. 远处；疏远；距离 v. 疏远，远离 adj. 远距离的
+
+- **搭配**　in the distance 在远处 at a distance 在远处；有相当距离 distance education 远程教育；函授教育
+- **拓展**　同根词 distant adj. 遥远的，久远的；远亲的 distantly adv. 远离地，遥远地
+
+### conversation ✓  `/ˌkɔnvəˈseɪʃn; ˌkɑnvəˈseʃən/`
+
+n. （非正式的）谈话，交谈
+
+- **搭配**　in conversation with 和……谈话 conversation about 关于……的谈话
+- **拓展**　同根词 converse v. 谈话，交谈 n. 相反的事物 adj. 相反的，颠倒的
+
+### extent ✓  `/ɪkˈstent/`
+
+n. 程度；范围，长度
+
+- **搭配**　to the extent 到……的程度 to some extent 在一定程度上；在某种程度上 the extent of 在……的范围内；到……的程度
+- **拓展**　同根词 extensive adj. 广阔的；广泛的 extension n. 延伸，扩展 extend v. 延伸；扩大，延长 近义词 degree n. 度，度数（温度单位）；程度
+
+### supply ✓  `/səˈplaɪ/`
+
+n. 供给量，储备；补给 v. 供应，提供，供给；补充
+
+- **搭配**　power supply 电源；电源供应器	 	 supply chain 供应链 in short supply 供应不足；缺乏	 	 supply and demand 供给和需求 supply ( sb. ) with ( sth. ) 以……供给	 supply ( sth. ) to ( sb. ) 向……供应
+
+### origin ✓  `/ɒrɪdʒɪn; ˈɔːrɪdʒɪn/`
+
+n. 起源，起因；出身，血统
+
+- **搭配**　country of origin 原产地；原产国 origin of species 物种起源
+- **拓展**　同根词 original adj. 起初的，原先的 n. 原件，原稿；原型；原版书 originally adv. 起初，原来；独创地，新颖地 originate v. 起源，产生；创始，开创
+
+### base  `/beɪs/`
+
+n. 根基，底部；基础 v. 以……为基础
+
+- **搭配**　base on 基于，以……为根据；在……基础上
+- **拓展**　同根词 basic adj. 最重要的，基本的 [bas + ‐ic形容词后缀，……的 ] basically adv. 基本上，大体上 [basic + ‐al形容词后缀 + ‐ly副词后缀 ] baseball n. 棒球
+
+### material ✓  `/məˈtɪəriəl/`
+
+n. 衣料，布料；材料，原料 adj. 物质的，非精神上的
+
+- **搭配**　raw material 原料 teaching material 教学内容；教学资料；教材
+- **拓展**　近义词 matter n. 事情，问题；物质，材料 v. 要紧，有关系 substance n. 物质，材料；实质
+
+### assess ✓  `/əˈses/`
+
+v. 评价，评定；估价，估计；征税
+
+- **搭配**　assess sth. ( at sth. ) 对……进行评定／作出判断
+- **拓展**　同根词 assessment n. 评估，评价 近义词 evaluate v. 评价，评估，估值 estimate v.&n. 估计，评价 value v. 重视；给……估价
+
+
+---
+
+## Day 20
+
+### ordinary ✓  `/ˈɔːdənrɪ; ˈɔːrdənerɪ/`
+
+adj. 普通的，平常的，平庸的 n. 常见的人（或事物）
+
+- **拓展**　近义词 usual adj. 通常的，惯常的 common adj. 共同的；普遍的，普通的 normal adj. 正常的，标准的
+
+### explore ✓  `/ɪkˈsplɔː ( r )/`
+
+v. 探讨，探究；考察，探索
+
+- **搭配**　explore the world 探索世界
+- **拓展**　同根词 explorer n. 探险者，勘探者
+
+### approach ✱ ✓  `/əˈprəʊtʃ/`
+
+v. 靠近，临近；处理 n. 方法；接近；通道，路径
+
+- **搭配**　approach to 接近；通往……的方法	 teaching approach 教学方法
+- **拓展**　近义词 means n. 方法，手段	 	 way n. 方法，方式
+
+### competition ✱ ✓  `/ˌkɔmpəˈtɪʃn/`
+
+n. 竞争；比赛，竞赛；竞争者，对手
+
+- **搭配**　market competition 市场竞争	 	 be in competition with 与……竞争
+- **拓展**　同根词 competitive adj. 竞争的	 	 compete v. 竞争，对抗 competitor n. 竞争者，对手；选手，参赛者
+
+### preserve ✓  `/prɪˈzɜːv/`
+
+v. 保护，保持，维持；保存（食物） n. 腌菜；保护区
+
+- **搭配**　preserve from 保护……免遭伤害	 	 preserve food 保存食物
+- **拓展**　近义词 conserve v. 保护，保存	 	 reserve v. 预订；保留
+
+### threat ✱ ✓  `/θret/`
+
+n. 威胁，恐吓；构成威胁的人（或事物）
+
+- **搭配**　pose a threat to 对……造成威胁
+- **拓展**　同根词 threaten v. 威胁，恐吓 [threat + ‐en动词后缀，使……] threatened adj. 受到威胁的，感到危险的
+
+### object ✓  `/ˈɔbdʒɪkt; əbˈdʒekt/`
+
+n. 物体；目标；宾语；对象 v. 反对
+
+- **搭配**　object to ( doing ) sth. 反对……
+- **拓展**　同根词 objective n. 目的，目标 adj. 客观的 近义词 aim n. 目标，目的 v. 瞄准，对准；旨在 purpose n. 目的，意图；目标 goal n. 球门；进球得分；目标，目的 v. 射门，射门得分
+
+### master ✓  `/ˈmɑːstə ( r ) ; ˈmæstər/`
+
+n. 大师，能手；主人；硕士 v. 精通，掌握 adj. 主要的
+
+- **搭配**　master of arts 文学硕士，文科硕士 master degree 硕士学位
+
+### profit ✓  `/ˈprɔfɪt; ˈprɑfɪt/`
+
+n. 利润，盈利 v. 获益，得益（于）；赢利
+
+- **拓展**　近义词 benefit n. 好处，益处；救济金 v. 对（某人）有用，使受益
+
+### opinion ✓  `/əˈpɪnjən/`
+
+n. 意见，看法；（群体的）观点，信仰
+
+- **搭配**　in my opinion 依我看来，在我看来 public opinion 民意；公众舆论
+- **拓展**　近义词 view n. 观点，看法 v. 看待，考虑
+
+### suffer ✓  `/ˈsʌfə ( r )/`
+
+v.（因疾病、痛苦、悲伤等）受苦，受折磨；经受，遭受（坏事）
+
+- **搭配**　suffer from 忍受，遭受；患……病；受……之苦
+- **拓展**　近义词 stand v. 站立；忍受，容忍 endure v. 持续存在，持久；忍受，忍耐
+
+### arrange ✓  `/əˈreɪndʒ/`
+
+v. 安排，筹备；整理，布置，排列
+
+- **搭配**　arrange for 安排；为……做准备
+- **拓展**　同根词 arrangement n. 安排，筹备；商定，约定 [arrange + ‐ment名词后缀 ]
+
+### sight ✓  `/saɪt/`
+
+n. 视力，视觉；景象 v. （突然）看到，（远远）看见
+
+- **搭配**　in sight 在视野内；看得见 at first sight 乍一看；初看之下
+- **拓展**　同根词 eyesight n. 视力 insight n. 领悟，了解；洞察力 sightseeing n. 观光，游览
+
+### efficiency  `/ɪˈfɪʃ ( ə ) nsi/`
+
+n. 效率，效能；（机器的）功率
+
+- **拓展**　同根词 efficient adj. 生效的，效率高的；（人）有能力的，能胜任的 inefficient adj. 效率低的，能力差的，浪费的 [in‐否定前缀 + efficient]
+
+### anxious ✓  `/ˈæŋkʃəs/`
+
+adj. 焦虑的，担心的；渴望的，急切的
+
+- **搭配**　be anxious for 渴望某事物，急切想要某事物 be anxious about 担忧；为……而忧虑
+- **拓展**　近义词 worried adj. 担心的，发愁的 concerned adj. 担心的，焦急的 upset v. 使烦恼 adj. 沮丧的，不高兴的 n. 困扰，麻烦
+
+### range ✓  `/reɪndʒ/`
+
+n. 范围，界限；射程 v.（在一定的范围内）变化，变动
+
+- **搭配**　range from ( A ) to ( B ) 范围从……到…… a range of 系列；一些；一套 in the range of 在……范围之内；在……射程内
+- **拓展**　同根词 rank v. 把……分等级 n. 地位，等级 arrange v. 安排，筹备；整理，布置
+
+### power  `/ˈpaʊə ( r )/`
+
+n. 权力；能力；控制力；影响力 v. 驱动，推动 adj. 电力的
+
+- **拓展**　同根词 powerful adj.（人／组织／国家）强大的，有影响力的 近义词 energy n. 能力，力气；精力，活力 force n. 暴力，武力；力量 strength n. 体力，力量；实力，影响力
+
+### interfere ✓  `/ˌɪntəˈfɪə ( r ) ; ˌɪntərˈfɪr/`
+
+v. 干涉，干扰；阻碍，妨害
+
+- **搭配**　interfere with 干扰，干涉；妨碍 interfere in 干涉，干预
+- **拓展**　同根词 interference n. 干预，干预；干扰信号 近义词 intervene v. 干预，干涉；干扰 disturb v. 打扰，妨碍 interrupt v. 打断，打扰；使暂停
+
+### focus ✓  `/ˈfəʊkəs/`
+
+v. 集中，关注；聚焦 n. 重点，中心点；关注，注意
+
+- **搭配**　focus on 集中于；关注 in focus 受到关注；清晰；焦点对准
+- **拓展**　近义词 concentrate v. 集中注意力，聚精会神；使集中，聚集
+
+### contrast ✓  `/kənˈtrɑːst; kənˋtræst/`
+
+v. 对比，对照 n. 差异，对比；对照物
+
+- **搭配**　in contrast 相反；相比之下 in contrast to 与……形成对照 in contrast with 与……形成对比；与……相比 by contrast 相比之下
+- **拓展**　同根词 contract n. 合同，契约 v. （使）收缩，缩小；签合同 contrary adj. 相反的，相对的 n. 相反的事实（或事情、情况）
+
+
+---
+
+## Day 21
+
+### courage ✓  `/ˈkʌrɪdʒ/`
+
+n. 勇气，胆量
+
+- **拓展**　同根词 encourage v. 鼓励，激励；刺激，促进 [en‐ 动词前缀 + courage] discourage v. 使泄气；劝阻 [dis‐ 否定前缀，不 + courage]
+
+### accord ✓  `/əˈkɔːd/`
+
+n. 协议，条约；符合，一致 v. 使受到，给予；与……一致，符合
+
+- **搭配**　accord ( v. ) with 同……相符合；与……一致 in accord ( n. ) with 同……相符合；与……一致
+- **拓展**　同根词 according adj. 相符的；相应的；一致的 [accord + ‐ing后缀 ] according to 根据，依据；随……而定
+
+### instruct ✓  `/ɪnˈstrʌkt/`
+
+v. 指示，吩咐；教授，指导
+
+- **搭配**　instruct sb. to do sth. 指示／命令某人做某事
+- **拓展**　同根词 instruction n. 用法说明；指示；教授，指导 [instruct + ‐ion名词后缀 ] instructor n. 教练；讲师 [instruct + ‐or名词后缀，表示从事某一职业的人 ] 关联词 construct v. 建造；组成，创立；绘制 destruct v. 毁坏，破坏
+
+### symbol ✓  `/ˈsɪmbəl/`
+
+n. 象征，标志；符号；代表性的人（物）
+
+- **搭配**　symbol of ... ……的象征／标志
+- **拓展**　同根词 symbolize v. 象征，代表 [symbol + ‐ize动词后缀 ]
+
+### evidence ✓  `/ˈevɪdəns/`
+
+n. 根据；证据；迹象，痕迹
+
+- **搭配**　in evidence 明显的；显而易见的
+- **拓展**　同根词 evident adj. 清楚的，显然的 [evidence去掉 ce + ‐t形容词词缀，……的 ] 近义词 proof n. 证据；证明
+
+### income ✓  `/ˈɪŋkʌm; ˈɪnkʌm/`
+
+n. 收入，收益
+
+- **搭配**　low income 低收入 income tax 所得税
+- **拓展**　近义词 salary n. 薪水，薪金 wage n. 工资，报酬 pay n. 工资，薪水，付款 辨析：四者表示“薪水、收入”时区别如下： ① salary通常指（通过非体力劳动）按月发放的薪水、薪金； ② income指收入、收益、所得（包括工资和其他收入，如存款）； ③ wage / wages通常指（通过体力劳动）按周领取的工资、工钱； ④ pay指工资、薪水（不论工作性质如何）。
+
+### period ✓  `/ˈpɪəriəd; ˈpɪriəd/`
+
+n. 一段时间，时期；周期
+
+- **搭配**　long / short period 长／短（周）期的 a period of time 一段时间
+
+### conflict ✓  `/ˈkɔnflɪkt; ˋkɑːnflɪkt/`
+
+n. & v. 争执；冲突，战争；抵触
+
+- **搭配**　in conflict ( n. ) with 和……冲突
+
+### neglect ✓  `/nɪˈglekt/`
+
+n. & v. 忽略，忽视；漏做
+
+- **搭配**　neglect of 疏忽
+
+### local ✓  `/ˈləuk ( ə ) l/`
+
+adj. 当地的，地方的；局部的 n. 当地人，本地人
+
+- **搭配**　local culture 本土文化，地方文化	 local product 土产 local time 当地时间	 	 local government 地方政府
+- **拓展**　同根词 location n. 位置，地点；定位 [local去掉 l + ‐tion名词后缀 ] 近义词 native adj. 本地出生的；天生的；母语的；土著（人）的 n. 本地人；当地居民；土生植物（或动物）
+
+### occasion ✓  `/əˈkeɪʒən/`
+
+n. 时刻；时机；特殊（或重大）场合；理由
+
+- **搭配**　on the occasion ( of ) 在那时；值此……之际 on occasion 偶尔，不时，必要时
+- **拓展**　同根词 occasional adj. 偶然的；临时的 [occasion + ‐al形容词后缀 ] occasionally adv. 偶而，间或 [occasional + ‐ly副词后缀 ]
+
+### national ✓  `/ˈnæʃənəl/`
+
+adj. 国家的，全国的；国立的；国内的 n. 国民
+
+- **搭配**　national economy 国民经济 national standard 国家标准 national security 国家安全
+- **拓展**　同根词 nation n. 国家，民族 international adj. 国际的 [inter‐ 前缀，在……之间 + nation + ‐al形容词后缀 ]
+
+### sense ✱ ✓  `/sens/`
+
+n. 感觉官能；感觉；理性 v. 感觉到，觉察到
+
+- **搭配**　in a sense 在某种意义上	 make sense 有意义；讲得通；言之有理 common sense 常识	 sense of responsibility 责任感
+- **拓展**　同根词 sensitive adj. 善解人意的，体恤的；敏感的；过敏的 [sensei + ‐tive形容词后缀 ] sensible adj. 明智的；明显的；通晓事理的 [sensi + ‐ble形容词后缀 ] sentimental adj. 多愁善感的，伤感的；柔情的 [senti感觉 + mental精神的 ]
+
+### pressure  `/ˈpreʃə ( r )/`
+
+n. 压力，压强；紧张
+
+- **搭配**　under the pressure of 在……压力下 blood pressure 血压	 	 high pressure 高压；高度紧张
+- **拓展**　同根词 press v. 按，压，挤 n. 按，压；新闻报道
+
+### typical ✓  `/ˈtɪpɪkəl/`
+
+adj. 典型的，有代表性的；一贯的，平常的
+
+- **搭配**　be typical of 是……的典型特征	 typical case 典型案例
+- **拓展**　近义词 representative adj. 典型的，有代表性的 n. 代表；代理人
+
+### average ✓  `/ˈævərɪdʒ/`
+
+n. 平均水平；平均数 adj. 普通的；中等的；平均的
+
+- **搭配**　on average 平均；普通，通常	 average level 平均水平 above average 平均以上；在一般水平以上
+
+### furthermore ✓  `/ˌfɜːðəˈmɔː ( r )/`
+
+adv. 此外，而且
+
+- **拓展**　同根词 further v. 促进，推进 adj.&adv. 更多的（地），进一步的（地）；（距离上）更远的地） 近义词 moreover adv. 此外，而且
+
+### otherwise ✓  `/ˈʌðə ( r ) waɪz/`
+
+adv. 否则，不然；除此以外；在其他方面
+
+- **搭配**　or otherwise 或相反；或其反面
+- **拓展**　同根词 other adj. & pron. 其他的，别的，另外的
+
+### moreover ✓  `/mɔːrˈəʊvə ( r )/`
+
+adv. 此外，而且
+
+- **拓展**　近义词 in addition 此外
+
+### weak ✱ ✓  `/wiːk/`
+
+adj. 虚弱的，无力的；不牢固的；懦弱的
+
+- **搭配**　weak point 弱点（心理或身体上的残疾）；缺点
+- **拓展**　同根词 weakness n. 弱点；软弱；嗜好 weaken v. 变弱；畏缩；变软弱

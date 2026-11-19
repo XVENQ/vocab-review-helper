@@ -1,0 +1,1748 @@
+{
+ "_meta": {
+  "n": 435,
+  "source_sha1": "4b4cc63547c6353c"
+ },
+ "additions": {
+  "a danger to": {
+   "meaning": "对…的危险",
+   "src": "phrase"
+  },
+  "a matter of course": {
+   "meaning": "理所当然的事",
+   "src": "phrase"
+  },
+  "a warning against": {
+   "meaning": "告诫…不要",
+   "src": "phrase"
+  },
+  "a warning of": {
+   "meaning": "警告…存在…",
+   "src": "phrase"
+  },
+  "a word in one's ear": {
+   "meaning": "私房话, 秘密话",
+   "src": "phrase"
+  },
+  "abide by": {
+   "meaning": "忠于；遵守。；服从",
+   "src": "phrase"
+  },
+  "above all": {
+   "meaning": "尤其是, 最重要的",
+   "src": "phrase"
+  },
+  "above normal": {
+   "meaning": "高于正常(温度)",
+   "src": "phrase"
+  },
+  "absence or mind": {
+   "meaning": "心不在焉",
+   "src": "phrase"
+  },
+  "account for": {
+   "meaning": "解释, 说明",
+   "src": "phrase"
+  },
+  "act as": {
+   "meaning": "扮演",
+   "src": "phrase"
+  },
+  "act for": {
+   "meaning": "代理",
+   "src": "phrase"
+  },
+  "act on": {
+   "meaning": "奉行,按照…行动",
+   "src": "phrase"
+  },
+  "adapt oneself to": {
+   "meaning": "使自己适应于",
+   "src": "phrase"
+  },
+  "admit of": {
+   "meaning": "的可能，留有…的余地",
+   "src": "phrase"
+  },
+  "after all": {
+   "meaning": "毕竟",
+   "src": "phrase"
+  },
+  "after the fashion": {
+   "meaning": "依照…",
+   "src": "phrase"
+  },
+  "against one's will": {
+   "meaning": "违背某人的意愿",
+   "src": "phrase"
+  },
+  "agree to": {
+   "meaning": "同意",
+   "src": "phrase"
+  },
+  "agree with": {
+   "meaning": "赞同(某人意见)",
+   "src": "phrase"
+  },
+  "all at once": {
+   "meaning": "突然",
+   "src": "phrase"
+  },
+  "all but": {
+   "meaning": "几乎",
+   "src": "phrase"
+  },
+  "all in all": {
+   "meaning": "大体上说",
+   "src": "phrase"
+  },
+  "all into the habit": {
+   "meaning": "养成…习惯",
+   "src": "phrase"
+  },
+  "amount to": {
+   "meaning": "总计, 等于",
+   "src": "phrase"
+  },
+  "answer to": {
+   "meaning": "适合,符合",
+   "src": "phrase"
+  },
+  "apologize to sb for sth": {
+   "meaning": "为…向…道歉",
+   "src": "phrase"
+  },
+  "appeal to sb": {
+   "meaning": "对某人有吸引力",
+   "src": "phrase"
+  },
+  "appeal to sb for sth": {
+   "meaning": "为某事向某人呼吁",
+   "src": "phrase"
+  },
+  "apply for": {
+   "meaning": "申请",
+   "src": "phrase"
+  },
+  "apply to": {
+   "meaning": "与…有关;适用",
+   "src": "phrase"
+  },
+  "apply to sb for sth": {
+   "meaning": "为…向…申请",
+   "src": "phrase"
+  },
+  "arise from": {
+   "meaning": "由…引起",
+   "src": "phrase"
+  },
+  "arrange for sb sth to do sth": {
+   "meaning": "安排…做…",
+   "src": "phrase"
+  },
+  "arrive in": {
+   "meaning": "到达某地(大地方)",
+   "src": "phrase"
+  },
+  "arrive on": {
+   "meaning": "到达",
+   "src": "phrase"
+  },
+  "as a matter of course": {
+   "meaning": "当然地, 自然地",
+   "src": "phrase"
+  },
+  "as a whole": {
+   "meaning": "就整体而论",
+   "src": "phrase"
+  },
+  "at a loss": {
+   "meaning": "不知所措",
+   "src": "phrase"
+  },
+  "at all": {
+   "meaning": "毕竟,到底; 一点也不",
+   "src": "phrase"
+  },
+  "at all costs": {
+   "meaning": "不惜任何代价",
+   "src": "phrase"
+  },
+  "at all events": {
+   "meaning": "不论怎样, 无论如何",
+   "src": "phrase"
+  },
+  "at an end": {
+   "meaning": "结束了",
+   "src": "phrase"
+  },
+  "at any rate": {
+   "meaning": "无论如何,总之",
+   "src": "phrase"
+  },
+  "at ease": {
+   "meaning": "自在,不拘束",
+   "src": "phrase"
+  },
+  "at fault": {
+   "meaning": "有错",
+   "src": "phrase"
+  },
+  "at hand": {
+   "meaning": "在手边, 眼前(附近)",
+   "src": "phrase"
+  },
+  "at heart": {
+   "meaning": "内心里, 实际上",
+   "src": "phrase"
+  },
+  "at intervals": {
+   "meaning": "每隔一会儿, 每隔一段距离",
+   "src": "phrase"
+  },
+  "at large": {
+   "meaning": "详细地；在逃, 逍遥法外；一般来说, 大体上",
+   "src": "phrase"
+  },
+  "at least": {
+   "meaning": "至少",
+   "src": "phrase"
+  },
+  "at most": {
+   "meaning": "最多, 至多",
+   "src": "phrase"
+  },
+  "at one's back": {
+   "meaning": "支持某人；给某人撑腰",
+   "src": "phrase"
+  },
+  "at one's convenience": {
+   "meaning": "在方便的时间或地点",
+   "src": "phrase"
+  },
+  "at one's leisure": {
+   "meaning": "在…有空的时候",
+   "src": "phrase"
+  },
+  "at one's wit's end": {
+   "meaning": "无法可想, 智穷计尽",
+   "src": "phrase"
+  },
+  "at peace with": {
+   "meaning": "与…和睦相处",
+   "src": "phrase"
+  },
+  "at present": {
+   "meaning": "现在,此刻",
+   "src": "phrase"
+  },
+  "at random": {
+   "meaning": "随便地, 任意地, 胡乱地",
+   "src": "phrase"
+  },
+  "at the back of": {
+   "meaning": "在…后面",
+   "src": "phrase"
+  },
+  "at the conclusion of": {
+   "meaning": "当…结束时",
+   "src": "phrase"
+  },
+  "at the cost of": {
+   "meaning": "以…为代价",
+   "src": "phrase"
+  },
+  "at the expense of": {
+   "meaning": "在损害…情况下,以…为牺牲",
+   "src": "phrase"
+  },
+  "at the head of": {
+   "meaning": "在…的前头",
+   "src": "phrase"
+  },
+  "at the last moment": {
+   "meaning": "在最后一刻",
+   "src": "phrase"
+  },
+  "at the mercy of": {
+   "meaning": "任…摆布, 在…支配下",
+   "src": "phrase"
+  },
+  "at the moment": {
+   "meaning": "此刻,现在",
+   "src": "phrase"
+  },
+  "at the risk of": {
+   "meaning": "冒的风险",
+   "src": "phrase"
+  },
+  "at the side of": {
+   "meaning": "与…相比",
+   "src": "phrase"
+  },
+  "at the sight of": {
+   "meaning": "一看见…",
+   "src": "phrase"
+  },
+  "at the thought of": {
+   "meaning": "一想到…",
+   "src": "phrase"
+  },
+  "at will": {
+   "meaning": "随心所欲",
+   "src": "phrase"
+  },
+  "at worst": {
+   "meaning": "在最糟的情况下",
+   "src": "phrase"
+  },
+  "attend on": {
+   "meaning": "侍候,照料",
+   "src": "phrase"
+  },
+  "attend to": {
+   "meaning": "注意,照顾",
+   "src": "phrase"
+  },
+  "attitude to toward": {
+   "meaning": "对…的态度看法",
+   "src": "phrase"
+  },
+  "attribute to": {
+   "meaning": "把归因于, 认为是的结果",
+   "src": "phrase"
+  },
+  "be absent from": {
+   "meaning": "缺席，不在",
+   "src": "phrase"
+  },
+  "be absorbed in": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be accustomed to": {
+   "meaning": "习惯于",
+   "src": "phrase"
+  },
+  "be acquainted with": {
+   "meaning": "了解",
+   "src": "phrase"
+  },
+  "be all in": {
+   "meaning": "累极了",
+   "src": "phrase"
+  },
+  "be anxious about": {
+   "meaning": "为…焦急不安; 或 anxious for",
+   "src": "phrase"
+  },
+  "be based on upon": {
+   "meaning": "基于",
+   "src": "phrase"
+  },
+  "be busy doing sth": {
+   "meaning": "忙于做某事",
+   "src": "phrase"
+  },
+  "be busy with sth": {
+   "meaning": "忙于做某事",
+   "src": "phrase"
+  },
+  "be capable of": {
+   "meaning": "能够, 有能力",
+   "src": "phrase"
+  },
+  "be capable of being": {
+   "meaning": "过去分词)是能够被…的",
+   "src": "phrase"
+  },
+  "be caught in the rain": {
+   "meaning": "被雨淋了",
+   "src": "phrase"
+  },
+  "be cautious of": {
+   "meaning": "谨防",
+   "src": "phrase"
+  },
+  "be centered on": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be certain of": {
+   "meaning": "有把握, 一定",
+   "src": "phrase"
+  },
+  "be concentrated on": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be concerned with": {
+   "meaning": "与…有关",
+   "src": "phrase"
+  },
+  "be confident of": {
+   "meaning": "有信心",
+   "src": "phrase"
+  },
+  "be confronted with": {
+   "meaning": "面对, 面临",
+   "src": "phrase"
+  },
+  "be conscious of": {
+   "meaning": "觉察,知道",
+   "src": "phrase"
+  },
+  "be consistent in": {
+   "meaning": "一贯的",
+   "src": "phrase"
+  },
+  "be consistent with": {
+   "meaning": "与…一致",
+   "src": "phrase"
+  },
+  "be content to do sth": {
+   "meaning": "愿意做某事",
+   "src": "phrase"
+  },
+  "be content with": {
+   "meaning": "满足于",
+   "src": "phrase"
+  },
+  "be convenient to for": {
+   "meaning": "对…方便",
+   "src": "phrase"
+  },
+  "be critical of": {
+   "meaning": "爱挑毛病的，批评的",
+   "src": "phrase"
+  },
+  "be dependent on": {
+   "meaning": "依靠",
+   "src": "phrase"
+  },
+  "be due to": {
+   "meaning": "是由于",
+   "src": "phrase"
+  },
+  "be eager for": {
+   "meaning": "想得到, 盼望",
+   "src": "phrase"
+  },
+  "be engrossed in": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be entitled to": {
+   "meaning": "有权…,有资格…",
+   "src": "phrase"
+  },
+  "be equal to": {
+   "meaning": "等于",
+   "src": "phrase"
+  },
+  "be equipped with": {
+   "meaning": "装备有,装有",
+   "src": "phrase"
+  },
+  "be exposed to": {
+   "meaning": "面临…, 受到…",
+   "src": "phrase"
+  },
+  "be fed up with": {
+   "meaning": "厌烦, 腻了",
+   "src": "phrase"
+  },
+  "be feel equal to": {
+   "meaning": "某人)能胜任,能应付",
+   "src": "phrase"
+  },
+  "be focused on": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be for sale": {
+   "meaning": "待售",
+   "src": "phrase"
+  },
+  "be fortunate in": {
+   "meaning": "幸运,有好运气",
+   "src": "phrase"
+  },
+  "be freed from": {
+   "meaning": "免受, 没有…",
+   "src": "phrase"
+  },
+  "be good at": {
+   "meaning": "擅长于",
+   "src": "phrase"
+  },
+  "be good for": {
+   "meaning": "对…有好处;对…有作用",
+   "src": "phrase"
+  },
+  "be good to": {
+   "meaning": "对…好",
+   "src": "phrase"
+  },
+  "be grateful to sb for sth": {
+   "meaning": "因…感谢某人",
+   "src": "phrase"
+  },
+  "be guilty of": {
+   "meaning": "犯有…罪或过失",
+   "src": "phrase"
+  },
+  "be honest in": {
+   "meaning": "诚实",
+   "src": "phrase"
+  },
+  "be identical with": {
+   "meaning": "和完全相同",
+   "src": "phrase"
+  },
+  "be identified with": {
+   "meaning": "被视为与…等同",
+   "src": "phrase"
+  },
+  "be ignorant of lacking knowledge": {
+   "meaning": "对…不了解,不知道",
+   "src": "phrase"
+  },
+  "be in a mess": {
+   "meaning": "乱七八糟, 处境困难",
+   "src": "phrase"
+  },
+  "be in blossom": {
+   "meaning": "开花(强调状态)",
+   "src": "phrase"
+  },
+  "be in danger": {
+   "meaning": "处于…危险中",
+   "src": "phrase"
+  },
+  "be in debt to sb": {
+   "meaning": "欠…的债",
+   "src": "phrase"
+  },
+  "be in duty bound to": {
+   "meaning": "有义务(做)",
+   "src": "phrase"
+  },
+  "be in effect": {
+   "meaning": "有效",
+   "src": "phrase"
+  },
+  "be in favour with": {
+   "meaning": "受宠, 受偏爱",
+   "src": "phrase"
+  },
+  "be in the right": {
+   "meaning": "正确的",
+   "src": "phrase"
+  },
+  "be in touch with": {
+   "meaning": "与…有接触, 有联系",
+   "src": "phrase"
+  },
+  "be in use": {
+   "meaning": "被使用",
+   "src": "phrase"
+  },
+  "be indifferent to": {
+   "meaning": "对…漠不关心, 冷淡, 不在乎",
+   "src": "phrase"
+  },
+  "be innocent of": {
+   "meaning": "无罪的,无辜的",
+   "src": "phrase"
+  },
+  "be involved in": {
+   "meaning": "卷入, 参加",
+   "src": "phrase"
+  },
+  "be jealous of": {
+   "meaning": "妒忌",
+   "src": "phrase"
+  },
+  "be liable for": {
+   "meaning": "对…应负责任的",
+   "src": "phrase"
+  },
+  "be liable to": {
+   "meaning": "易于的,应受(罚)",
+   "src": "phrase"
+  },
+  "be lost in": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be not much of": {
+   "meaning": "不是很好的…",
+   "src": "phrase"
+  },
+  "be of the opinion": {
+   "meaning": "持有…的看法",
+   "src": "phrase"
+  },
+  "be on duty": {
+   "meaning": "值班, 值日, 在上班时",
+   "src": "phrase"
+  },
+  "be on good bad terms with": {
+   "meaning": "关系好(不好)",
+   "src": "phrase"
+  },
+  "be on holiday": {
+   "meaning": "在(去)度假",
+   "src": "phrase"
+  },
+  "be opposed to": {
+   "meaning": "反对…",
+   "src": "phrase"
+  },
+  "be opposite to": {
+   "meaning": "与…相反的",
+   "src": "phrase"
+  },
+  "be out of danger": {
+   "meaning": "脱离危险",
+   "src": "phrase"
+  },
+  "be out of touch with": {
+   "meaning": "与…没有联系或接触",
+   "src": "phrase"
+  },
+  "be out of use": {
+   "meaning": "不再被使用",
+   "src": "phrase"
+  },
+  "be patient with": {
+   "meaning": "对…耐心",
+   "src": "phrase"
+  },
+  "be proud of": {
+   "meaning": "为…自豪",
+   "src": "phrase"
+  },
+  "be qualified for": {
+   "meaning": "在某种职业上合格",
+   "src": "phrase"
+  },
+  "be qualified in": {
+   "meaning": "在 某种科目或学科上合格",
+   "src": "phrase"
+  },
+  "be rapt in": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "be response for": {
+   "meaning": "对…负责, 是造成…原因",
+   "src": "phrase"
+  },
+  "be satisfied with": {
+   "meaning": "满意",
+   "src": "phrase"
+  },
+  "be schedule for": {
+   "meaning": "定在某时(进行)",
+   "src": "phrase"
+  },
+  "be shocked at by": {
+   "meaning": "对…感到震惊",
+   "src": "phrase"
+  },
+  "be shy of": {
+   "meaning": "难为情, 不好意思",
+   "src": "phrase"
+  },
+  "be something of": {
+   "meaning": "有点…,像…",
+   "src": "phrase"
+  },
+  "be sorry about for": {
+   "meaning": "懊悔的,后悔的,难过的",
+   "src": "phrase"
+  },
+  "break off": {
+   "meaning": "改掉",
+   "src": "phrase"
+  },
+  "break sb of": {
+   "meaning": "使某人改掉(某习惯)",
+   "src": "phrase"
+  },
+  "by contrast": {
+   "meaning": "对比之下",
+   "src": "phrase"
+  },
+  "by far": {
+   "meaning": "远, 非常",
+   "src": "phrase"
+  },
+  "by hand": {
+   "meaning": "用手工(做)",
+   "src": "phrase"
+  },
+  "by heart": {
+   "meaning": "熟记, 背(诵)",
+   "src": "phrase"
+  },
+  "by oneself": {
+   "meaning": "独自(没有别人帮助)",
+   "src": "phrase"
+  },
+  "by virtue of": {
+   "meaning": "由于…; 依靠…力量",
+   "src": "phrase"
+  },
+  "call in question": {
+   "meaning": "对…表示怀疑",
+   "src": "phrase"
+  },
+  "catch a glimpse of": {
+   "meaning": "瞥见(强调结果)",
+   "src": "phrase"
+  },
+  "catch the sight of": {
+   "meaning": "瞥见",
+   "src": "phrase"
+  },
+  "center one's attention on": {
+   "meaning": "把某人的注意力集中在…上",
+   "src": "phrase"
+  },
+  "charge for": {
+   "meaning": "因…索取(费用)",
+   "src": "phrase"
+  },
+  "charge sb with": {
+   "meaning": "控告某人犯有…",
+   "src": "phrase"
+  },
+  "charge sb with sth": {
+   "meaning": "控告某人犯有…",
+   "src": "phrase"
+  },
+  "close one's eyes to": {
+   "meaning": "不理会,视而不见",
+   "src": "phrase"
+  },
+  "come into action": {
+   "meaning": "开始行动",
+   "src": "phrase"
+  },
+  "come into blossom": {
+   "meaning": "开花；开花(强调动作)",
+   "src": "phrase"
+  },
+  "come into effect": {
+   "meaning": "开始运转",
+   "src": "phrase"
+  },
+  "come into existence": {
+   "meaning": "出现；开始存在",
+   "src": "phrase"
+  },
+  "come into fashion": {
+   "meaning": "开始时新",
+   "src": "phrase"
+  },
+  "come into power": {
+   "meaning": "开始执政",
+   "src": "phrase"
+  },
+  "come into sight": {
+   "meaning": "进入视野",
+   "src": "phrase"
+  },
+  "come into use": {
+   "meaning": "开始使用",
+   "src": "phrase"
+  },
+  "come off duty": {
+   "meaning": "下班",
+   "src": "phrase"
+  },
+  "come to a halt": {
+   "meaning": "停止; 停住",
+   "src": "phrase"
+  },
+  "come to and end": {
+   "meaning": "结束",
+   "src": "phrase"
+  },
+  "comment on": {
+   "meaning": "评论",
+   "src": "phrase"
+  },
+  "commit a matter to a committee": {
+   "meaning": "把某事交给委员会讨论",
+   "src": "phrase"
+  },
+  "commit one's idea to writing": {
+   "meaning": "把某人的想法写下来",
+   "src": "phrase"
+  },
+  "commit oneself to": {
+   "meaning": "使自己承担…",
+   "src": "phrase"
+  },
+  "commit sb to prison": {
+   "meaning": "把某人送进监狱",
+   "src": "phrase"
+  },
+  "compare to": {
+   "meaning": "把…比作…",
+   "src": "phrase"
+  },
+  "compare with": {
+   "meaning": "把…与…比较",
+   "src": "phrase"
+  },
+  "compensate for": {
+   "meaning": "补偿, 赔偿,弥补",
+   "src": "phrase"
+  },
+  "compensate sb for sth": {
+   "meaning": "赔偿,弥补",
+   "src": "phrase"
+  },
+  "complain about": {
+   "meaning": "抱怨某人或事情",
+   "src": "phrase"
+  },
+  "complain of": {
+   "meaning": "抱怨;诉苦;控告",
+   "src": "phrase"
+  },
+  "complain to sb about sth": {
+   "meaning": "向某人抱怨…",
+   "src": "phrase"
+  },
+  "comply with": {
+   "meaning": "遵守, 依从；照…办",
+   "src": "phrase"
+  },
+  "conceive of": {
+   "meaning": "想象,设想",
+   "src": "phrase"
+  },
+  "concentrate on": {
+   "meaning": "集中,专心",
+   "src": "phrase"
+  },
+  "concern oneself about with": {
+   "meaning": "关心",
+   "src": "phrase"
+  },
+  "condemn sb to": {
+   "meaning": "判决",
+   "src": "phrase"
+  },
+  "confess to a crime": {
+   "meaning": "承认罪行",
+   "src": "phrase"
+  },
+  "confide in": {
+   "meaning": "对…讲真心话, 依赖",
+   "src": "phrase"
+  },
+  "confidence in sb sth": {
+   "meaning": "对…的信赖",
+   "src": "phrase"
+  },
+  "confine to": {
+   "meaning": "把…限制在某范围内",
+   "src": "phrase"
+  },
+  "confirm sb in": {
+   "meaning": "使某人更坚定(信念等)",
+   "src": "phrase"
+  },
+  "conform to": {
+   "meaning": "符合,遵照,遵守;obey 服从",
+   "src": "phrase"
+  },
+  "congratulate sb on": {
+   "meaning": "祝贺",
+   "src": "phrase"
+  },
+  "consent to": {
+   "meaning": "同意",
+   "src": "phrase"
+  },
+  "consist in": {
+   "meaning": "主要在于",
+   "src": "phrase"
+  },
+  "consist of": {
+   "meaning": "由…组成的",
+   "src": "phrase"
+  },
+  "consist with": {
+   "meaning": "符合,与…一致",
+   "src": "phrase"
+  },
+  "consult sb on about sth": {
+   "meaning": "向…征求…方面的意见",
+   "src": "phrase"
+  },
+  "contrary to": {
+   "meaning": "与…相反",
+   "src": "phrase"
+  },
+  "contrast with": {
+   "meaning": "把…与…相对(对照)",
+   "src": "phrase"
+  },
+  "convince sb of": {
+   "meaning": "使某人确信",
+   "src": "phrase"
+  },
+  "cope with": {
+   "meaning": "应付, 处理",
+   "src": "phrase"
+  },
+  "correspond to": {
+   "meaning": "相当于",
+   "src": "phrase"
+  },
+  "correspond with": {
+   "meaning": "符合,一致",
+   "src": "phrase"
+  },
+  "cure sb of": {
+   "meaning": "某种疾病) 治好某人的疾病",
+   "src": "phrase"
+  },
+  "deal with": {
+   "meaning": "论及",
+   "src": "phrase"
+  },
+  "delight in": {
+   "meaning": "喜欢, 取乐",
+   "src": "phrase"
+  },
+  "demand sth from sb": {
+   "meaning": "向某人要求(物质的)东西",
+   "src": "phrase"
+  },
+  "demand sth of sb": {
+   "meaning": "向某人要求(非物质的)东西",
+   "src": "phrase"
+  },
+  "deprive sb of sth": {
+   "meaning": "剥夺某人某物",
+   "src": "phrase"
+  },
+  "derive from": {
+   "meaning": "起源于；从…取得,由…来的",
+   "src": "phrase"
+  },
+  "despair of": {
+   "meaning": "绝望 in despair 绝望",
+   "src": "phrase"
+  },
+  "deviate from": {
+   "meaning": "偏离, 不按…办",
+   "src": "phrase"
+  },
+  "differ from in": {
+   "meaning": "与…的区别在于…",
+   "src": "phrase"
+  },
+  "discharge sb for": {
+   "meaning": "因…解雇, 开除",
+   "src": "phrase"
+  },
+  "dispose of": {
+   "meaning": "处理掉",
+   "src": "phrase"
+  },
+  "distinct from": {
+   "meaning": "与…截然不同",
+   "src": "phrase"
+  },
+  "distinguish between": {
+   "meaning": "辨别",
+   "src": "phrase"
+  },
+  "distinguish from": {
+   "meaning": "把…与…区别开",
+   "src": "phrase"
+  },
+  "do away with": {
+   "meaning": "除去,废除,取消；杀掉, 镇压",
+   "src": "phrase"
+  },
+  "do sth at short notice": {
+   "meaning": "只给很少时间准备",
+   "src": "phrase"
+  },
+  "economize on": {
+   "meaning": "节省",
+   "src": "phrase"
+  },
+  "emerge from appear become known": {
+   "meaning": "出现, 暴露(问题 意见等)",
+   "src": "phrase"
+  },
+  "encourage sb in": {
+   "meaning": "鼓励",
+   "src": "phrase"
+  },
+  "encourage sb in his her idleness": {
+   "meaning": "怂恿某人游手好闲",
+   "src": "phrase"
+  },
+  "encourage sb in his her work": {
+   "meaning": "鼓励某人工作",
+   "src": "phrase"
+  },
+  "encourage sb in with sth": {
+   "meaning": "用…鼓励某人做某事",
+   "src": "phrase"
+  },
+  "end in": {
+   "meaning": "以…为结束",
+   "src": "phrase"
+  },
+  "end up with": {
+   "meaning": "以…而结束",
+   "src": "phrase"
+  },
+  "engage in be engaged in": {
+   "meaning": "忙于,从事",
+   "src": "phrase"
+  },
+  "enter for": {
+   "meaning": "报名参加",
+   "src": "phrase"
+  },
+  "enter into": {
+   "meaning": "开始(谈话, 谈判等)",
+   "src": "phrase"
+  },
+  "enter on upon": {
+   "meaning": "开始",
+   "src": "phrase"
+  },
+  "except for": {
+   "meaning": "除…以外",
+   "src": "phrase"
+  },
+  "exception to": {
+   "meaning": "的例外",
+   "src": "phrase"
+  },
+  "exchange for": {
+   "meaning": "以…交换",
+   "src": "phrase"
+  },
+  "exclusive of": {
+   "meaning": "不包括",
+   "src": "phrase"
+  },
+  "exert on": {
+   "meaning": "对…施加…",
+   "src": "phrase"
+  },
+  "exert oneself to do sth": {
+   "meaning": "努力,使劲",
+   "src": "phrase"
+  },
+  "expect of": {
+   "meaning": "在…期望…",
+   "src": "phrase"
+  },
+  "expose to": {
+   "meaning": "使暴露于…, 使…受",
+   "src": "phrase"
+  },
+  "fail in": {
+   "meaning": "失败",
+   "src": "phrase"
+  },
+  "faith faithful to": {
+   "meaning": "对…忠诚",
+   "src": "phrase"
+  },
+  "faith in good faith": {
+   "meaning": "真诚地",
+   "src": "phrase"
+  },
+  "faith keep faith with": {
+   "meaning": "对…守信用",
+   "src": "phrase"
+  },
+  "faith lose faith in": {
+   "meaning": "对…失去信心",
+   "src": "phrase"
+  },
+  "faith on faith": {
+   "meaning": "毫无怀疑地, 依赖地",
+   "src": "phrase"
+  },
+  "fall back": {
+   "meaning": "撤退",
+   "src": "phrase"
+  },
+  "fall short of": {
+   "meaning": "没达到, 低于",
+   "src": "phrase"
+  },
+  "fall to the ground": {
+   "meaning": "计划希望等)失败,落空",
+   "src": "phrase"
+  },
+  "familiar with": {
+   "meaning": "熟悉,了解",
+   "src": "phrase"
+  },
+  "far from": {
+   "meaning": "远远不是",
+   "src": "phrase"
+  },
+  "favourable to": {
+   "meaning": "有利的",
+   "src": "phrase"
+  },
+  "fear for": {
+   "meaning": "为…担心",
+   "src": "phrase"
+  },
+  "feed on sth": {
+   "meaning": "靠吃…, 用…喂养",
+   "src": "phrase"
+  },
+  "feel like": {
+   "meaning": "想要",
+   "src": "phrase"
+  },
+  "find fault with": {
+   "meaning": "找毛病，对…吹毛求疵",
+   "src": "phrase"
+  },
+  "first at first sight": {
+   "meaning": "乍一看,一见",
+   "src": "phrase"
+  },
+  "first for the first time": {
+   "meaning": "第一次 (作状语)",
+   "src": "phrase"
+  },
+  "first in the first place": {
+   "meaning": "首先, 第一",
+   "src": "phrase"
+  },
+  "first of all": {
+   "meaning": "首先",
+   "src": "phrase"
+  },
+  "fit for": {
+   "meaning": "适合",
+   "src": "phrase"
+  },
+  "fit in with": {
+   "meaning": "合适, 相配, 一致",
+   "src": "phrase"
+  },
+  "fit into": {
+   "meaning": "刚好放入",
+   "src": "phrase"
+  },
+  "focus on": {
+   "meaning": "集中在…上",
+   "src": "phrase"
+  },
+  "focus sth on": {
+   "meaning": "把…集中在…上",
+   "src": "phrase"
+  },
+  "for a change": {
+   "meaning": "换换环境(花样等)",
+   "src": "phrase"
+  },
+  "for certain of": {
+   "meaning": "肯定地,有把握地",
+   "src": "phrase"
+  },
+  "for fear of": {
+   "meaning": "以防, 由于怕",
+   "src": "phrase"
+  },
+  "for good": {
+   "meaning": "永远地, 长期地",
+   "src": "phrase"
+  },
+  "for long": {
+   "meaning": "很久,很长时间",
+   "src": "phrase"
+  },
+  "for nothing": {
+   "meaning": "免费",
+   "src": "phrase"
+  },
+  "for sure certain": {
+   "meaning": "肯定地有把握地说",
+   "src": "phrase"
+  },
+  "for the benefit of": {
+   "meaning": "为了…的利益(好处)",
+   "src": "phrase"
+  },
+  "for the moment": {
+   "meaning": "暂时",
+   "src": "phrase"
+  },
+  "for the most part": {
+   "meaning": "多半,大多数,一般来说",
+   "src": "phrase"
+  },
+  "for the present": {
+   "meaning": "暂且,就现在来说",
+   "src": "phrase"
+  },
+  "for the sake of": {
+   "meaning": "为了…起见",
+   "src": "phrase"
+  },
+  "for use": {
+   "meaning": "以便使用",
+   "src": "phrase"
+  },
+  "force on": {
+   "meaning": "把…强加给…",
+   "src": "phrase"
+  },
+  "free of charge": {
+   "meaning": "免费",
+   "src": "phrase"
+  },
+  "from scratch": {
+   "meaning": "从头开始",
+   "src": "phrase"
+  },
+  "furnish with": {
+   "meaning": "向…提供",
+   "src": "phrase"
+  },
+  "get into the habit of": {
+   "meaning": "养成了…的习惯",
+   "src": "phrase"
+  },
+  "get the better of": {
+   "meaning": "打败, 胜过",
+   "src": "phrase"
+  },
+  "give effect to": {
+   "meaning": "实行,使…生效",
+   "src": "phrase"
+  },
+  "give one's regards to sb": {
+   "meaning": "向…问候",
+   "src": "phrase"
+  },
+  "give rise to": {
+   "meaning": "引起, 导致",
+   "src": "phrase"
+  },
+  "give sb an account of": {
+   "meaning": "说明, 解释 (理由)",
+   "src": "phrase"
+  },
+  "go into effect": {
+   "meaning": "生效",
+   "src": "phrase"
+  },
+  "go into force": {
+   "meaning": "开始生效",
+   "src": "phrase"
+  },
+  "go on duty": {
+   "meaning": "上班",
+   "src": "phrase"
+  },
+  "go to great pains take pains": {
+   "meaning": "下功夫,努力",
+   "src": "phrase"
+  },
+  "guard against": {
+   "meaning": "警惕,防止；警卫…防止",
+   "src": "phrase"
+  },
+  "guess at": {
+   "meaning": "猜, 估计, by guess 靠猜",
+   "src": "phrase"
+  },
+  "habit be in the habit of": {
+   "meaning": "习惯于",
+   "src": "phrase"
+  },
+  "hand in glove": {
+   "meaning": "狼狈为奸, 密切合作",
+   "src": "phrase"
+  },
+  "have a fancy for": {
+   "meaning": "没有道理地)喜欢, 想要",
+   "src": "phrase"
+  },
+  "have an advantage over": {
+   "meaning": "胜过",
+   "src": "phrase"
+  },
+  "have an ear for": {
+   "meaning": "对有鉴赏力",
+   "src": "phrase"
+  },
+  "have an effect on": {
+   "meaning": "对…有影响",
+   "src": "phrase"
+  },
+  "have confidence in": {
+   "meaning": "对…有信心",
+   "src": "phrase"
+  },
+  "have sb at one's back": {
+   "meaning": "有…支持, 有…作后台",
+   "src": "phrase"
+  },
+  "have the advantage of": {
+   "meaning": "由于…处于有利条件",
+   "src": "phrase"
+  },
+  "have the advantage of sb": {
+   "meaning": "知道某人所不知道的事",
+   "src": "phrase"
+  },
+  "have to do with": {
+   "meaning": "与…有关系",
+   "src": "phrase"
+  },
+  "head for": {
+   "meaning": "向…方向前进",
+   "src": "phrase"
+  },
+  "hear of": {
+   "meaning": "听人说起, 听说过",
+   "src": "phrase"
+  },
+  "hinder form": {
+   "meaning": "阻碍,使不能做",
+   "src": "phrase"
+  },
+  "hope for": {
+   "meaning": "希望(某事发生),希望有",
+   "src": "phrase"
+  },
+  "impose on": {
+   "meaning": "把…强加给",
+   "src": "phrase"
+  },
+  "impress on": {
+   "meaning": "给…留下印象",
+   "src": "phrase"
+  },
+  "improve in": {
+   "meaning": "有改进, 好些",
+   "src": "phrase"
+  },
+  "improve on": {
+   "meaning": "另做一物比原物更好",
+   "src": "phrase"
+  },
+  "improve sth": {
+   "meaning": "把原物改进",
+   "src": "phrase"
+  },
+  "improvement in": {
+   "meaning": "表示原物有改进,好转",
+   "src": "phrase"
+  },
+  "in a hurry": {
+   "meaning": "匆忙地",
+   "src": "phrase"
+  },
+  "in a sense": {
+   "meaning": "在某种意义上",
+   "src": "phrase"
+  },
+  "in accord with": {
+   "meaning": "与… 一致",
+   "src": "phrase"
+  },
+  "in accordance with in agreement with": {
+   "meaning": "依照,根据",
+   "src": "phrase"
+  },
+  "in addition": {
+   "meaning": "此外, 又, 加之",
+   "src": "phrase"
+  },
+  "in addition to": {
+   "meaning": "除…外",
+   "src": "phrase"
+  },
+  "in advance": {
+   "meaning": "预告, 事先",
+   "src": "phrase"
+  },
+  "in agreement": {
+   "meaning": "同意, 一致",
+   "src": "phrase"
+  },
+  "in all": {
+   "meaning": "总共, 总计",
+   "src": "phrase"
+  },
+  "in any case": {
+   "meaning": "无论如何",
+   "src": "phrase"
+  },
+  "in any event": {
+   "meaning": "无论如何, 不管(将来)怎么样",
+   "src": "phrase"
+  },
+  "in behalf of": {
+   "meaning": "为…的利益",
+   "src": "phrase"
+  },
+  "in blossom": {
+   "meaning": "开花(指树木)",
+   "src": "phrase"
+  },
+  "in brief": {
+   "meaning": "简言之",
+   "src": "phrase"
+  },
+  "in bulk": {
+   "meaning": "成批地,不散装的",
+   "src": "phrase"
+  },
+  "in case": {
+   "meaning": "万一",
+   "src": "phrase"
+  },
+  "in case of": {
+   "meaning": "如果发生…万一",
+   "src": "phrase"
+  },
+  "in charge of": {
+   "meaning": "负责(某事)",
+   "src": "phrase"
+  },
+  "in comparison with": {
+   "meaning": "和…比起来",
+   "src": "phrase"
+  },
+  "in conclusion": {
+   "meaning": "最后一点",
+   "src": "phrase"
+  },
+  "in confidence": {
+   "meaning": "推心置腹地",
+   "src": "phrase"
+  },
+  "in connection with": {
+   "meaning": "关于",
+   "src": "phrase"
+  },
+  "in consequence": {
+   "meaning": "结果",
+   "src": "phrase"
+  },
+  "in consequence of": {
+   "meaning": "由于…的结果",
+   "src": "phrase"
+  },
+  "in consideration of": {
+   "meaning": "由于",
+   "src": "phrase"
+  },
+  "in contrast with": {
+   "meaning": "和…形成对比",
+   "src": "phrase"
+  },
+  "in demand": {
+   "meaning": "有需求",
+   "src": "phrase"
+  },
+  "in difficulties": {
+   "meaning": "有困难,处境困难",
+   "src": "phrase"
+  },
+  "in disorder": {
+   "meaning": "慌乱地, 狼狈不堪",
+   "src": "phrase"
+  },
+  "in dispute": {
+   "meaning": "在争议中",
+   "src": "phrase"
+  },
+  "in doubt": {
+   "meaning": "对…表示疑惑",
+   "src": "phrase"
+  },
+  "in due course": {
+   "meaning": "没经过太久, 到一定时候",
+   "src": "phrase"
+  },
+  "in effect": {
+   "meaning": "实际上",
+   "src": "phrase"
+  },
+  "in essence": {
+   "meaning": "本质上",
+   "src": "phrase"
+  },
+  "in existence": {
+   "meaning": "存在",
+   "src": "phrase"
+  },
+  "in favor of": {
+   "meaning": "为赞成…",
+   "src": "phrase"
+  },
+  "in fear of": {
+   "meaning": "担心 担心",
+   "src": "phrase"
+  },
+  "in force": {
+   "meaning": "有效 , 实施",
+   "src": "phrase"
+  },
+  "in hand": {
+   "meaning": "在手边) (=under control) 控制住",
+   "src": "phrase"
+  },
+  "in honor of": {
+   "meaning": "为了表示敬意",
+   "src": "phrase"
+  },
+  "in hopes of": {
+   "meaning": "为期待",
+   "src": "phrase"
+  },
+  "in one's favour": {
+   "meaning": "对有利",
+   "src": "phrase"
+  },
+  "in one's heart": {
+   "meaning": "内心深处,事实上",
+   "src": "phrase"
+  },
+  "in one's opinion": {
+   "meaning": "按某人的看法",
+   "src": "phrase"
+  },
+  "in order": {
+   "meaning": "合适的,恰当的；井井有条,处于良好状态",
+   "src": "phrase"
+  },
+  "in peace": {
+   "meaning": "安静,平安",
+   "src": "phrase"
+  },
+  "in pursuit of": {
+   "meaning": "为追求",
+   "src": "phrase"
+  },
+  "in search of": {
+   "meaning": "寻找",
+   "src": "phrase"
+  },
+  "in sight": {
+   "meaning": "看得见",
+   "src": "phrase"
+  },
+  "in support of": {
+   "meaning": "为支持…",
+   "src": "phrase"
+  },
+  "in the case of": {
+   "meaning": "至于…, 就…而言",
+   "src": "phrase"
+  },
+  "in the charge of": {
+   "meaning": "由…管",
+   "src": "phrase"
+  },
+  "in the course": {
+   "meaning": "在…过程中",
+   "src": "phrase"
+  },
+  "in the end": {
+   "meaning": "最终",
+   "src": "phrase"
+  },
+  "in the hands of": {
+   "meaning": "由…掌握, 控制, 负责",
+   "src": "phrase"
+  },
+  "in the least": {
+   "meaning": "一点(也不), 丝毫(也不)",
+   "src": "phrase"
+  },
+  "in the nature of": {
+   "meaning": "属…性质",
+   "src": "phrase"
+  },
+  "in the wrong": {
+   "meaning": "错误的",
+   "src": "phrase"
+  },
+  "inferior to": {
+   "meaning": "比…差",
+   "src": "phrase"
+  },
+  "intent on": {
+   "meaning": "专心致志, 坚决",
+   "src": "phrase"
+  },
+  "just a moment": {
+   "meaning": "稍等片刻",
+   "src": "phrase"
+  },
+  "keen on": {
+   "meaning": "喜爱, 渴望",
+   "src": "phrase"
+  },
+  "keep to": {
+   "meaning": "遵循",
+   "src": "phrase"
+  },
+  "live from hand to mouth": {
+   "meaning": "勉强度日,现挣现吃",
+   "src": "phrase"
+  },
+  "make a mess of": {
+   "meaning": "弄乱, 打乱",
+   "src": "phrase"
+  },
+  "no end of": {
+   "meaning": "很多,大量",
+   "src": "phrase"
+  },
+  "of no effect": {
+   "meaning": "无效",
+   "src": "phrase"
+  },
+  "on demand": {
+   "meaning": "受到要求时",
+   "src": "phrase"
+  },
+  "on end": {
+   "meaning": "连续地",
+   "src": "phrase"
+  },
+  "on equal terms": {
+   "meaning": "平等地",
+   "src": "phrase"
+  },
+  "on the watch against": {
+   "meaning": "不断监视为防范…",
+   "src": "phrase"
+  },
+  "on the watch for": {
+   "meaning": "不断监视看有没有",
+   "src": "phrase"
+  },
+  "on the whole": {
+   "meaning": "大体上说",
+   "src": "phrase"
+  },
+  "once and for all": {
+   "meaning": "只此一次",
+   "src": "phrase"
+  },
+  "out of favour with": {
+   "meaning": "失宠, 不受宠",
+   "src": "phrase"
+  },
+  "out of one's accord with": {
+   "meaning": "同…不一致",
+   "src": "phrase"
+  },
+  "out of order": {
+   "meaning": "出毛病,发生故障",
+   "src": "phrase"
+  },
+  "out of sight": {
+   "meaning": "看不见",
+   "src": "phrase"
+  },
+  "particular about": {
+   "meaning": "讲究,挑剔(吃,穿)",
+   "src": "phrase"
+  },
+  "passion for": {
+   "meaning": "对…的热爱,热情",
+   "src": "phrase"
+  },
+  "ready for": {
+   "meaning": "准备好做…",
+   "src": "phrase"
+  },
+  "stick to": {
+   "meaning": "按做",
+   "src": "phrase"
+  },
+  "superior to": {
+   "meaning": "比… 好",
+   "src": "phrase"
+  },
+  "take a fancy to": {
+   "meaning": "喜欢",
+   "src": "phrase"
+  },
+  "take a glance at": {
+   "meaning": "看一 眼(强调动作)",
+   "src": "phrase"
+  },
+  "take up the attention of": {
+   "meaning": "吸引…的注意力，全神贯注于…",
+   "src": "phrase"
+  },
+  "to have met socially": {
+   "meaning": "熟悉",
+   "src": "phrase"
+  },
+  "to no effect": {
+   "meaning": "不起作用,没有取得任何效果",
+   "src": "phrase"
+  },
+  "to one's heart's content": {
+   "meaning": "尽情地",
+   "src": "phrase"
+  },
+  "to that effect": {
+   "meaning": "是那个意思的…",
+   "src": "phrase"
+  },
+  "to the effect that": {
+   "meaning": "大意是…,主要内容是…",
+   "src": "phrase"
+  },
+  "try to persuade sb to do sth": {
+   "meaning": "劝说某人做…",
+   "src": "phrase"
+  },
+  "with a will": {
+   "meaning": "有决心地",
+   "src": "phrase"
+  },
+  "with all one's heart": {
+   "meaning": "全心全意地,真心实意",
+   "src": "phrase"
+  },
+  "with confidence": {
+   "meaning": "满怀信心地",
+   "src": "phrase"
+  },
+  "with the exception of": {
+   "meaning": "除去…, 除…以外",
+   "src": "phrase"
+  }
+ }
+}
