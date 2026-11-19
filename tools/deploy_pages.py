@@ -165,7 +165,7 @@ self.addEventListener("fetch", e => {
   if (url.origin !== location.origin) return;           // 跨源全放行：/api、api.github.com、有道
   const base = new URL(self.registration.scope).pathname;
   const p = url.pathname.startsWith(base) ? url.pathname.slice(base.length - 1) : url.pathname;
-  if (p.startsWith("/data/") || p.startsWith("/api/")) return;   // 数据永不缓存
+  if (p.startsWith("/data/") || p.startsWith("/api/") || p.startsWith("/tts/")) return;   // 数据与音频永不缓存（音频走浏览器直连 + IndexedDB）
   if (p.startsWith("/assets/")) {                        // 仅图片 cache-first（音频不进 SW：Edge PWA 下 SW 内 fetch 必挂，
     e.respondWith(caches.open(CACHE).then(c => c.match(e.request).then(hit => {   // 音频直连走 /data/ 同款路径 + IndexedDB 持久缓存）
       if (hit) return hit;

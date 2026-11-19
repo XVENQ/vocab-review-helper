@@ -1080,7 +1080,7 @@ function auFetch(word, accent, retries) {
     const go = n => (SYNC_BASE
       ? tryFetch(SYNC_BASE + "/tts?word=" + encodeURIComponent(word) + "&acc=" + accent)
       : Promise.reject(new Error("no relay")))                                              // 没有中转服务器：跳过注定失败的这一跳
-      .catch(() => tryFetch("/tts/" + accent + "/" + encodeURIComponent(word) + ".mp3" + bust))   // Pages 静态 / LAN 同构路由
+      .catch(() => tryFetch("tts/" + accent + "/" + encodeURIComponent(word) + ".mp3" + bust))   // 相对页面路径解析（Pages 在 /vocab-review-helper/ 子路径下，斜杠开头会跑到域名根 404）
       .then(b => { auIdbSet(key, b); return b; })
       .catch(e => {
         if (n > 0) return new Promise(r => setTimeout(r, 1200)).then(() => go(n - 1));
