@@ -1553,7 +1553,7 @@ const CLOUD_RAW = (() => {
   return "https://raw.githubusercontent.com/XVENQ/vocab-review-helper/main/data/vocab.json";
 })();
 const CLOUD_API = "https://api.github.com/repos/XVENQ/vocab-review-helper/contents/data/vocab.json";
-let cloudSha = null, cloudTimer = 0, cloudInFlight = false, cloudDirty = false, cloudFails = 0;
+let cloudSha = null, cloudTimer = 0, cloudInFlight = false, cloudDirty = false, cloudFails = 0, lastCloudPullAt = 0;
 function cloudToken() { try { return localStorage.getItem("cihui_github_token") || ""; } catch (e) { return ""; } }
 async function cloudPull() {
   // raw 直拉（无需 token）；离线/无网静默失败
@@ -1576,9 +1576,20 @@ async function cloudPull() {
       applyData(data, "云同步：已载入 · 共 " + data.words.length + " 词", true);
     }
     rebuildSyncSnapshot(state);
+    lastCloudPullAt = Date.now();
     return true;
   } catch (e) { return false; }
 }
+// 回前台自动拉云端：手机端平时只在启动时拉一次，电脑端在手机开着时背的词看不到；
+// 切回应用时若距上次拉取超过 2 分钟就补一次（mergeWords 幂等，重复拉无副作用）
+document.addEventListener("visibilitychange", () => {
+  try {
+    if (document.visibilityState !== "visible") return;
+    if (location.protocol !== "https:") return;
+    if (Date.now() - lastCloudPullAt < 120000) return;
+    cloudPull().then(ok => { if (ok && cloudToken()) scheduleCloud(); });
+  } catch (e) {}
+});
 async function cloudPush() {
   if (!cloudToken()) return;                              // 未配 token：只读模式
   if (cloudInFlight) { cloudDirty = true; return; }
