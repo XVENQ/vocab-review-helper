@@ -485,6 +485,16 @@
         <span class="muted" style="font-size:12px">手机系统暗色时自动切换；手动选择后固定</span>
       </div>
       <div class="row">
+        <label>云端同步</label>
+        <input id="cloud-token" type="password" placeholder="GitHub token（fine-grained，仅勾选 vocab-review-helper 的 Contents 读写）"
+               style="flex:1;min-width:0;font-size:12px;padding:6px 8px;border:1px solid var(--line2);border-radius:8px;background:var(--bg);color:var(--ink)">
+        <button class="btn" id="cloud-token-save" style="font-size:12px;padding:6px 10px">保存</button>
+      </div>
+      <div class="row" style="margin-top:-6px">
+        <label></label>
+        <span class="muted" style="font-size:12px" id="cloud-state">配置后可在任何网络下同步进度（手机 ↔ GitHub ↔ 电脑）</span>
+      </div>
+      <div class="row">
         <label>生词预习</label>
         <select id="set-preview">
           <option value="hard">顽固词（近期错 ≥2 次）先看一遍再考</option>
@@ -848,6 +858,7 @@ function save() {
   markSaved();
   if (SERVER_MODE) scheduleSync();
   else if (HAS_FS && fileHandle) saveToFile();   // 文件模式必须落盘——上次改造误删了这行，导致进度只存浏览器
+  scheduleCloud();                               // 云通道：有 token 即防抖推送（各形态通用）
 }
 
 let session = { queue: [], retry: [], round: 0, doneToday: 0, cardT0: 0, cardBase: 0, spentMs: 0, preview: false, hintTimer: 0, hintStage: 0 };
@@ -1063,8 +1074,9 @@ function auFetch(word, accent, retries) {
     // 三级查找：内存缓存 → IndexedDB 持久缓存（离线也能响）→ 本机服务器 /tts 中转。
     // fetch 直连有道会被 CORS 拦（有道不返回 ACAO 头），必须走服务器中转；
     // 网络偶发抖动用 retries 重试兜住，不让一次失败直接掉到本地语音。
-    const go = n => fetch(SYNC_BASE + "/tts?word=" + encodeURIComponent(word) + "&acc=" + accent)
-      .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.blob(); })
+    const tryFetch = url => fetch(url).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.blob(); });
+    const go = n => tryFetch(SYNC_BASE + "/tts?word=" + encodeURIComponent(word) + "&acc=" + accent)
+      .catch(() => tryFetch("/tts/" + accent + "/" + encodeURIComponent(word) + ".mp3"))   // Pages 静态 / LAN 同构路由
       .then(b => { auIdbSet(key, b); return b; })
       .catch(e => {
         if (n > 0) return new Promise(r => setTimeout(r, 1200)).then(() => go(n - 1));
@@ -1531,6 +1543,77 @@ function absorbServerWords(data) {
     rebuildSyncSnapshot(state);
     renderStats();
   }
+}
+/* ==== 云数据中转（GitHub raw 拉 / contents API 推；token 存 localStorage） ==== */
+const CLOUD_RAW = "https://raw.githubusercontent.com/XVENQ/vocab-review-helper/main/data/vocab.json";
+const CLOUD_API = "https://api.github.com/repos/XVENQ/vocab-review-helper/contents/data/vocab.json";
+let cloudSha = null, cloudTimer = 0, cloudInFlight = false, cloudDirty = false, cloudFails = 0;
+function cloudToken() { try { return localStorage.getItem("cihui_github_token") || ""; } catch (e) { return ""; } }
+async function cloudPull() {
+  // raw 直拉（无需 token）；离线/无网静默失败
+  try {
+    const r = await fetch(CLOUD_RAW + "?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) return false;
+    const data = await r.json();
+    if (!data || !Array.isArray(data.words)) return false;
+    const local = (() => { try { return JSON.parse(localStorage.getItem(KEY) || "null"); } catch (e) { return null; } })();
+    if (local && Array.isArray(local.words) && local.words.length) {
+      const m = mergeWords(local.words, data.words, local.deleted || [], data.deleted || []);
+      const su = data.updatedAt || 0, lu = local.updatedAt || 0;
+      const merged = { words: m.words, deleted: m.deleted,
+        settings: su >= lu ? (data.settings || local.settings) : (local.settings || data.settings),
+        todayTime: pickTodayTime(local.todayTime, data.todayTime),
+        dayPlan: local.dayPlan || data.dayPlan || null,
+        updatedAt: Math.max(su, lu) };
+      applyData(merged, "云同步：已合并 · 共 " + merged.words.length + " 词", true);
+    } else {
+      applyData(data, "云同步：已载入 · 共 " + data.words.length + " 词", true);
+    }
+    rebuildSyncSnapshot(state);
+    return true;
+  } catch (e) { return false; }
+}
+async function cloudPush() {
+  if (!cloudToken()) return;                              // 未配 token：只读模式
+  if (cloudInFlight) { cloudDirty = true; return; }
+  cloudInFlight = true;
+  try {
+    const r = await fetch(CLOUD_API, { headers: { "Authorization": "Bearer " + cloudToken(),
+      "Accept": "application/vnd.github+json" } });
+    if (!r.ok) throw new Error("GET " + r.status);
+    const meta = await r.json();
+    const cloudData = (() => { try { return JSON.parse(atob((meta.content || "").replace(/\s/g, "")) || "{}"); } catch (e) { return {}; } })();
+    const m = mergeWords(state.words, cloudData.words || [], state.deleted || [], cloudData.deleted || []);
+    const merged = { words: m.words, deleted: m.deleted, settings: state.settings,
+      todayTime: pickTodayTime(state.todayTime, cloudData.todayTime),
+      dayPlan: state.dayPlan || cloudData.dayPlan || null,
+      rev: state.rev || 0, updatedAt: Date.now() };
+    const sig = w => JSON.stringify(m.words.map(x => [x.id, x.mt || 0, x.step || 0]));
+    const cloudSig = JSON.stringify((cloudData.words || []).map(x => [x.id, x.mt || 0, x.step || 0]));
+    if (sig === cloudSig && JSON.stringify(m.deleted) === JSON.stringify(cloudData.deleted || [])) {
+      cloudFails = 0; return;                             // 云已是最新
+    }
+    const pr = await fetch(CLOUD_API, { method: "PUT",
+      headers: { "Authorization": "Bearer " + cloudToken(), "Accept": "application/vnd.github+json",
+                 "Content-Type": "application/json" },
+      body: JSON.stringify({ message: "sync " + new Date().toISOString().slice(11, 16),
+        content: btoa(unescape(encodeURIComponent(JSON.stringify(merged)))), sha: meta.sha }) });
+    if (!pr.ok) throw new Error("PUT " + pr.status);
+    const pj = await pr.json();
+    cloudSha = pj.content ? pj.content.sha : meta.sha;
+    cloudFails = 0;
+    try { localStorage.setItem("cihui_last_sync", String(Date.now())); } catch (e) {}
+    setFileStatus("云端：已推送 · 共 " + merged.words.length + " 词", true);
+  } catch (e) {
+    cloudFails++;
+    setFileStatus("云端推送失败（" + (e.message || e) + "）——数据已存本机，稍后自动重试", false);
+    if (cloudFails <= 3) setTimeout(scheduleCloud, 30000);
+  } finally { cloudInFlight = false; }
+}
+function scheduleCloud() {
+  if (!cloudToken() || location.protocol === "file:") return;
+  if (cloudTimer) clearTimeout(cloudTimer);
+  cloudTimer = setTimeout(() => { cloudTimer = 0; cloudPush(); }, 4000);
 }
 function scheduleSync() { if (!SERVER_MODE) return; if (syncTimer) clearTimeout(syncTimer); syncTimer = setTimeout(() => doPush(0), 2000); }
 async function doPush(retried) {
@@ -2194,6 +2277,27 @@ $("#theme-seg").addEventListener("click", e => {
   const b = e.target.closest("button");
   if (b) setTheme(b.dataset.theme);
 });
+function renderCloudState() {
+  const el = document.getElementById("cloud-state");
+  if (el) el.textContent = cloudToken()
+    ? "已配置（" + cloudToken().slice(0, 8) + "…）——任何网络下自动同步进度"
+    : "未配置：只能拉取云端内容；配置 token 后手机背的进度也能推上云";
+}
+(function () {
+  const inp = document.getElementById("cloud-token"), btn = document.getElementById("cloud-token-save");
+  if (inp) inp.value = cloudToken();
+  if (btn) btn.onclick = async () => {
+    const v = inp.value.trim();
+    if (!v) { localStorage.removeItem("cihui_github_token"); renderCloudState(); toast("云端 token 已清除"); return; }
+    try {
+      const r = await fetch(CLOUD_API, { headers: { "Authorization": "Bearer " + v, "Accept": "application/vnd.github+json" } });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      localStorage.setItem("cihui_github_token", v);
+      renderCloudState(); toast("✓ token 有效，已保存——进度将在任何网络下自动同步");
+    } catch (e) { toast("token 校验失败：" + (e.message || e)); }
+  };
+  renderCloudState();
+})();
 $("#spk-uk").onclick = () => speak($("#spk-test").value, "uk", $("#spk-msg"));
 $("#spk-us").onclick = () => speak($("#spk-test").value, "us", $("#spk-msg"));
 $("#spk-test").addEventListener("keydown", e => { if (e.key === "Enter") speak(e.target.value, curAccent(), $("#spk-msg")); });
@@ -2407,6 +2511,10 @@ applyTheme();
       await syncPull();
       prefetchAllAudio();                        // 连网即全库增量预取发音
       return;
+    }
+    if (location.protocol === "https:") {              // Pages/PWA 形态：云通道为主
+      const ok = await cloudPull();
+      if (ok) { prefetchAllAudio(); scheduleCloud(); return; }
     }
     setFileStatus(location.protocol === "http:" && /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent)
       ? "服务器不可达（外出正常）。离线背单词请打开下载的「离线副本」文件；连上电脑网络后刷新本页即可同步"

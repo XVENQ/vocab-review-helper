@@ -23,12 +23,14 @@
   python tools/sync_server.py [数据文件路径]
   默认数据文件：C:/Users/xuenc/Desktop/英语学习方法/studyEnglish/背词助手数据.json
 """
+import base64
 import hashlib
 import io
 import json
 import os
 import re
 import socket
+import subprocess
 import sys
 import threading
 import time
@@ -280,6 +282,84 @@ def merge_words(local_words, server_words, local_tomb, server_tomb):
 
 STORE = None
 
+# ---------------- GitHub 云桥接（可选：拿到 token 才启用） ----------------
+CLOUD_RAW = "https://raw.githubusercontent.com/XVENQ/vocab-review-helper/main/data/vocab.json"
+CLOUD_API = "https://api.github.com/repos/XVENQ/vocab-review-helper/contents/data/vocab.json"
+
+
+def git_credential_fill():
+    """从 Git 凭据管理器取 gho_ token（GCM 已登录）。失败返回 None。"""
+    try:
+        p = subprocess.run(["git", "credential", "fill"],
+                           input="protocol=https\nhost=github.com\n\n",
+                           capture_output=True, text=True, timeout=20)
+        d = dict(l.split("=", 1) for l in p.stdout.splitlines() if "=" in l)
+        return d.get("password") or None
+    except Exception:
+        return None
+
+
+def _api(method, path, token, payload=None):
+    req = urllib.request.Request("https://api.github.com" + path, method=method,
+                                 headers={"Authorization": "Bearer " + token,
+                                          "Accept": "application/vnd.github+json",
+                                          "User-Agent": "beici-server"})
+    data = json.dumps(payload).encode("utf-8") if payload is not None else None
+    if data:
+        req.add_header("Content-Type", "application/json")
+    with urllib.request.urlopen(req, data, timeout=30) as r:
+        body = r.read().decode("utf-8")
+        return json.loads(body) if body else {}
+
+
+def cloud_sync_once(token):
+    """拉云 → accept 收编（内部 merge+备份+写盘）→ 磁盘有新内容则推回云。"""
+    try:
+        cloud = json.loads(_http_get(CLOUD_RAW + "?t=%d" % int(time.time())).decode("utf-8"))
+    except Exception as e:
+        print("[cloud] 拉取失败:", e)
+        return
+    if not isinstance(cloud, dict) or not isinstance(cloud.get("words"), list):
+        print("[cloud] 云端数据格式异常，跳过")
+        return
+    before = json.dumps(STORE.data, sort_keys=True, ensure_ascii=False)
+    STORE.accept(cloud)
+    after = json.dumps(STORE.data, sort_keys=True, ensure_ascii=False)
+    if after != before:
+        print("[cloud] 已合并云端进度（rev=%d）" % STORE.rev)
+    try:
+        meta = _api("GET", "/repos/XVENQ/vocab-review-helper/contents/data/vocab.json", token)
+        cloud_now = json.loads(base64.b64decode(meta["content"]).decode("utf-8"))
+        if json.dumps(cloud_now, sort_keys=True, ensure_ascii=False) == after:
+            return
+        merged = merge_words(STORE.data.get("words") or [], cloud_now.get("words") or [],
+                             STORE.data.get("deleted") or [], cloud_now.get("deleted") or [])
+        out = dict(STORE.data)
+        out["words"] = merged["words"]
+        out["deleted"] = merged["deleted"]
+        _api("PUT", "/repos/XVENQ/vocab-review-helper/contents/data/vocab.json", token,
+             {"message": "bridge sync " + time.strftime("%H:%M"),
+              "content": base64.b64encode(json.dumps(out, ensure_ascii=False).encode("utf-8")).decode("ascii"),
+              "sha": meta["sha"]})
+        print("[cloud] 已推送合并结果到云（词 %d）" % len(out["words"]))
+    except Exception as e:
+        print("[cloud] 推送失败:", e)
+
+
+def poll_cloud(token, stop):
+    """10 分钟轮询：云端 etag 变化或磁盘被外部改动 → 双向同步一次。"""
+    last_mtime = os.path.getmtime(STORE.path)
+    while not stop.wait(600):
+        try:
+            mt = os.path.getmtime(STORE.path)
+            disk_changed = abs(mt - last_mtime) > 1
+            cloud_sync_once(token)
+            last_mtime = os.path.getmtime(STORE.path)
+            if disk_changed:
+                print("[cloud] 磁盘有 LAN 推送的新进度，已中转上云")
+        except Exception as e:
+            print("[cloud] 轮询异常:", e)
+
 # ---------------- HTTP ----------------
 
 class Handler(BaseHTTPRequestHandler):
@@ -332,26 +412,19 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Origin", "null")
         self.end_headers()
 
-    def _tts(self, full_path):
-        """有道发音中转 + 磁盘缓存。客户端 fetch 直连有道会被 CORS 拦（有道无 ACAO 头），
-        走本机服务器同源/已放行 CORS，缓存预取才能生效。"""
-        from urllib.parse import urlparse, parse_qs, quote
-        try:
-            qs = parse_qs(urlparse(full_path).query)
-        except Exception:
-            return self._send(400, {"error": "bad query"})
-        word = (qs.get("word") or [""])[0].strip().lower()
-        acc = (qs.get("acc") or ["uk"])[0]
-        if not re.match(r"^[a-z][a-z'’\-]{0,39}$", word):
+    def _serve_word(self, word, acc):
+        """按词+口音出音频：磁盘缓存 → 有道 → 落盘（供 /tts?word= 与 /tts/<acc>/<word>.mp3 双路由）。"""
+        import urllib.parse as _up
+        if not re.match(r"^[a-z][a-z'’\\-]{0,39}$", word):
             return self._send(400, {"error": "bad word"})
         if acc not in ("us", "uk"):
             acc = "uk"
         key = hashlib.sha1((acc + "|" + word).encode("utf-8")).hexdigest()[:24]
         mp3 = os.path.join(TTS_CACHE, key + ".mp3")
         if not os.path.exists(mp3):
-            url = "https://dict.youdao.com/dictvoice?audio=%s&type=%d" % (quote(word), 2 if acc == "us" else 1)
+            url = "https://dict.youdao.com/dictvoice?audio=%s&type=%d" % (_up.quote(word), 2 if acc == "us" else 1)
             data, last_err = None, None
-            for _ in range(3):                          # 上游偶发抖动重试 2 次
+            for _ in range(3):
                 try:
                     data = _http_get(url)
                     break
@@ -370,6 +443,17 @@ class Handler(BaseHTTPRequestHandler):
                 print("[tts] 缓存写盘失败（继续返回音频）:", e)
         with io.open(mp3, "rb") as f:
             self._send(200, f.read(), "audio/mpeg", {"Cache-Control": "max-age=31536000"})
+
+    def _tts(self, full_path):
+        """query 版入口：/tts?word=&acc="""
+        from urllib.parse import urlparse, parse_qs
+        try:
+            qs = parse_qs(urlparse(full_path).query)
+        except Exception:
+            return self._send(400, {"error": "bad query"})
+        word = (qs.get("word") or [""])[0].strip().lower()
+        acc = (qs.get("acc") or ["uk"])[0]
+        return self._serve_word(word, acc)
 
     def _static(self, rel):
         rel = rel.lstrip("/").replace("\\", "/")
@@ -394,6 +478,9 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, {"rev": rev, "data": data})
         if path == "/favicon.ico":
             return self._send(204, b"", "text/plain")   # 浏览器自动请求，没有图标也别刷 404
+        m = re.match(r"^/tts/(uk|us)/([a-z][a-z'\\-]{0,39})\.mp3$", path)
+        if m:
+            return self._serve_word(m.group(2), m.group(1))
         if path == "/tts":
             return self._tts(self.path)
         if path in ("/", "/index.html", "/背词助手.html"):
@@ -489,6 +576,19 @@ def main():
         os.makedirs(TTS_CACHE, exist_ok=True)
     except OSError:
         pass
+    # 云桥接（可选）：从凭据管理器拿 token，启动时双向同步一次，之后 10 分钟轮询
+    _token = git_credential_fill()
+    if _token:
+        print("[cloud] GitHub token 已从凭据管理器读取——云桥接启动")
+        _stop = threading.Event()
+
+        def _cloud_starter():
+            cloud_sync_once(_token)
+            threading.Thread(target=poll_cloud, args=(_token, _stop), daemon=True).start()
+
+        threading.Thread(target=_cloud_starter, daemon=True).start()
+    else:
+        print("[cloud] 未获取到 GitHub token——云桥接关闭（纯局域网模式照常）")
     LAN_IP = lan_ip()
     url = "http://%s:%d/" % (LAN_IP, PORT)
     print("=" * 56)
