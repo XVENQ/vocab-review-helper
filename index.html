@@ -1545,7 +1545,13 @@ function absorbServerWords(data) {
   }
 }
 /* ==== 云数据中转（GitHub raw 拉 / contents API 推；token 存 localStorage） ==== */
-const CLOUD_RAW = "https://raw.githubusercontent.com/XVENQ/vocab-review-helper/main/data/vocab.json";
+const CLOUD_RAW = (() => {
+  try {  // github.io 站点：同源直拉（raw.githubusercontent.com 国内手机网络常被阻断，github.io 可直连）
+    if (location.protocol === "https:" && /(^|\.)github\.io$/i.test(location.hostname))
+      return new URL("data/vocab.json", location.href).href;
+  } catch (e) {}
+  return "https://raw.githubusercontent.com/XVENQ/vocab-review-helper/main/data/vocab.json";
+})();
 const CLOUD_API = "https://api.github.com/repos/XVENQ/vocab-review-helper/contents/data/vocab.json";
 let cloudSha = null, cloudTimer = 0, cloudInFlight = false, cloudDirty = false, cloudFails = 0;
 function cloudToken() { try { return localStorage.getItem("cihui_github_token") || ""; } catch (e) { return ""; } }
@@ -2513,8 +2519,16 @@ applyTheme();
       return;
     }
     if (location.protocol === "https:") {              // Pages/PWA 形态：云通道为主
-      const ok = await cloudPull();
+      let ok = await cloudPull();
+      if (!ok) {                                       // 首启弱网重试一次
+        await new Promise(r => setTimeout(r, 5000));
+        ok = await cloudPull();
+      }
       if (ok) { prefetchAllAudio(); scheduleCloud(); return; }
+      if (/(^|\.)github\.io$/i.test(location.hostname)) {
+        setFileStatus("云端数据拉取失败——请确认手机可上网，完全关闭本应用后重新打开再试");
+        return;
+      }
     }
     setFileStatus(location.protocol === "http:" && /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent)
       ? "服务器不可达（外出正常）。离线背单词请打开下载的「离线副本」文件；连上电脑网络后刷新本页即可同步"
