@@ -440,6 +440,18 @@
   </div>
   <div id="toast" style="display:none"></div>
 
+  <!-- 连续学习休息提醒弹窗：样式复用 modal 主题变量，深色模式自动适配 -->
+  <div class="modal-mask" id="break-modal" style="display:none">
+    <div class="modal">
+      <h3>连续学习 <span id="break-min">25</span> 分钟了</h3>
+      <p class="muted">主动回忆的效率从 25 分钟左右开始明显下滑——休息 5 分钟再回来，记得更牢。<br>切走页面超过 3 分钟，计时也会自动归零。</p>
+      <div class="mrow">
+        <span class="btn" id="break-later">再学一会儿</span>
+        <span class="btn primary" id="break-rest">好，休息一下</span>
+      </div>
+    </div>
+  </div>
+
   <!-- 导入 -->
   <section class="panel" id="p-import">
     <div class="card2">
@@ -861,7 +873,7 @@ function save() {
   scheduleCloud();                               // 云通道：有 token 即防抖推送（各形态通用）
 }
 
-let session = { queue: [], retry: [], round: 0, doneToday: 0, cardT0: 0, cardBase: 0, spentMs: 0, preview: false, hintTimer: 0, hintStage: 0 };
+let session = { queue: [], retry: [], round: 0, doneToday: 0, cardT0: 0, cardBase: 0, spentMs: 0, preview: false, hintTimer: 0, hintStage: 0, focusMs: 0, focusT0: 0, hideAt: 0, breakSnooze: 0, breakShown: false };
 try {
   // 带上日期存，跨天自动归零，避免「今日已过」累积成历史总数
   const raw = localStorage.getItem(KEY + "_done");
@@ -1725,6 +1737,44 @@ function addTodayTime(ms) {
   state.todayTime.ms += ms;
 }
 
+// ---------- 休息提醒：连续学习 25 分钟后弹一次 ----------
+// 主动回忆效率随连续时长下滑：阈值 25 分钟；切走 ≥3 分钟自动视为休息归零；
+// 弹窗可选「再学一会儿」顺延 10 分钟（可无限顺延，节奏由用户自己负责）
+const BREAK_AFTER = 25 * 60 * 1000, BREAK_MIN = 3 * 60 * 1000, BREAK_SNOOZE = 10 * 60 * 1000;
+function focusRunning() {
+  return !!(cur && $("#card") && $("#card").style.display !== "none");
+}
+function focusPause() {
+  if (session.focusT0) { session.focusMs += Date.now() - session.focusT0; session.focusT0 = 0; }
+}
+function focusResume() {
+  if (!session.focusT0 && focusRunning()) session.focusT0 = Date.now();
+}
+function focusAcc() {
+  return session.focusMs + (session.focusT0 ? Date.now() - session.focusT0 : 0);
+}
+function focusReset(msg) {
+  session.focusMs = 0; session.focusT0 = 0; session.breakSnooze = 0;
+  if (msg) toast(msg);
+}
+function checkBreak() {
+  if (!focusRunning() || session.breakShown) return;
+  if (focusAcc() < Math.max(BREAK_AFTER, session.breakSnooze)) return;
+  session.breakShown = true;
+  focusPause(); timerPause();                       // 弹窗期间当前卡计时暂停，公平
+  const bm = $("#break-modal");
+  if (!bm) return;
+  $("#break-min").textContent = Math.round(focusAcc() / 60000);
+  bm.style.display = "";
+}
+function breakChoice(rest) {
+  session.breakShown = false;
+  const bm = $("#break-modal"); if (bm) bm.style.display = "none";
+  if (rest) focusReset("计时已归零——去喝口水、看看远处吧（切走 ≥3 分钟也会自动归零）");
+  else session.breakSnooze = focusAcc() + BREAK_SNOOZE;   // 顺延：从当前累计再加 10 分钟
+  timerResume(); focusResume();
+}
+
 // ---------- 复习会话 ----------
 let cur = null;
 let lastDoneWord = "";   // 上一张刚评完的词，切换后显示在卡片下方作提示
@@ -1749,6 +1799,7 @@ function studyDone() {
   lastDoneWord = cur.word;
   session.preview = false;
   save(); renderStats(); nextCard();
+  checkBreak();
 }
 function nextCard() {
   if (session.queue.length === 0) {
@@ -1838,11 +1889,13 @@ function answer(r) {
   save();
   renderStats();   // 每答一张就更新统计，别等做完才刷新
   nextCard();
+  checkBreak();    // 连续学习满阈值：在换卡的间隙弹休息提醒，不打断正在看的卡
 }
 function finishReview() {
   cur = null;
   stopHint();
   timerReset();
+  focusPause();            // 完成页不再计入连续学习时长
   lastDoneWord = "";
   const pv0 = $("#c-prev");
   if (pv0) { pv0.textContent = ""; pv0.style.display = "none"; }
@@ -1873,6 +1926,7 @@ function startReview() {
   prefetchQueueAudio();                                // 趁连网把整队发音预取进持久缓存
   lastDoneWord = "";
   session.spentMs = 0;
+  focusReset();                                        // 开新会话 = 新的连续专注段
   $("#empty-review").style.display = "none";
   $("#stage .flashcard").style.display = "flex";
   nextCard();
@@ -1889,6 +1943,7 @@ function startHardReview() {
   session.retry = []; session.round = 0;
   lastDoneWord = "";
   session.spentMs = 0;
+  focusReset();
   document.querySelectorAll("nav button").forEach(x => x.classList.toggle("on", x.dataset.tab === "review"));
   document.querySelectorAll(".panel").forEach(p => p.classList.toggle("on", p.id === "p-review"));
   $("#empty-review").style.display = "none";
@@ -1907,6 +1962,7 @@ function startBatch(name) {
   session.retry = []; session.round = 0;
   lastDoneWord = "";
   session.spentMs = 0;
+  focusReset();
   document.querySelectorAll("nav button").forEach(x => x.classList.toggle("on", x.dataset.tab === "review"));
   document.querySelectorAll(".panel").forEach(p => p.classList.toggle("on", p.id === "p-review"));
   $("#empty-review").style.display = "none";
@@ -2237,9 +2293,20 @@ $("#rating").addEventListener("click", e => {
   const btn = e.target.closest("button");
   if (btn) answer(Number(btn.dataset.r));
 });
-// 切走页面就停表，回来再续上（含最小化、切标签页）
+// 切走页面就停表，回来再续上（含最小化、切标签页）；同时驱动连续学习计时：
+// 切走 ≥3 分钟自动视为休息（归零），短切走则暂停后续上
 document.addEventListener("visibilitychange", () => {
-  if (document.hidden) timerPause(); else timerResume();
+  if (document.hidden) { timerPause(); focusPause(); session.hideAt = Date.now(); }
+  else {
+    const away = session.hideAt ? Date.now() - session.hideAt : 0;
+    timerResume();
+    if (away >= BREAK_MIN) {
+      const wasShown = session.breakShown;
+      focusReset("休息过了，连续学习计时已归零");
+      if (wasShown) { session.breakShown = false; const bm = $("#break-modal"); if (bm) bm.style.display = "none"; }
+    }
+    focusResume();
+  }
 });
 document.addEventListener("keydown", e => {
   const pReview = $("#p-review").classList.contains("on");
@@ -2457,6 +2524,8 @@ $("#btn-addword").onclick = () => openWordModal(null);
 $("#btn-hard").onclick = startHardReview;
 $("#wm-cancel").onclick = () => { $("#word-modal").style.display = "none"; };
 $("#word-modal").onclick = e => { if (e.target === $("#word-modal")) $("#word-modal").style.display = "none"; };
+$("#break-rest").onclick = () => breakChoice(true);
+$("#break-later").onclick = () => breakChoice(false);
 $("#wm-save").onclick = () => {
   const word = $("#wm-word").value.trim();
   if (!word) { wmMsg("单词不能为空", true); return; }
