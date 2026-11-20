@@ -17,6 +17,8 @@
     --red:#A32D2D; --redbg:#FCEBEB;
     --blue:#185FA5; --bluebg:#E6F1FB;
     --radius:12px;
+    --bg-grad:linear-gradient(165deg,#FBF9F4 0%,#EFF6F1 55%,#E8F1EE 100%);
+    --card-shadow:0 1px 2px rgba(0,0,0,.05),0 12px 32px rgba(15,110,86,.07);
     color-scheme:light;
   }
   /* 暗色主题：html.dark 类由 JS 按「设置偏好 + 系统偏好」驱动 */
@@ -27,12 +29,14 @@
     --amber:#e5b45c; --amberbg:#392d12;
     --red:#e26d6d; --redbg:#3a1c1c;
     --blue:#5f9fdd; --bluebg:#16293e;
+    --bg-grad:linear-gradient(165deg,#16181d 0%,#12181a 55%,#0f1614 100%);
+    --card-shadow:0 1px 2px rgba(0,0,0,.4),0 12px 32px rgba(0,0,0,.35);
     color-scheme:dark;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
   body{
-    background:var(--bg); color:var(--ink);
+    background:var(--bg-grad) fixed; color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
     font-size:15px; line-height:1.6;
   }
@@ -42,10 +46,10 @@
   header h1{font-size:20px;font-weight:600;margin:0;letter-spacing:-.01em}
   header .sub{font-size:13px;color:var(--ink2)}
 
-  nav{display:flex;gap:4px;margin:10px 0 8px;border-bottom:1px solid var(--line2)}
+  nav{display:flex;gap:8px;margin:12px 0 10px;border-bottom:1px solid var(--line2)}
   nav button{
-    background:none;border:none;font:inherit;font-size:14px;color:var(--ink2);
-    padding:9px 16px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
+    background:none;border:none;font:inherit;font-size:14px;font-weight:500;color:var(--ink2);
+    padding:10px 18px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;
   }
   nav button.on{color:var(--teal);border-bottom-color:var(--teal);font-weight:500}
 
@@ -71,15 +75,16 @@
   .stage .hint{font-size:13px;color:var(--ink3);margin-bottom:10px}
   .flashcard{
     position:relative;
-    background:var(--card);border:1px solid var(--line);border-radius:16px;
-    min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    padding:44px 36px;cursor:pointer;user-select:none;margin:0 auto;max-width:640px;
+    background:var(--card);border:1px solid transparent;border-radius:24px;
+    box-shadow:var(--card-shadow);
+    min-height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:52px 40px;cursor:pointer;user-select:none;margin:0 auto;max-width:640px;
   }
-  .flashcard .w{font-size:52px;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+  .flashcard .w{font-size:clamp(40px,10vw,56px);font-weight:700;letter-spacing:-.02em;line-height:1.12}
   .flashcard .phon{font-size:16px;color:var(--ink2);margin-top:8px}
   .flashcard .hardtag{font-size:12px;color:var(--red);margin-top:6px;font-weight:500}
   .flashcard .hardtag:empty{display:none}
-  .flashcard .m{font-size:19px;margin-top:22px;color:var(--ink);max-width:560px;line-height:1.75}
+  .flashcard .m{font-size:19px;margin-top:22px;color:var(--ink);max-width:560px;line-height:1.75;animation:fadein .28s ease}
   .flashcard .tap{font-size:13px;color:var(--ink3);margin-top:22px}
   .flashcard.revealed{cursor:default}
   /* 上一个词提示：小字、淡色、不可点击，只在卡片下方占一行，不影响当前卡的判读 */
@@ -92,11 +97,13 @@
 
   .rating{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:640px;margin:14px auto 0}
   .rating button{
-    border:1px solid var(--line);border-radius:10px;background:var(--card);padding:12px 6px;
-    cursor:pointer;font:inherit;font-size:13px;color:var(--ink);
+    border:none;border-radius:14px;padding:13px 6px;cursor:pointer;font:inherit;font-size:13px;color:var(--ink);
+    transition:transform .12s ease,filter .12s ease;
   }
-  .rating button:hover{filter:brightness(.97)}
-  .rating button b{display:block;font-size:15px;margin-bottom:2px}
+  .rating button:hover{filter:brightness(.97);transform:translateY(-1px)}
+  .rating .r0{background:var(--redbg)} .rating .r1{background:var(--amberbg)}
+  .rating .r2{background:var(--tealbg)} .rating .r3{background:var(--bluebg)}
+  .rating button b{display:block;font-size:16px;margin-bottom:2px}
   .rating .r0 b{color:var(--red)} .rating .r1 b{color:var(--amber)}
   .rating .r2 b{color:var(--teal)} .rating .r3 b{color:var(--blue)}
   .rating .k{display:block;font-size:11px;color:var(--ink3);margin-top:2px}
@@ -295,6 +302,22 @@
 
   .footer{text-align:center;color:var(--ink3);font-size:12px;margin-top:48px}
   a{color:var(--teal)}
+
+  /* —— 精致化统一：大圆角 + 柔投影（复习页重点，全局面板一致）—— */
+  .card2,.batch,.story,.modal{border-radius:20px;box-shadow:var(--card-shadow)}
+  .stat{border-radius:16px;box-shadow:var(--card-shadow)}
+  /* 复习页顶部：细进度条 + 计数（今日计划 n/m） */
+  .rev-top{display:flex;align-items:center;gap:12px;margin:6px 0 14px}
+  .rev-progress{flex:1;height:6px;border-radius:3px;background:var(--line2);overflow:hidden}
+  .rev-progress i{display:block;height:100%;width:0;border-radius:3px;background:var(--teal);transition:width .35s ease}
+  .rev-count{font-size:12px;color:var(--ink2);white-space:nowrap;font-variant-numeric:tabular-nums}
+  /* 「显示答案」主按钮：未翻面时的明确行动点（墨墨/Anki 范式） */
+  #show-answer{display:none;width:100%;max-width:640px;margin:14px auto 0;font:inherit;font-size:16px;font-weight:600;
+    color:#fff;background:var(--teal);border:none;border-radius:14px;padding:14px;cursor:pointer;
+    box-shadow:0 6px 18px rgba(15,110,86,.25);transition:filter .12s ease,transform .12s ease}
+  #show-answer:hover{filter:brightness(1.06)}
+  #show-answer:active{transform:scale(.99)}
+  html.dark #show-answer{color:#0f2a22}
 @media (display-mode:standalone){
   .app{padding-top:calc(10px + env(safe-area-inset-top))}
 }
@@ -303,14 +326,29 @@
   .databar{flex-wrap:wrap;gap:6px}
   .card{padding:22px 16px}
   /* 评分栏固定在屏幕底部：翻面立刻可见，不用滑动找按钮（手机上原布局在折叠线以下） */
+  /* 毛玻璃底：不背单词式的轻盈浮层；不支持 backdrop-filter 时回退实色 */
   .rating{position:fixed;left:0;right:0;bottom:0;z-index:60;max-width:none;margin:0;
     gap:6px;padding:10px 10px calc(10px + env(safe-area-inset-bottom));
-    background:var(--card);border-top:1px solid var(--line);
-    box-shadow:0 -6px 20px rgba(0,0,0,.10)}
-  .rating button{font-size:0;padding:12px 2px}   /* font-size:0 隐藏裸文本说明，只留按钮名 */
-  .rating button b{font-size:15px;margin:0}
-  .rating button .k{display:none}                /* 触屏没有键盘，快捷键提示无意义 */
-  .app{padding-bottom:96px}                      /* 给固定评分栏留出空间 */
+    background:rgba(255,255,255,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-top:1px solid var(--line2);
+    box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+  html.dark .rating{background:rgba(30,33,39,.88)}
+  @supports not (backdrop-filter: blur(1px)) {
+    .rating{background:var(--card)}
+  }
+  .rating button{font-size:0;padding:13px 2px}  /* font-size:0 隐藏裸文本说明，只留按钮名 */
+  .rating button b{font-size:16px;margin:0}
+  .rating button .k{display:none}               /* 触屏没有键盘，快捷键提示无意义 */
+  /* 未翻面：底栏是全宽「显示答案」主按钮（同款毛玻璃） */
+  #show-answer{position:fixed;left:0;right:0;bottom:0;z-index:60;margin:0;max-width:none;border-radius:0;
+    padding:16px;font-size:17px;
+    background:rgba(255,255,255,.88);color:var(--teal);box-shadow:0 -6px 20px rgba(0,0,0,.08);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+  html.dark #show-answer{background:rgba(30,33,39,.88);color:var(--teal)}
+  @supports not (backdrop-filter: blur(1px)) {
+    #show-answer{background:var(--card)}
+  }
+  .app{padding-bottom:96px}                     /* 给固定按钮栏留出空间 */
 }
 @media (hover:none){
   .wordline .delbtn{color:var(--ink3)}
@@ -344,15 +382,12 @@
     <button data-tab="story">故事</button>
   </nav>
 
-  <!-- 复习 -->
+  <!-- 复习：顶部只留进度条 + 计数，统计卡挪到词库页，注意力全给单词 -->
   <section class="panel on" id="p-review">
-    <div class="stats">
-      <div class="stat review"><div class="lab">今日复习</div><div class="val" id="s-review">0</div><div class="sub2" id="s-review-all"></div></div>
-      <div class="stat done"><div class="lab">今日已过</div><div class="val" id="s-done">0</div></div>
-      <div class="stat total"><div class="lab">词库总量</div><div class="val" id="s-total">0</div></div>
-      <div class="stat time"><div class="lab">累计时长</div><div class="val" id="s-time">0 秒</div><div class="sub2" id="s-time-today"></div></div>
+    <div class="rev-top">
+      <div class="rev-progress"><i id="rev-fill"></i></div>
+      <span class="rev-count" id="rev-count"></span>
     </div>
-
     <div class="stage" id="stage">
       <div class="hint" id="hint"></div>
       <div class="flashcard" id="card" tabindex="0">
@@ -369,6 +404,7 @@
         </div>
       </div>
       <div class="prevword" id="c-prev" aria-hidden="true"></div>
+      <button id="show-answer" style="display:none">显示答案</button>
       <div class="rating" id="rating" style="display:none">
         <button class="r0" data-r="0"><b>重来</b>没想起来<span class="k">按 1</span></button>
         <button class="r1" data-r="1"><b>困难</b>想起来很吃力<span class="k">按 2</span></button>
@@ -383,8 +419,14 @@
     </div>
   </section>
 
-  <!-- 词库 -->
+  <!-- 词库：学习统计放在这里，复习页保持专注 -->
   <section class="panel" id="p-lib">
+    <div class="stats">
+      <div class="stat review"><div class="lab">今日复习</div><div class="val" id="s-review">0</div><div class="sub2" id="s-review-all"></div></div>
+      <div class="stat done"><div class="lab">今日已过</div><div class="val" id="s-done">0</div></div>
+      <div class="stat total"><div class="lab">词库总量</div><div class="val" id="s-total">0</div></div>
+      <div class="stat time"><div class="lab">累计时长</div><div class="val" id="s-time">0 秒</div><div class="sub2" id="s-time-today"></div></div>
+    </div>
     <div class="toolbar">
       <input id="lib-search" placeholder="搜索单词或释义…">
       <select id="lib-filter">
@@ -558,7 +600,7 @@
     </details>
   </section>
 
-  <div class="footer">学习记录同时存在浏览器和磁盘数据文件里。建议用 Chrome 下载本文件后双击打开，首次点顶部「选择数据文件」固定保存位置。</div>
+  <div class="footer">进度三端同步：手机 PWA ↔ GitHub 云端 ↔ 电脑数据文件，背过的词不会丢。想留一份本地备份，到「词库 → 导出备份」。</div>
 </div>
 
 <script>
@@ -1885,6 +1927,7 @@ function nextCard() {
   $("#c-mean").style.display = preview ? "" : "none";
   $("#c-tap").style.display = preview ? "none" : "";
   $("#rating").style.display = "none";
+  const saBtn = $("#show-answer"); if (saBtn) saBtn.style.display = preview ? "none" : "block";
   $("#c-study").style.display = preview ? "" : "none";
   $("#card").classList.toggle("revealed", preview);
   const leftN = session.queue.length + session.retest.length + 1;  // 含当前这张与重考池
@@ -1906,6 +1949,7 @@ function reveal() {
   $("#card").classList.add("revealed");
   $("#c-mean").style.display = "";
   $("#c-tap").style.display = "none";
+  const saBtn = $("#show-answer"); if (saBtn) saBtn.style.display = "none";
   $("#rating").style.display = "grid";
 }
 function answer(r) {
@@ -1933,6 +1977,7 @@ function finishReview() {
   stopHint();
   timerReset();
   focusPause();            // 完成页不再计入连续学习时长
+  const saBtn = $("#show-answer"); if (saBtn) saBtn.style.display = "none";
   lastDoneWord = "";
   const pv0 = $("#c-prev");
   if (pv0) { pv0.textContent = ""; pv0.style.display = "none"; }
@@ -2024,6 +2069,14 @@ function renderStats() { checkSyncWarn();
   const planLeft = state.words.filter(w => planIds.has(w.id) && w.nextDate <= t).length;
   const overdue = due.filter(w => !planIds.has(w.id)).length;
   $("#s-review").textContent = planLeft;
+  // 复习页顶部进度条：今日计划里已完成 / 总数（重来词 nextDate 仍=今天，计入剩余）
+  const fill = document.getElementById("rev-fill");
+  if (fill) {
+    const tot = plan.ids.length;
+    fill.style.width = (tot ? Math.round((tot - planLeft) / tot * 100) : 0) + "%";
+  }
+  const rc = document.getElementById("rev-count");
+  if (rc) rc.textContent = (plan.ids.length - planLeft) + "/" + plan.ids.length;
   const sa = $("#s-review-all");
   if (sa) sa.textContent = "今日计划 " + plan.ids.length + " 张" + (overdue > 0 ? " · 顺延欠账 " + overdue + " 张" : "");
   // 今日已过直接从词库统计（lastRated=今天），不再用各浏览器自己的计数器——
@@ -2327,6 +2380,7 @@ document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
 });
 
 $("#card").onclick = reveal;
+$("#show-answer").onclick = reveal;
 $("#rating").addEventListener("click", e => {
   const btn = e.target.closest("button");
   if (btn) answer(Number(btn.dataset.r));
