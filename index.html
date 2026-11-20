@@ -1610,7 +1610,7 @@ async function cloudPush() {
       todayTime: pickTodayTime(state.todayTime, cloudData.todayTime),
       dayPlan: state.dayPlan || cloudData.dayPlan || null,
       rev: state.rev || 0, updatedAt: Date.now() };
-    const sig = w => JSON.stringify(m.words.map(x => [x.id, x.mt || 0, x.step || 0]));
+    const sig = JSON.stringify(m.words.map(x => [x.id, x.mt || 0, x.step || 0]));   // ⚠ 曾误写成箭头函数，函数!==字符串导致判重永远失效、每次评分都白推一次
     const cloudSig = JSON.stringify((cloudData.words || []).map(x => [x.id, x.mt || 0, x.step || 0]));
     if (sig === cloudSig && JSON.stringify(m.deleted) === JSON.stringify(cloudData.deleted || [])) {
       cloudFails = 0; return;                             // 云已是最新
