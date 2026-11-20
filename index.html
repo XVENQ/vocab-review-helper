@@ -1568,7 +1568,7 @@ function absorbServerWords(data) {
       if (String(lw.nextDate || "9999") > t) {           // 对端已把它背到未来 → 本机队列摘掉
         if (session.queue) session.queue = session.queue.filter(x => x !== lw);
         if (session.retry) session.retry = session.retry.filter(x => x !== lw);
-        if (session.retest) session.retest = session.retest.filter(x => x.w !== lw);
+        if (session.retest) { session.retest = session.retest.filter(x => x.w !== lw); retestSave(); }
         if (state.dayPlan && Array.isArray(state.dayPlan.ids))
           state.dayPlan.ids = state.dayPlan.ids.filter(id => String(id) !== String(lw.id));
       }
@@ -1593,7 +1593,7 @@ function absorbServerWords(data) {
         changed = true;
         if (state.dayPlan && Array.isArray(state.dayPlan.ids))
           state.dayPlan.ids = state.dayPlan.ids.filter(id => String(id) !== String(lw.id));
-        if (session.retest) session.retest = session.retest.filter(x => x.w !== lw);
+        if (session.retest) { session.retest = session.retest.filter(x => x.w !== lw); retestSave(); }
         return false;
       }
       return true;      // filter 保留原对象引用，队列里的幸存词引用不失效
@@ -1789,6 +1789,25 @@ const RETEST_MIN = 60 * 1000, RETEST_MAX = 300 * 1000;   // 重考/预习后的�
 function retestDue() {                                    // 入池时在窗口内随机取到期时间：动态错峰，多词不同时挤在一起
   return Date.now() + RETEST_MIN + Math.random() * (RETEST_MAX - RETEST_MIN);
 }
+// 重考池持久化：碎片化学习（背几个词就放下手机，后台随时被清理）后，重考节奏原样恢复
+const RETEST_KEY = "cihui_retest_v1";
+function retestSave() {
+  try { localStorage.setItem(RETEST_KEY, JSON.stringify({
+    date: todayStr(),
+    items: session.retest.map(x => ({ id: x.w.id, dueAt: x.dueAt }))
+  })); } catch (e) {}
+}
+function retestRestore() {
+  try {
+    const o = JSON.parse(localStorage.getItem(RETEST_KEY) || "null");
+    if (!o || o.date !== todayStr() || !Array.isArray(o.items)) return;   // 跨天：排期已由 nextDate 接管，池作废
+    const idx = {};
+    state.words.forEach(w => { idx[String(w.id)] = w; });
+    session.retest = o.items
+      .filter(x => x && idx[String(x.id)])
+      .map(x => ({ w: idx[String(x.id)], dueAt: Number(x.dueAt) || Date.now() }));
+  } catch (e) {}
+}
 function focusRunning() {
   return !!(cur && $("#card") && $("#card").style.display !== "none");
 }
@@ -1865,6 +1884,7 @@ function studyDone() {
   }
   cur.previewAt = todayStr();     // 今天不再预习，等会儿以考试模式再见
   session.retest.push({ w: cur, dueAt: retestDue() });   // 预习完 1–5 分钟内回来考（到期时间调度，不等整队）
+  retestSave();
   lastDoneWord = cur.word;
   session.preview = false;
   save(); renderStats(); nextCard();
@@ -1878,6 +1898,7 @@ function nextCard() {
       if (dueNow.length) {
         dueNow.sort((a, b) => a.dueAt - b.dueAt);
         session.retest = session.retest.filter(x => x.dueAt > Date.now());
+        retestSave();
         session.queue = dueNow.map(x => x.w);
       } else return retestWait();
     } else {
@@ -1894,6 +1915,7 @@ function nextCard() {
   if (due.length) {
     const dueIds = new Set(due.map(w => w.id));
     session.retest = session.retest.filter(x => !dueIds.has(x.w.id));
+    retestSave();
     session.queue = due.concat(session.queue.filter(w => !dueIds.has(w.id)));   // 防重复：手动开新会话可能已把同词排进队列
   }
   const w = session.queue.shift();
@@ -1962,6 +1984,7 @@ function answer(r) {
   rate(cur, r, spent);   // spent=本卡回忆用时，喂给熟练值
   if (r === 0 && cur.nextDate === todayStr())                     // 答错：1–5 分钟后插队重考
     session.retest.push({ w: cur, dueAt: retestDue() });   // 第 3 次重来已被 rate 推到明天，不再入池
+  if (r === 0) retestSave();
   lastDoneWord = cur.word;             // 记住刚过的这个，切到下一张时作提示
   session.doneToday++;
   save();
@@ -2000,6 +2023,7 @@ function finishReview() {
 }
 
 function startReview() {
+  if (!session.retest.length) retestRestore();   // 碎片化：后台被清理后回来，重考节奏从持久层恢复
   const b = buildQueue();
   if (b.queue.length === 0) { finishReview(); return; }
   session.queue = b.queue; session.retry = []; session.round = 0;
@@ -2431,6 +2455,7 @@ $("#btn-clear").onclick = () => {
   if (confirm("确定清空全部数据？此操作不可撤销，建议先导出备份。")) {
     state = { words: [], settings: state.settings, deleted: state.deleted || [] };
     session.doneToday = 0;
+    session.retest = []; retestSave();          // 清空后池里的词已不存在，一并清掉防考孤儿
     save(); renderAll();
   }
 };
