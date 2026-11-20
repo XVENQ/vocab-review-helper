@@ -1916,15 +1916,10 @@ function startBatch(name) {
 
 // ---------- 渲染 ----------
 function checkSyncWarn() {
+  // 2026-11-20 起退役：手机进度经 GitHub 云端自动同步（token 推送 + 服务器云桥接 10 分钟轮询收编），
+  // 「清理浏览器数据丢进度」的旧风险已结构性消除，旧 LAN 直连计时（cihui_last_sync）对手机云通道不再有意义。
   const el = document.getElementById("sync-warn");
-  if (!el) return;
-  if (!SERVER_MODE || !state || !state.words.length) { el.style.display = "none"; return; }
-  const last = Number(localStorage.getItem("cihui_last_sync")) || 0;
-  const hours = Math.floor((Date.now() - last) / 3600000);
-  if (last > 0 && hours >= 6 && state.updatedAt > last) {
-    el.textContent = "⚠ 离线进度已 " + hours + " 小时未同步到电脑。手机清理浏览器数据会丢进度，建议到「词库」页点「导出备份」存一份。";
-    el.style.display = "block";
-  } else { el.style.display = "none"; }
+  if (el) el.style.display = "none";
 }
 function renderStats() { checkSyncWarn();
   const t = todayStr();
