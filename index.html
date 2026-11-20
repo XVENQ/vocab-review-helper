@@ -873,7 +873,7 @@ function save() {
   scheduleCloud();                               // 云通道：有 token 即防抖推送（各形态通用）
 }
 
-let session = { queue: [], retry: [], round: 0, doneToday: 0, cardT0: 0, cardBase: 0, spentMs: 0, preview: false, hintTimer: 0, hintStage: 0, focusMs: 0, focusT0: 0, hideAt: 0, breakSnooze: 0, breakShown: false };
+let session = { queue: [], retest: [], retestTimer: 0, retry: [], round: 0, doneToday: 0, cardT0: 0, cardBase: 0, spentMs: 0, preview: false, hintTimer: 0, hintStage: 0, focusMs: 0, focusT0: 0, hideAt: 0, breakSnooze: 0, breakShown: false };
 try {
   // 带上日期存，跨天自动归零，避免「今日已过」累积成历史总数
   const raw = localStorage.getItem(KEY + "_done");
@@ -1044,7 +1044,7 @@ function prefetchQueueAudio() {
   // 连网时把今天整队发音预取进持久缓存（约 30 词 × 10KB ≈ 0.3MB）——
   // 之后离线一天都有声。错峰 350ms，别把 /tts 打爆。
   if (navigator.onLine === false && !SERVER_MODE) return;
-  const ws = (session.queue || []).concat(session.retry || []);
+  const ws = (session.queue || []).concat(session.retry || [], (session.retest || []).map(x => x.w));
   let i = 0;
   const tick = () => {
     if (i >= ws.length) return;
@@ -1505,6 +1505,8 @@ function remapSessionRefs() {
   const remap = w => idx[String(w && w.id)] || w;
   if (session.queue) session.queue = session.queue.map(remap);
   if (session.retry) session.retry = session.retry.map(remap);
+  if (session.retest) session.retest = session.retest.filter(x => x.w && idx[String(x.w.id)])
+    .map(x => ({ w: idx[String(x.w.id)], dueAt: x.dueAt }));   // 词已不在新数据里（如恢复快照）→ 出池
   if (cur) cur = remap(cur);
 }
 function absorbServerWords(data) {
@@ -1527,6 +1529,7 @@ function absorbServerWords(data) {
       if (String(lw.nextDate || "9999") > t) {           // 对端已把它背到未来 → 本机队列摘掉
         if (session.queue) session.queue = session.queue.filter(x => x !== lw);
         if (session.retry) session.retry = session.retry.filter(x => x !== lw);
+        if (session.retest) session.retest = session.retest.filter(x => x.w !== lw);
         if (state.dayPlan && Array.isArray(state.dayPlan.ids))
           state.dayPlan.ids = state.dayPlan.ids.filter(id => String(id) !== String(lw.id));
       }
@@ -1543,13 +1546,15 @@ function absorbServerWords(data) {
     const tmap = {};
     mergedT.forEach(t => { tmap[String(t.id) + "|" + String(t.word || "").toLowerCase()] = Number(t.at) || 0; });
     const isActive = lw => cur === lw || (session.queue && session.queue.indexOf(lw) >= 0) ||
-                          (session.retry && session.retry.indexOf(lw) >= 0);
+                          (session.retry && session.retry.indexOf(lw) >= 0) ||
+                          (session.retest && session.retest.some(x => x.w === lw));
     state.words = state.words.filter(lw => {
       const at = tmap[String(lw.id) + "|" + String(lw.word || "").toLowerCase()];
       if (at !== undefined && wordRecency(lw) <= at && !isActive(lw)) {
         changed = true;
         if (state.dayPlan && Array.isArray(state.dayPlan.ids))
           state.dayPlan.ids = state.dayPlan.ids.filter(id => String(id) !== String(lw.id));
+        if (session.retest) session.retest = session.retest.filter(x => x.w !== lw);
         return false;
       }
       return true;      // filter 保留原对象引用，队列里的幸存词引用不失效
@@ -1741,6 +1746,10 @@ function addTodayTime(ms) {
 // 主动回忆效率随连续时长下滑：阈值 25 分钟；切走 ≥3 分钟自动视为休息归零；
 // 弹窗可选「再学一会儿」顺延 10 分钟（可无限顺延，节奏由用户自己负责）
 const BREAK_AFTER = 25 * 60 * 1000, BREAK_MIN = 3 * 60 * 1000, BREAK_SNOOZE = 10 * 60 * 1000;
+const RETEST_MIN = 60 * 1000, RETEST_MAX = 300 * 1000;   // 重考/预习后的首次复测窗口：1–5 分钟
+function retestDue() {                                    // 入池时在窗口内随机取到期时间：动态错峰，多词不同时挤在一起
+  return Date.now() + RETEST_MIN + Math.random() * (RETEST_MAX - RETEST_MIN);
+}
 function focusRunning() {
   return !!(cur && $("#card") && $("#card").style.display !== "none");
 }
@@ -1774,6 +1783,26 @@ function breakChoice(rest) {
   else session.breakSnooze = focusAcc() + BREAK_SNOOZE;   // 顺延：从当前累计再加 10 分钟
   timerResume(); focusResume();
 }
+// 重考池未到期的等待屏：借用完成页展示倒计时提示，到点闹钟自动回来出卡；空档正好当小休息
+function retestWait() {
+  cur = null; stopHint(); timerReset(); focusPause();     // 等待空档不计入连续学习时长
+  const earliest = Math.min.apply(null, session.retest.map(x => x.dueAt));
+  $("#stage .flashcard").style.display = "none";
+  $("#rating").style.display = "none";
+  $("#hint").textContent = "";
+  const pv0 = $("#c-prev"); if (pv0) { pv0.textContent = ""; pv0.style.display = "none"; }
+  $("#empty-review").style.display = "";
+  const big = $("#empty-review .big"); if (big) big.textContent = "重考在排队";
+  const tipEl = $("#empty-review .tip");
+  if (tipEl) tipEl.textContent = "还有 " + session.retest.length + " 个词待重考，最早的约 " +
+    fmtShort(Math.max(1000, earliest - Date.now())) + " 后出现——正好歇一下眼，到点会自动弹出。";
+  const stEl = $("#sess-time"); if (stEl) stEl.textContent = "";
+  if (session.retestTimer) clearTimeout(session.retestTimer);
+  session.retestTimer = setTimeout(() => {
+    session.retestTimer = 0;
+    if (session.retest.length > 0 && session.queue.length === 0 && cur === null) nextCard();
+  }, Math.max(200, earliest - Date.now() + 80));
+}
 
 // ---------- 复习会话 ----------
 let cur = null;
@@ -1796,6 +1825,7 @@ function studyDone() {
     session.spentMs += spent;
   }
   cur.previewAt = todayStr();     // 今天不再预习，等会儿以考试模式再见
+  session.retest.push({ w: cur, dueAt: retestDue() });   // 预习完 1–5 分钟内回来考（到期时间调度，不等整队）
   lastDoneWord = cur.word;
   session.preview = false;
   save(); renderStats(); nextCard();
@@ -1803,22 +1833,29 @@ function studyDone() {
 }
 function nextCard() {
   if (session.queue.length === 0) {
-    if (session.retry.length > 0 && session.round < 2) {   // 本轮答错的先重考，最多两轮
-      session.queue = shuffle(session.retry);
-      session.retry = [];
-      session.round++;
+    if (session.retest.length > 0) {
+      // 队列排空、池里有词：到期直接出卡；都没到期则展示「重考排队」等待屏，到点闹钟自动回来
+      const dueNow = session.retest.filter(x => x.dueAt <= Date.now());
+      if (dueNow.length) {
+        dueNow.sort((a, b) => a.dueAt - b.dueAt);
+        session.retest = session.retest.filter(x => x.dueAt > Date.now());
+        session.queue = dueNow.map(x => x.w);
+      } else return retestWait();
     } else {
-      // 再看还有没有今天评「重来」的词（nextDate 仍停在今天），有就继续，最多 3 轮
-      const again = session.round < 3 ? buildQueue().queue : [];
-      if (again.length > 0) {
-        session.queue = again;
-        session.retry = [];
-        session.round++;
-      } else {
-        finishReview();
-        return;
-      }
+      // 再看还有没有今天评「重来」/到期的词（dayPlan 内，nextDate 仍停在今天）就继续；
+      // 排除池里还挂着的（它们由池按到期时间调度，避免双份）
+      const again = buildQueue().queue.filter(w => !session.retest.some(x => x.w.id === w.id));
+      if (again.length > 0) session.queue = again;
+      else { finishReview(); return; }
     }
+  }
+  // 重考池到期优先：到期的词按 dueAt 升序插到队列最前（1–5 分钟间隔提取窗口）
+  const now = Date.now();
+  const due = session.retest.filter(x => x.dueAt <= now).sort((a, b) => a.dueAt - b.dueAt).map(x => x.w);
+  if (due.length) {
+    const dueIds = new Set(due.map(w => w.id));
+    session.retest = session.retest.filter(x => !dueIds.has(x.w.id));
+    session.queue = due.concat(session.queue.filter(w => !dueIds.has(w.id)));   // 防重复：手动开新会话可能已把同词排进队列
   }
   const w = session.queue.shift();
   cur = w;
@@ -1850,10 +1887,9 @@ function nextCard() {
   $("#rating").style.display = "none";
   $("#c-study").style.display = preview ? "" : "none";
   $("#card").classList.toggle("revealed", preview);
-  const leftN = session.queue.length + session.retry.length + 1;  // 含当前这张
+  const leftN = session.queue.length + session.retest.length + 1;  // 含当前这张与重考池
   $("#hint").textContent = (preview ? "预习 · " : "复习 · ") + "还剩 " + leftN + " 张" +
-    (session.retry.length > 0 ? "（含待重考 " + session.retry.length + " 张）" : "") +
-    (session.round > 0 ? " · 重考轮" : "");
+    (session.retest.length > 0 ? "（含 " + session.retest.length + " 张稍后重考）" : "");
   const pv = $("#c-prev");
   if (pv) {
     pv.style.display = "";
@@ -1883,7 +1919,8 @@ function answer(r) {
     session.spentMs += spent;
   }
   rate(cur, r, spent);   // spent=本卡回忆用时，喂给熟练值
-  if (r === 0) session.retry.push(cur); // 答错，本轮再考
+  if (r === 0 && cur.nextDate === todayStr())                     // 答错：1–5 分钟后插队重考
+    session.retest.push({ w: cur, dueAt: retestDue() });   // 第 3 次重来已被 rate 推到明天，不再入池
   lastDoneWord = cur.word;             // 记住刚过的这个，切到下一张时作提示
   session.doneToday++;
   save();
@@ -1909,6 +1946,7 @@ function finishReview() {
   const left = state.words.filter(w => w.nextDate <= t && reviewable(w)).length;
   const el = $("#empty-review");
   if (el) {
+    const big = el.querySelector(".big"); if (big) big.textContent = "今天该复习的都做完了";   // 可能被重考等待屏改过
     const tip = left > 0
       ? ("今天计划的词已过完，还有 " + left + " 张待巩固（评过「重来」或欠账的），刷新页面或点「顽固词」可继续；明天也会自动出现，不会丢。")
       : "明天到期时再来。想多过一遍，去「词库」里选批次点「复习这批」。";
