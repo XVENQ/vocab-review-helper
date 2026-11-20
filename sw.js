@@ -1,5 +1,5 @@
 /* 背词助手 Service Worker —— deploy_pages.py 自动生成，勿手改 */
-const CACHE = "beici-v20261120_1824";
+const CACHE = "beici-v20261120_1829";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

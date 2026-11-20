@@ -794,12 +794,9 @@ function applyData(data, okMsg, forceDisk) {
   if (local && Array.isArray(local.words) && local.words.length &&
       Array.isArray(data.words) && data.words.length) {
     const m = mergeWords(local.words, data.words, local.deleted || [], data.deleted || []);
-    const same = m.words.length === local.words.length &&
-                 JSON.stringify(m.words.map(w => w.id)) === JSON.stringify(local.words.map(w => w.id)) &&
-                 local.updatedAt >= (data.updatedAt || 0);
+    // 合并已是常态路径（2026-11 起按词合并替代整包采用），不再向用户播报合并细节
     data = Object.assign({}, data, { words: m.words, deleted: m.deleted,
       updatedAt: Math.max(local.updatedAt || 0, data.updatedAt || 0) });
-    if (!same) okMsg = "已按词合并浏览器缓存与文件（各保留较新的进度）";
     forceDisk = true;                       // 合并结果就是最新共识，后面的旧值护栏不再适用
   }
   // 同一份数据重连（点「选择数据文件」选的还是这个文件、内容没变）时直接返回：
