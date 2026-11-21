@@ -45,6 +45,8 @@
   header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2px}
   header h1{font-size:20px;font-weight:600;margin:0;letter-spacing:-.01em}
   header .sub{font-size:13px;color:var(--ink2)}
+  .lib-head{font-size:15px;font-weight:600;margin:2px 0 10px}
+  .lib-head .lib-sub{font-size:12px;font-weight:400;color:var(--ink3);margin-left:8px}
 
   nav{display:flex;gap:8px;margin:12px 0 10px;border-bottom:1px solid var(--line2)}
   nav button{
@@ -357,13 +359,6 @@
 </head>
 <body>
 <div class="app">
-  <header>
-    <div>
-      <h1>背词助手</h1>
-      <div class="sub">乱序复习 · 间隔自动排期</div>
-    </div>
-  </header>
-
   <div class="databar" id="databar">
     <span id="data-status">数据暂存在浏览器临时区，换电脑或清缓存会丢</span>
     <span id="save-time" style="margin-left:auto;font-size:12px;color:var(--ink3)"></span>
@@ -421,6 +416,7 @@
 
   <!-- 词库：学习统计放在这里，复习页保持专注 -->
   <section class="panel" id="p-lib">
+    <div class="lib-head">背词助手 <span class="lib-sub">乱序复习 · 间隔自动排期</span></div>
     <div class="stats">
       <div class="stat review"><div class="lab">今日复习</div><div class="val" id="s-review">0</div><div class="sub2" id="s-review-all"></div></div>
       <div class="stat done"><div class="lab">今日已过</div><div class="val" id="s-done">0</div></div>
@@ -855,17 +851,27 @@ async function saveToFile() {
   } catch (e) {
     console.warn("写文件失败", e);
     try { toast("⚠ 写文件失败：" + (e.message || e) + "（改动暂存在浏览器）"); } catch (e2) {}
-    try { setFileStatus("⚠ 写文件失败——改动只在浏览器里。若文件被移动/权限被拒，请重新「选择数据文件」", false); } catch (e2) {}
+    try { setFileStatus("⚠ 写文件失败——改动只在浏览器里。若文件被移动/权限被拒，请重新「选择数据文件」", false, true); } catch (e2) {}
   }
   writing = false;
 }
-function setFileStatus(msg, ok) {
+// 状态条两级显示：sticky=true 常驻（错误/警告/需要操作）；默认消息 8 秒后自动淡回上一条常驻状态
+let __statusSticky = { msg: (document.getElementById("data-status") || {}).textContent || "", ok: false };
+let __statusTimer = 0;
+function setFileStatus(msg, ok, sticky) {
   $("#data-status").textContent = msg;
   $("#databar").classList.toggle("ok", !!ok);
   const pf = $("#btn-pickfile"); if (pf) pf.style.display = SERVER_MODE ? "none" : "";
   const fd = $("#btn-forcedisk"); if (fd) fd.style.display = (!SERVER_MODE && fileHandle) ? "" : "none";
   const sb = $("#btn-syncnow"); if (sb) sb.style.display = SERVER_MODE ? "" : "none";
   const oc = $("#btn-offlinecopy"); if (oc) oc.style.display = SERVER_MODE ? "" : "none";
+  if (__statusTimer) { clearTimeout(__statusTimer); __statusTimer = 0; }
+  if (sticky) { __statusSticky = { msg: msg, ok: !!ok }; return; }
+  __statusTimer = setTimeout(() => {
+    __statusTimer = 0;
+    $("#data-status").textContent = __statusSticky.msg;
+    $("#databar").classList.toggle("ok", !!__statusSticky.ok);
+  }, 8000);
 }
 // 需要用户手势授权时调用：说明当前只是缓存，改动不写盘
 function needGrant(msg) {
@@ -873,7 +879,7 @@ function needGrant(msg) {
   const when = state.updatedAt
     ? new Date(state.updatedAt).toLocaleString("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })
     : "时间未知";
-  setFileStatus(msg || ("检测到「" + name + "」，点右侧按钮授权加载。当前显示浏览器缓存（更新于 " + when + "），改动不会写入磁盘文件。"));
+  setFileStatus(msg || ("检测到「" + name + "」，点右侧按钮授权加载。当前显示浏览器缓存（更新于 " + when + "），改动不会写入磁盘文件。"), false, true);
   $("#btn-pickfile").textContent = "连接数据文件";
 }
 
@@ -1072,7 +1078,7 @@ let AU_IDB_OK = true;                        // IndexedDB 可用性：不支持�
 function auIdbWarn() {
   if (!AU_IDB_OK) return;
   AU_IDB_OK = false;
-  try { setFileStatus("⚠ 此浏览器不支持离线发音缓存（IndexedDB）——离线副本请改用 Chrome/Edge 打开", false); } catch (e) {}
+  try { setFileStatus("⚠ 此浏览器不支持离线发音缓存（IndexedDB）——离线副本请改用 Chrome/Edge 打开", false, true); } catch (e) {}
 }
 function auIdbSet(key, blob) {
   try {
@@ -1684,7 +1690,7 @@ async function cloudPush() {
     setFileStatus("云端：已推送 · 共 " + merged.words.length + " 词", true);
   } catch (e) {
     cloudFails++;
-    setFileStatus("云端推送失败（" + (e.message || e) + "）——数据已存本机，稍后自动重试", false);
+    setFileStatus("云端推送失败（" + (e.message || e) + "）——数据已存本机，稍后自动重试", false, true);
     if (cloudFails <= 3) setTimeout(scheduleCloud, 30000);
   } finally { cloudInFlight = false; }
 }
@@ -1717,12 +1723,12 @@ async function doPush(retried) {
       remapSessionRefs();                                 // 整体替换后队列引用必须重挂到新对象
       save();                                             // save 末尾 scheduleSync 自然重推
       sync409 += 1;
-      if (sync409 > 5) setFileStatus("同步：多次冲突已合并，建议点「同步」手动核对", false);
+      if (sync409 > 5) setFileStatus("同步：多次冲突已合并，建议点「同步」手动核对", false, true);
     } else {
-      setFileStatus("同步：推送失败（" + r.status + "），改动已存本机", false);
+      setFileStatus("同步：推送失败（" + r.status + "），改动已存本机", false, true);
     }
   } catch (e) {
-    setFileStatus("同步：服务器不可达，改动已存本机", false);
+    setFileStatus("同步：服务器不可达，改动已存本机", false, true);
   } finally { syncInFlight = false; }
 }
 async function periodicAbsorb() {
@@ -2727,13 +2733,13 @@ applyTheme();
       }
       if (ok) { prefetchAllAudio(); scheduleCloud(); return; }
       if (/(^|\.)github\.io$/i.test(location.hostname)) {
-        setFileStatus("云端数据拉取失败——请确认手机可上网，完全关闭本应用后重新打开再试");
+        setFileStatus("云端数据拉取失败——请确认手机可上网，完全关闭本应用后重新打开再试", false, true);
         return;
       }
     }
     setFileStatus(location.protocol === "http:" && /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent)
       ? "服务器不可达（外出正常）。离线背单词请打开下载的「离线副本」文件；连上电脑网络后刷新本页即可同步"
-      : "同步服务器不可达——先在电脑上运行 tools/sync_server.py，再刷新本页");
+      : "同步服务器不可达——先在电脑上运行 tools/sync_server.py，再刷新本页", false, true);
   }
   if (location.protocol === "file:") {
     // 离线副本：先试下载时注入的回家地址，再试历史地址；都不通就当纯离线用
@@ -2772,7 +2778,7 @@ applyTheme();
     }
   }
   if (!HAS_FS && location.protocol === "file:") {
-    setFileStatus(state.words.length === 0 ? "离线副本首次使用：先连上电脑打开 http://IP:8765/，点「下载离线副本」" : "当前浏览器不支持自动保存到文件，请用 Chrome/Edge 打开，或手动「导出备份」");
+    setFileStatus(state.words.length === 0 ? "离线副本首次使用：先连上电脑打开 http://IP:8765/，点「下载离线副本」" : "当前浏览器不支持自动保存到文件，请用 Chrome/Edge 打开，或手动「导出备份」", false, true);
   } else {
     try {
       fileHandle = await idbGet("dataHandle");
