@@ -1,5 +1,5 @@
 /* 背词助手 Service Worker —— deploy_pages.py 自动生成，勿手改 */
-const CACHE = "beici-v20261120_1901";
+const CACHE = "beici-v20261121_1234";
 const SHELL = ["./", "index.html", "manifest.json", "icons/icon-192.png", "icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -26,9 +26,41 @@ self.addEventListener("fetch", e => {
     }).catch(() => fetch(e.request, { cache: "reload" }))));
     return;
   }
-  if (e.request.mode === "navigate") {                  // 导航 network-first 且禁 HTTP 缓存(Pages max-age=600 会拿到旧壳)，离线回壳
-    e.respondWith(fetch(e.request, { cache: "no-store" }).catch(() =>
-      caches.match(base + "index.html").then(m => m || caches.match("index.html"))));
+  if (e.request.mode === "navigate") {
+    // 壳 SWR：有缓存壳立即返回（秒开，不再每次全量下载），后台静默校新；
+    // 内容变了 → 更新缓存 + 通知页面提示刷新。无壳（首次）才走网络并落缓存。
+    const bgCheck = (async () => {
+      try {
+        const c = await caches.open(CACHE);
+        const hit = await c.match(base + "index.html");
+        if (!hit) return;                     // 首次无壳：respondWith 自己会拉并落缓存，不重复下载
+        const r = await fetch(e.request, { cache: "no-store" });
+        if (!r.ok) return;
+        const fresh = await r.text();
+        const oldText = await hit.clone().text();
+        if (fresh !== oldText) {
+          await c.put(base + "index.html", new Response(fresh, { headers: { "Content-Type": "text/html; charset=utf-8" } }));
+          const cs = await self.clients.matchAll();
+          cs.forEach(cl => cl.postMessage({ type: "app-update" }));
+        }
+      } catch (err) {}
+    })();
+    e.respondWith((async () => {
+      try {
+        const c = await caches.open(CACHE);
+        const hit = await c.match(base + "index.html");
+        if (hit) return hit;                  // 秒开：缓存壳直接回
+        return await fetch(e.request, { cache: "no-store" });   // 首次：网络拉取
+      } catch (err) {
+        try {
+          const c = await caches.open(CACHE);
+          const hit = await c.match(base + "index.html");
+          if (hit) return hit;
+        } catch (e2) {}
+        throw err;
+      }
+    })());
+    e.waitUntil(bgCheck);
     return;
   }
   e.respondWith(caches.open(CACHE).then(c => c.match(e.request).then(hit => {   // 其余 SWR

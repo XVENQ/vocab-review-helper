@@ -1619,7 +1619,7 @@ function cloudToken() { try { return localStorage.getItem("cihui_github_token") 
 async function cloudPull() {
   // raw 直拉（无需 token）；离线/无网静默失败
   try {
-    const r = await fetch(CLOUD_RAW + "?t=" + Date.now(), { cache: "no-store" });
+    const r = await fetch(CLOUD_RAW, { cache: "no-cache" });   // 条件请求：数据没变时 304 秒回，变了才下全量（URL 必须稳定才能续上缓存协商）
     if (!r.ok) return false;
     const data = await r.json();
     if (!data || !Array.isArray(data.words)) return false;
@@ -2688,8 +2688,8 @@ $("#imp-batch").value = todayStr().slice(5);
 applyTheme();
 (async function boot() {
   if ("serviceWorker" in navigator && location.protocol === "https:") {
-    try {
-      const reg = await navigator.serviceWorker.register("sw.js");
+    // 非阻塞注册：sw.js 校新不挡首屏
+    navigator.serviceWorker.register("sw.js").then(reg => {
       reg.addEventListener("updatefound", () => {
         const nw = reg.installing;
         if (nw) nw.addEventListener("statechange", () => {
@@ -2698,10 +2698,17 @@ applyTheme();
           }
         });
       });
-    } catch (e) {}                                  // 局域网 http 无 sw.js：静默跳过
+    }).catch(() => {});                                 // 局域网 http 无 sw.js：静默跳过
+    navigator.serviceWorker.addEventListener("message", e => {   // 壳 SWR 后台校新发现内容变了
+      if (e.data && e.data.type === "app-update") {
+        try { toast("应用已更新到新版，刷新一下生效"); } catch (err) {}
+      }
+    });
   }
   if (location.protocol === "http:" || location.protocol === "https:") {
-    if (await syncProbe()) {
+    if (/(^|\.)github\.io$/i.test(location.hostname)) {
+      // Pages 形态：本源不存在 /api/ping，探测是白耗一个网络来回——直接走云通道
+    } else if (await syncProbe()) {
       try {                                   // 记住服务器地址，供离线副本（file://）回家用
         const k = "cihui_server_urls";
         const arr = JSON.parse(localStorage.getItem(k) || "[]").filter(x => x !== location.origin);
