@@ -360,7 +360,7 @@
 <body>
 <div class="app">
   <div class="databar" id="databar">
-    <span id="data-status">数据暂存在浏览器临时区，换电脑或清缓存会丢</span>
+    <span id="data-status">正在连接数据…</span>
     <span id="save-time" style="margin-left:auto;font-size:12px;color:var(--ink3)"></span>
     <button id="btn-pickfile">选择数据文件</button>
     <button id="btn-forcedisk" style="display:none">以磁盘为准</button>
@@ -764,7 +764,7 @@ async function pickDataFile() {
     return;
   }
   await saveToFile();
-  setFileStatus("已连接：" + fileHandle.name + "，每次改动自动保存到磁盘", true);
+  setFileStatus("已连接：" + fileHandle.name + "，每次改动自动保存到磁盘", true, true);
 }
 async function loadDataFile() {
   if (!fileHandle) return null;
@@ -799,7 +799,7 @@ function applyData(data, okMsg, forceDisk) {
   // 否则下面 startReview() 会重建队列、把「本次用时」清零，看着就像进度没了。
   // 不替换 state，也就不会出现「队列里还抓着旧对象」的悬空引用问题。
   if (loadedOnce && state && state.updatedAt && data.updatedAt && data.updatedAt === state.updatedAt) {
-    setFileStatus(okMsg, true);
+    setFileStatus(okMsg, true, true);
     toast("已连接「" + (fileHandle ? fileHandle.name : "数据文件") + "」，进度没动，也没打断复习", false);
     return;
   }
@@ -832,7 +832,7 @@ function applyData(data, okMsg, forceDisk) {
   renderAll();
   if (state.words.length > 0) startReview(); else finishReview();
   loadedOnce = true;
-  setFileStatus(okMsg, true);
+  setFileStatus(okMsg, true, true);   // 连接状态是粘性基准：临时消息 8 秒后淡回这里
   dailySnapshot();
 }
 let writing = false, dirty = false;
@@ -861,7 +861,7 @@ let __statusTimer = 0;
 function setFileStatus(msg, ok, sticky) {
   $("#data-status").textContent = msg;
   $("#databar").classList.toggle("ok", !!ok);
-  const pf = $("#btn-pickfile"); if (pf) pf.style.display = SERVER_MODE ? "none" : "";
+  const pf = $("#btn-pickfile"); if (pf) pf.style.display = (SERVER_MODE || (!HAS_FS && !fileHandle && location.protocol !== "file:")) ? "none" : "";
   const fd = $("#btn-forcedisk"); if (fd) fd.style.display = (!SERVER_MODE && fileHandle) ? "" : "none";
   const sb = $("#btn-syncnow"); if (sb) sb.style.display = SERVER_MODE ? "" : "none";
   const oc = $("#btn-offlinecopy"); if (oc) oc.style.display = SERVER_MODE ? "" : "none";
